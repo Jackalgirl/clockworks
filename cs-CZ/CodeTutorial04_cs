@@ -1,0 +1,14 @@
+1. S nástrojem Protoflux nainstalujte slot pro sekundy.
+2. Otevřete kontextovou nabídku a vyberte „Vybalit“.
+Poznámka: v režimu plochy stiskněte „2“ pro aktivaci nástroje Vývoj a CTRL+T pro otevření kontextové nabídky.
+3. Chcete-li odstranit gizmos, vyměňte nástroje a v kontextové nabídce vyberte „Zrušit výběr“ a poté je vraťte zpět.
+4. Uchopte uzel Smooth Slerp a umístěte jej napravo od uzlu Axis Angle.
+5. Vytáhněte konektor ze vstupu „Input“ uzlu Smooth Slerp a připojte jej k výstupu uzlu Axis Angle.
+Poznámka: v režimu plochy stiskněte CTRL+R pro sekundární kliknutí.
+6. Vytáhněte konektor ze vstupu „Speed“ uzlu Smooth Slerp a sekundárním kliknutím vytvořte pole „float Input“.
+7. Nastavte hodnotu pole na „2“.
+8. Připojte vstup uzlu Value Field Drive (FloatQ) k výstupu uzlu Smooth Slerp.
+9. Nyní si všimnete, že vteřinová ručička mění polohy plynulejším způsobem.
+Poznámka: v režimu plochy V režimu zaměřte se na libovolný uzel a stiskněte a podržte CTRL+R pro výběr všech uzlů.
+10. Druhým kliknutím a podržením myši na libovolném z uzlů vyberte všechny uzly.
+11. Uchopte slot Seconds (Sekundy), otevřete kontextovou nabídku a vyberte "Zabalit do".
