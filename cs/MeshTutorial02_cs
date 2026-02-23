@@ -1,0 +1,37 @@
+1. Otevřete kontextovou nabídku a vyberte „Vytvořit nový“
+2. Vyberte „Prázdný objekt“
+3. Klikněte na „Pozice“
+4. Přejmenujte na „Hodin“
+5. Vytvořte podřízený objekt
+6. Přejmenujte podřízený objekt na „Sítě (Změnit měřítko)“
+Poznámka: v režimu plochy použijte CTRL+T k otevření kontextové nabídky
+7. Otevřete kontextovou nabídku a vyberte „Vytvořit nový“
+8. Vyberte „3D model“
+9. Vyberte „Koule“
+Poznámka: v režimu plochy zaměřte laser na objekt a poté stiskněte CTRL+R pro sekundární kliknutí
+10. Druhotné kliknutí na kouli
+11. Otevřete kontextovou nabídku a vyberte „Otevřít inspektor“
+12. Změňte název na „Náboj“
+13. Změňte poloměr na „0,05“
+14. Přejděte na komponentu „Uchopitelné“ a zrušte zaškrtnutí políčka „Povoleno“
+15. Klikněte na „Pozice“ a „Otočení“
+16. Znovu vyberte slot „Sítě (Změnit měřítko)“ a vytvořte podřízený objekt
+17. Změňte název na "Kruh"
+18. Klikněte na "Add Component"
+19. "Assets"
+20: "Procedural Meshes"
+21: "Legacy UI"
+22: "BevelRingMesh"
+23: Změňte hodnotu "Radius" na "0,05"
+24: Klikněte na "Setup Renderer"
+25: Změňte hodnotu pro "Segments" na "60"
+26: Změňte rotaci osy x na "90"
+27: Klikněte na "Add Component"
+28: "Physics"
+29: "Colliders"
+30: "Mesh Collider"
+31: Klikněte na nástroj Materiál na polici s nástroji pro výměnu nástrojů
+32: Vyberte materiál pro náboj (cokoli chcete!)
+33: Klikněte na síť náboje
+34: Jejda! Pokud omylem použijete materiál na něco jiného, ​​otevřete kontextovou nabídku a vyberte "Zpět".
+35: Vyměňte materiály a aplikujte vybraný materiál na prstenec
