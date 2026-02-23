@@ -1,0 +1,21 @@
+1.  Uchopte uzel Host User.
+2.  Uchopte uzel User Time a umístěte jej napravo od uzlu Host User.
+3.  Vytáhněte konektor z výstupu uzlu Host User a vložte jej do vstupu „Uživatel“ uzlu User Time.
+4.  Uchopte uzel Second a umístěte jej napravo od uzlu User Time.
+5.  Vytáhněte konektor z výstupu uzlu User Time a vložte jej do vstupu „DateTime“ uzlu Second. Pokud je uzel v úhlu, klikněte jednou pro jeho zarovnání s nejbližší osou (což by měla být osa y, nebo přímo nahoru a dolů).
+Poznámka: v režimu plochy stiskněte CTRL+R pro sekundární kliknutí.
+6.  Vytáhněte spojku z výstupu uzlu Second a sekundárním kliknutím vytvořte zobrazení, které zobrazuje aktuální sekundu jako celé číslo (int).
+7.  Uchopte uzel Divide (÷) a umístěte jej pod uzly související s časem.
+8.  Vytáhněte spojku z horního vstupu a kliknutím vytvořte pole „float Input“.
+9.  Nastavte hodnotu tohoto pole na 360.
+10. Vytáhněte spojku z horního vstupu a kliknutím vytvořte další pole „float Input“.
+11. Nastavte hodnotu tohoto nového pole na 60.
+12. Uchopte uzel Multiply (x) a umístěte jej napravo od uzlu Divide.
+13. NEJPRV připojte výstup uzlu Divide ke spodnímu vstupu uzlu Multiply.
+Poznámka: je VELMI DŮLEŽITÉ nejprve propojit tímto způsobem, aby výstup uzlu Multiply byl číslo s desetinnou čárkou (float) namísto celého čísla (integer).
+14. Připojte výstup uzlu Second k hornímu vstupu uzlu Multiply.
+15. Uchopte uzel Axis Angle (floatQ) a umístěte jej napravo od uzlu Multiply.
+16. Připojte výstup uzlu Multply ke vstupu „Angle“ uzlu Axis Angle.
+17. Vytáhněte vstup „Axis“ a kliknutím vytvořte „float 3“ (vstupy x, y, z, které jsou všechna čísla s desetinnou čárkou).
+18. Nastavte hodnotu spodního vstupního pole (z) na „-1“.
+19. Pokud vytáhnete výstup uzlu Axis Angle a kliknutím vytvoříte zobrazení, uvidíte, že se osa z mění každou sekundu o 1/60 kružnice (360 stupňů).
