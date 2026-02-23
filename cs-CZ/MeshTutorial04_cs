@@ -1,0 +1,43 @@
+Poznámka: Pokud jste zavřeli Inspektor, klikněte sekundárně na objekt (v režimu plochy zaměřte objekt laserem a stiskněte CTRL+R), otevřete kontextovou nabídku (v režimu plochy: CTRL+T) a vyberte „Otevřít Inspektor“.
+1.  Znovu vyberte objekt „Sítě (Změnit měřítko)“.
+2.  Vytvořte podřízený objekt.
+3.  Přejmenujte podřízený objekt na „Čísla“.
+4.  Klikněte na ikonu „kopírovat“ pro jeho duplikaci.
+5.  Vyberte nový slot „Čísla“ a přejmenujte jej na „Pivot čísel“.
+6.  Otevřete kontextovou nabídku a vyberte „Vytvořit nový“.
+7.  Vyberte „Text“.
+8.  Vyberte „S obrysem“.
+9.  Klikněte na ikonu tužky a změňte text na „12“.
+10. Sekundárně vyberte objekt, otevřete kontextovou nabídku a vyberte „Otevřít Inspektor“.
+11. Změňte název na „12“.
+12. Přejděte na komponentu „Grabbable“ a zrušte zaškrtnutí políčka „Enabled“.
+13. Přetáhněte slot 12 do slotu „Sítě (Změnit měřítko“).
+14. Vyberte slot 12 a klikněte na... „Pozice“ a „Otočení“
+15. Nastavte Pozici (y) na „0,6“
+16. Klikněte na ikonu „kopírovat“ pro duplikování slotu 12
+17. Změňte hodnotu „Text“ na „1“
+18. Změňte název slotu na „1“
+19: Přetáhněte slot 1 do slotu Numbers Pivot
+20: Vyberte slot Numbers Pivot a změňte jeho otočení na ose Z na „-30“. Nezaměňujte pole pozice s polem otočení (ale pokud ano, můžete to vrátit zpět)
+21: Otevřete slot Numbers Pivot a přetáhněte slot 1 do slotu Numbers
+22: Obnovte otočení slotu Numbers Pivot
+23: Opakujte kroky 15–21 pro vytvoření a otočení „2“
+24: Udělejte totéž pro 3, ale před přesunutím z Numbers Pivot vyberte „3“ a změňte jeho otočení na ose Z na „90“
+25: Poté přesuňte „3“ do slotu Numbers a resetujte otočení slotu Numbers Pivot
+26: Stejným postupem vytvořte a otočte čísla „4“ a „5“, ale místo otočení v ose Z o „90“ jako u čísla „3“ je otočte o 180.
+27: Nezapomeňte přesunout hotová čísla do slotu Čísla a resetovat otočení slotu Čísla Pivot.
+28: Přetáhněte číslo „12“ do slotu Čísla.
+29: Dvakrát klikněte na slot Čísla a kliknutím na ikonu „kopírovat“ jej duplikujte.
+30: Přetáhněte nový slot Čísla do slotu Čísla Pivot.
+31: Nastavte otočení v ose Z pro slot Čísla Pivot na 180.
+32: Otevřete sloty Čísla Pivot a Čísla a vyberte nový slot „12“.
+33: Změňte otočení v ose Z pro slot „12“ na 180.
+34: Změňte název slotu na „6“ a také jeho text na „6“.
+35: Přetáhněte hotový slot „6“ do slotu Čísla.
+36: Tento postup opakujte pro změnu duplikovaných čísel. Nastavte otočení v ose Z. pro čísla přičtením 180 k jejich aktuálním hodnotám takto:
+- 7: "-210"
+- 8: "-240"
+- 9: "0"
+-10: "240"
+-11: "210"
+37: Jakmile přetáhnete číslo "11" do slotu Čísla, použijte ikonu "recyklovat" k odstranění slotu Čísla Pivot.
