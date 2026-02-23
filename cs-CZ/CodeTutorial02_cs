@@ -3,8 +3,8 @@
 3.  Vytáhněte konektor z výstupu uzlu Host User a vložte jej do vstupu „Uživatel“ uzlu User Time.
 4.  Uchopte uzel Second a umístěte jej napravo od uzlu User Time.
 5.  Vytáhněte konektor z výstupu uzlu User Time a vložte jej do vstupu „DateTime“ uzlu Second. Pokud je uzel v úhlu, klikněte jednou pro jeho zarovnání s nejbližší osou (což by měla být osa y, nebo přímo nahoru a dolů).
-Poznámka: v režimu plochy stiskněte CTRL+R pro sekundární kliknutí.
-6.  Vytáhněte spojku z výstupu uzlu Second a sekundárním kliknutím vytvořte zobrazení, které zobrazuje aktuální sekundu jako celé číslo (int).
+Poznámka: v režimu plochy stiskněte SHIFT+R pro vytvoření uzlu Display
+6.  Vytáhněte spojení z výstupu uzlu Second a sekundárním kliknutím vytvořte uzel Display, který zobrazuje aktuální sekundu jako celé číslo (int).
 7.  Uchopte uzel Divide (÷) a umístěte jej pod uzly související s časem.
 8.  Vytáhněte spojku z horního vstupu a kliknutím vytvořte pole „float Input“.
 9.  Nastavte hodnotu tohoto pole na 360.
