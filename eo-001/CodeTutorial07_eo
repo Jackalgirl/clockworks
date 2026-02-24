@@ -1,0 +1,20 @@
+Noto: en Skribotabla reĝimo, premu "3" por ekipi la Protoflux-ilon
+1. Kun la Protoflux-ilo ekipita, prenu la fendeton "Horoj"
+Noto: en Skribotabla reĝimo, premu CTRL+T por malfermi la Kuntekstan Menuon
+2. Malfermu la Kuntekstan Menuon kaj elektu "Malpaki el"
+3. Prenu nodon "Minute" kaj metu ĝin antaŭ la nodo "Hour"
+4. Konektu la eliron de la nodo "User Time" al la eniro de la nodo "Minute"
+5. Prenu nodon "Divide (÷)" kaj metu ĝin dekstre de la nodo "Minute"
+Noto: en Skribotabla reĝimo, premu SHIFT+R post eltiro de konektilo por krei nodon "Montri" aŭ "Enigi"
+6. Eltiru la malsupran eniron de la nodo "Minute" kaj duan klakon por krei nodon "int Input"
+7. Agordu la valoron al "60"
+8. UNUE Konektu la eliron de la nodo "Divide" al la malsupra eniro de la nodo "Multiply"
+Noto: estas TRE GRAVE konekti tiel unue, por ke la eligo de la nodo "Multiply" estu glitpunktnombro (nombro kiu povas havi decimalojn), anstataŭ entjero (entjero).
+9. Prenu nodon "Add (+)" kaj metu ĝin dekstre de la nodo "Divide".
+10. Konekti la eligon de la nodo "Divide" al la malsupra enigo de la nodo "Add".
+11. Konekti la eligon de la nodo Modulo al la supra enigo de la nodo "Add".
+12. Repoziciigu nodojn se necese, poste konekti la enigon de la nodo "Multiply" al la eligo de la nodo "Add".
+Noto: en Skribotabla reĝimo, celu iun ajn nodon kaj premu kaj tenu CTRL+R por elekti ĉiujn nodojn.
+13. Dua klako kaj tenu sur iu ajn el la nodoj por elekti ĉiujn nodojn.
+14. Malfermu la Kuntekstan menuon kaj elektu "Paki Enloke".
+Gratulon! Via horloĝo nun estas kompleta!
