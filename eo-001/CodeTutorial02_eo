@@ -1,0 +1,21 @@
+1. Prenu nodon "Host User"
+2. Prenu nodon "User Time" kaj poziciigu ĝin dekstre de la nodo "Host User"
+3. Eltiru konektilon el la eligo de la nodo "Host User" kaj metu ĝin en la enigon "User" de la nodo "User Time"
+4. Prenu duan nodon kaj poziciigu ĝin dekstre de la nodo "User Time"
+5. Eltiru konektilon el la eligo de la nodo "User Time" kaj metu ĝin en la enigon "DateTime" de la dua nodo. Se la nodo estas laŭ angulo, klaku unufoje por vicigi ĝin al la plej proksima akso (kiu devus esti la y-akso, aŭ rekte supren kaj malsupren)
+Noto: en Skribotabla reĝimo, premu SHIFT+R post eltiro de konektilo por krei nodon "Display"
+6. Eltiru konektilon el la eligo de la nodo "Seconds" kaj duan klakon por krei nodon "Display", kiu montras la nunan sekundon kiel entjeron (entjero)
+7. Prenu nodon "Divide (÷)" kaj poziciigu ĝin sub la temporilataj nodoj
+8. Eltiru konektilon el la supra enigo kaj klaku por krei "float Input" kampon
+9. Agordu la valoron de ĉi tiu kampo al 360
+10. Eltiru la konektilon el la supra enigo kaj klaku por krei alian "float Input" kampon
+11. Agordu la valoron de ĉi tiu nova kampo al 60
+12. Prenu nodon "Multiply (x)" kaj poziciigu ĝin dekstre de la Divida nodo
+13. Konektu la eligon de la nodo "Divide" al la malsupra enigo de la nodo "Multiply" UNUE.
+Noto: estas TRE GRAVE unue konekti tiel, por ke la eligo de la nodo "Multiply" estu glitpunktnombro (nombro kiu povas havi decimalojn), anstataŭ entjero (entjero).
+14. Konekti la eligon de la nodo "Seconds" al la supra enigo de la nodo "Multiply".
+15. Prenu nodon "Axis Angle (floatQ)" kaj poziciigu ĝin dekstre de la nodo "Multiply".
+16. Konekti la eligon de la nodo "Multiply" al la enigo "Angle" de la nodo "Axis Angle".
+17. Eltiru la enigon "Axis" kaj alklaku por krei "float 3" (x,y,z enigoj kiuj estas ĉiuj flosnumeroj)
+18. Agordu la valoron de la malsupra eniga kampo (z) al "-1".
+19. Se vi eltiras la eligon de la nodo "Axis Angle" kaj alklakas por krei ekranon, vi vidos ke la z-akso ŝanĝiĝas ĉiun sekundon, je 1/60-ono de cirklo (360 gradoj).
