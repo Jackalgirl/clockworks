@@ -1,37 +1,32 @@
 Noto: se vi fermis la Inspektilon, kromklaku sur la objekto (en la labortabla reĝimo celu la objekton kaj premu CTRL+R), malfermu vian Kuntekstan Menuon (en la labortabla reĝimo: CTRL+T), kaj elektu "Malfermi Inspektilon"
 1. Reelektu la fendon "Mašaroj (Skaligu Min)"
-2. Kreu idan fendon
-3. Renomigu la idan al "Hormontrila Pivoto"
-4. Renomigu al "Horloĝo"
-5. Kreu idan fendon
-6. Renomigu la idan al "Retoj (Skaligu min)"
-7. Malfermu la Kuntekstan Menuon kaj elektu "Krei novan"
-8. Elektu "3D-modelon"
-9. Elektu "Kuban"
-10. Kromklaku la kubon
-11. Malfermu la Kuntekstan Menuon kaj elektu "Malfermi Inspektilon"
-12. Ŝanĝu la nomon al "Hormontrilo"
-13. Ŝanĝu la grandecon ("Size") al ".08" (x), "0.5" (y), kaj "0.005" (z)
-14. Klaku kaj trenu la valorojn de "Size" al "UVScale" por x, y kaj z por kopii ilin
-15. Rulumu al la komponanto "Grabbable" kaj malelektu "Enabled". 
-16. Trenu la fendon "Hormontrilo" en la fendon "Hormontrila Pivoto".
-17. En la fendo "Hormontrilo", alklaku "Position" kaj "Rotation".
-18. Agordu "Position" (y) al "0.25".
-19. Agordu "Position" (z) al "-0.015".
-20: Ŝanĝu al la Material Tool.
-21: Elektu ajnan materialon, kiun vi ŝatas, kaj alklaku la Hormontrilan maŝon por apliki ĝin.
-22: Reiru al la Development Tool.
-23: Alklaku la fendon "Hormontrila Pivoto" kaj la ikonon "kopii" por duplikati ĝin.
-24: Duobla-klaku la novan fendon "Hormontrila Pivoto" kaj renomu ĝin al "Minutmontrila Pivoto".
-25: Malfermu la fendon kaj ŝanĝu la nomon de la nova fendo "Hormontrilo" al "Minutmontrilo".
-26: Ŝanĝu la grandecon ("Size") de x al "0.05".
-27: Kopiu la valoron de x de "Size" al la valoro de X sur "UVScale".
-28: Ŝanĝu la valoron de z de "Position" al "-0.02"
-29: Interŝanĝu ilojn kaj apliku la materialon laŭ via elekto al la mašaro "Minutmontrilo"
-30: Elektu la fendon "Minutmontrila Pivoto" kaj alklaku la ikonon "kopii" por duplikati ĝin
-31: Duobla-klaku la novan fendon "Minutmontrila Pivoto" kaj renomu ĝin al "Sekundomontrila Pivoto"
-32: Malfermu la fendon kaj ŝanĝu la nomon de la nova fendo "Minutmontrilo" al "Sekundomontrilo"
-33: Ŝanĝu la grandecon ("Size") de x al "0.03"
-34: Kopiu la valoron de x de "Size" al la valoro de X sur "UVScale"
-35: Ŝanĝu la valoron de z de "Position" al "-0.025" (por ke vi ne devu ŝanĝi ĝin poste)
-36: Interŝanĝu ilojn kaj apliku la materialon laŭ via elekto al la mašaro "Sekundomontrilo"
+2. Malfermu la Kuntekstan Menuon kaj elektu "Krei novan"
+3. Elektu "3D-modelon"
+4. Elektu "Kuban"
+5. Kromklaku la kubon
+6. Malfermu la Kuntekstan Menuon kaj elektu "Malfermi Inspektilon"
+7. Ŝanĝu la nomon al "Hormontrilo"
+8. Ŝanĝu la grandecon ("Size") al ".08" (x), "0.5" (y), kaj "0.005" (z)
+9. Klaku kaj trenu la valorojn de "Size" al "UVScale" por x, y kaj z por kopii ilin
+10. Rulumu al la komponanto "Grabbable" kaj malelektu "Enabled". 
+11. Trenu la fendon "Hormontrilo" en la fendon "Hormontrila Pivoto".
+12. En la fendo "Hormontrilo", alklaku "Position" kaj "Rotation".
+13. Agordu "Position" (y) al "0.25".
+14. Agordu "Position" (z) al "-0.015".
+15: Ŝanĝu al la Material Tool.
+16: Elektu ajnan materialon, kiun vi ŝatas, kaj alklaku la Hormontrilan maŝon por apliki ĝin.
+17: Reiru al la Development Tool.
+18: Alklaku la fendon "Hormontrila Pivoto" kaj la ikonon "kopii" por duplikati ĝin.
+19: Duobla-klaku la novan fendon "Hormontrila Pivoto" kaj renomu ĝin al "Minutmontrila Pivoto".
+20: Malfermu la fendon kaj ŝanĝu la nomon de la nova fendo "Hormontrilo" al "Minutmontrilo".
+21: Ŝanĝu la grandecon ("Size") de x al "0.05".
+22: Kopiu la valoron de x de "Size" al la valoro de X sur "UVScale".
+23: Ŝanĝu la valoron de z de "Position" al "-0.02"
+14: Interŝanĝu ilojn kaj apliku la materialon laŭ via elekto al la mašaro "Minutmontrilo"
+25: Elektu la fendon "Minutmontrila Pivoto" kaj alklaku la ikonon "kopii" por duplikati ĝin
+26: Duobla-klaku la novan fendon "Minutmontrila Pivoto" kaj renomu ĝin al "Sekundomontrila Pivoto"
+27: Malfermu la fendon kaj ŝanĝu la nomon de la nova fendo "Minutmontrilo" al "Sekundomontrilo"
+28: Ŝanĝu la grandecon ("Size") de x al "0.03"
+29: Kopiu la valoron de x de "Size" al la valoro de X sur "UVScale"
+30: Ŝanĝu la valoron de z de "Position" al "-0.025" (por ke vi ne devu ŝanĝi ĝin poste)
+31: Interŝanĝu ilojn kaj apliku la materialon laŭ via elekto al la mašaro "Sekundomontrilo"
