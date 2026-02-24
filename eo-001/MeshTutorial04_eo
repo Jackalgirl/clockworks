@@ -1,0 +1,43 @@
+Noto: se vi fermis la Inspektilon, duarang klaku la objekton (en la labortabla reĝimo, celu la objekton per via lasero kaj premu CTRL+R), malfermu vian Kuntekstan Menuon (en la labortabla reĝimo: CTRL+T), kaj elektu "Malfermi Inspektilon"
+1. Reelektu la fendon "Mašaroj (Skaligu Min)"
+2. Kreu idan dendon
+3. Renomigu la idan endon al "Numeroj"
+4. Klaku la ikonon "kopii" por duplikati ĝin
+5. Elektu la novan fendon "Numeroj" kaj renomu ĝin al "Pivoto de Numeroj"
+6. Malfermu la Kuntekstan Menuon kaj elektu "Krei Novan"
+7. Elektu "Tekston"
+8. Elektu "Konturan"
+9. Klaku la krajonan ikonon kaj ŝanĝu la tekston al "12"
+10. Kromklaku la objekton, malfermu la Kuntekstan Menuon, kaj elektu "Malfermi Inspektilon"
+11. Ŝanĝu la nomon al "12"
+12. Rulumu al la komponanto "Grabbable" kaj malelektu "Enabled"
+13. Trenu la fendon 12 en la fendo "Mašaro (Skaligu Min"
+14. Elektu la 12-an fendon kaj alklaku "Position" kaj "Rotation"
+15. Agordu Pozicion (y) al "0.6"
+16. Alklaku la ikonon "kopii" por duplikati la fendon "12"
+17. Ŝanĝu la valoron de "Teksto" al "1"
+18. Ŝanĝu la nomon de la fendo al "1"
+19: Trenu la 1-an fendon en la fendon "Pivoto de Numeroj"
+20: Elektu la fendon "Pivoto de Numeroj" kaj ŝanĝu ĝian rotacion sur z al "-30". Ne konfuzu la pozician kampon kun la rotacia kampo (sed se vi faras tion, vi povas malfari ĝin)
+21: Malfermu la fendon "Numeroj Pivoto" kaj trenu la fendon "1" en la fendon "Numeroj".
+22: Rekomencu la rotacion de la fendo "Pivoto de Numeroj".
+23: Ripetu paŝojn 15-21 por krei kaj rotacii "2".
+24: Faru la samon por 3, sed antaŭ ol movi ĝin el la fendo "Pivoto de Numeroj", elektu "3" kaj ŝanĝu ĝian rotacion sur Z al "90".
+25: Poste movu "3" en la fendon "Numeroj" kaj rekomencu la rotacion de la fendo "Pivoto de Numeroj".
+26: Sekvu la saman procezon por krei kaj rotacii "4" kaj "5", sed anstataŭ rotacii ilin sur z al "90" kiel vi faris por "3", rotaciu ilin je 180.
+27: Ne forgesu movi viajn finitajn nombrojn al la fendo "Numeroj" kaj rekomencu la rotacion de la fendo "Pivoto de Numeroj".
+28: Trenu "12" en la fendon "Numeroj".
+29: Duobla-klaku la fendon "Numeroj" kaj alklaku la ikonon "kopii" por duplikati. ĝi
+30: Trenu la novan fendon "Numeroj" en la fendon "Pivoto de Numeroj"
+31: Agordu la rotacion sur z por la fendo "Pivoto de Numeroj" al 180
+32: Malfermu la fendojn "Pivoto de Numeroj" kaj "Numeroj" por elekti la novan fendon "12"
+33: Ŝanĝu la rotacion sur z por la fendo "12" al 180
+34: Ŝanĝu la nomon de la fendo al "6" kaj ŝanĝu ĝian tekston por legi ankaŭ "6"
+35: Trenu la pretan fendon "6" en la fendon "Numeroj"
+36: Vi ripetos ĉi tiun procezon por ŝanĝi la duplikatitajn nombrojn. Agordu z rotaciojn por la nombroj aldonante 180 al iliaj nunaj valoroj, jene:
+- 7: "-210"
+- 8: "-240"
+- 9: "0"
+-10: "240"
+-11: "210"
+37: Post kiam vi trenis "11" en la fendon "Numeroj", uzu la ikonon "recikli" por forigi la fendon "Pivoto de Numeroj"
