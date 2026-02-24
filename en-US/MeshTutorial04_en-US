@@ -1,0 +1,43 @@
+Note: if you have closed the Inspector, secondary click on the object (in Desktop mode, target the object with your laser and press CTRL+R), open your Context Menu (in Desktop mode: CTRL+T), and select "Open Inspector"
+1.  Reselect the "Meshes (Scale Me)" object
+2.  Create a child object
+3.  Rename child to "Numbers"
+4.  Click on the "copy" icon to duplicate it
+5.  Select the new "Numbers" slot and rename it to "Numbers Pivot"
+6.  Open Context Menu and select "Create New"
+7.  Select "Text"
+8.  Select "Outline"
+9.  Click on the pencil icon and change the text to "12"
+10.  Secondary-select the object, open up the Context Menu, and select "Open Inspector"
+11. Change the name to "12"
+12. Scroll to the "Grabbable" component and deselect "Enabled"
+13. Drag the 12 slot into the "Meshes (Scale Me") slot
+14. Select the 12 slot and click on "Position" and "Rotation"
+15. Set Position (y) to "0.6"
+16. Click on the "copy" icon to duplicate the 12 slot
+17. Change value of "Text" to "1"
+18. Change the name of the slot to "1"
+19: Drag the 1 slot into the "Numbers Pivot" slot
+20: Select the "Numbers Pivot" slot and change its rotation on z to "-30". Don't confuse the position field for the rotation field (but if you do, you can undo it)
+21: Open up the "Numbers Pivot" slot and drag the 1 slot into the "Numbers" slot
+22: Reset the rotation on the "Numbers Pivot" slot
+23: Repeat steps 15-21 to create and rotate "2"
+24: Do the same for 3, but before moving it out of "Numbers" Pivot, Select "3" and change its rotation on Z to "90"
+25: Then move "3" into the "Numbers" slot and reset the rotation of the "Numbers Pivot" slot
+26: Follow the same process to create and rotate "4" and "5", but instead of rotating them on z to "90" as you did for "3", rotate them by 180
+27: Do not forget to move your finished "Numbers" to the "Numbers" slot and reset the rotation of the "Numbers Pivot" slot
+28: Drag "12" into the "Numbers" slot
+29: Double-click on the "Numbers" slot and click on the "copy" icon to duplicate it
+30: Drag the new "Numbers" slot into the "Numbers Pivot" slot
+31: Set the rotation on z for the "Numbers Pivot" slot to 180
+32: Open up the "Numbers Pivot"and "Numbers" slots to select the new "12" slot
+33: Change the rotation on z for the "12" slot to 180
+34: Change the name of the slot to "6" and change its text to read "6" as well
+35: Drag the finished "6" slot into the "Numbers" slot
+36: You will repeat this process to change the duplicated numbers.  Set z rotations for the "Numbers" by adding 180 to their current values, as follows:
+- 7: "-210"
+- 8: "-240"
+- 9: "0"
+-10: "240"
+-11: "210"
+37: Once you have dragged "11" into the "Numbers" slot, use the "recycle" icon to delete the "Numbers Pivot" slot
