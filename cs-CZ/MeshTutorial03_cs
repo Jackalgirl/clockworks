@@ -1,32 +1,34 @@
 Poznámka: Pokud jste zavřeli Inspektor, klikněte znovu na objekt (v režimu plochy klikněte se stisknutou klávesou CTRL+R), otevřete kontextovou nabídku (v režimu plochy: CTRL+T) a vyberte „Otevřít Inspektor“.
 1. Znovu vyberte objekt „Sítě (Změnit měřítko)“.
-2. Otevřete kontextovou nabídku a vyberte „Vytvořit nový“.
-3. Vyberte „3D model“.
-4. Vyberte „Kvádr“.
-5. Další kliknutí na Kvádr.
-6. Otevřete kontextovou nabídku a vyberte „Otevřít inspektor“.
-7. Změňte název na „Hodinová ručička“.
-8. Změňte velikost na „.08“ (x), „0.5“ (y) a „0.005“ (z).
-9. Klikněte a přetáhněte hodnoty z „Velikost“ na „UVMěřítko“ pro osy x, y a z, abyste... zkopírujte je
-10. Přejděte na komponentu „Grabbable“ a zrušte zaškrtnutí políčka „Enabled“ (Povoleno).
-11. Přetáhněte slot Hodinová ručička do slotu Otočný bod Hodinové ručičky.
-12. Ve slotu Hodinová ručička klikněte na „Pozice“ a „Otočení“.
-13. Nastavte Pozici (y) na „0,25“.
-14. Nastavte Pozici (z) na „-0,015“.
-15: Přepněte do nástroje Materiál.
-16: Vyberte libovolný materiál a kliknutím na síť Hodinové ručičky jej aplikujte.
-17: Přepněte zpět do nástroje Vývojář.
-18: Klikněte na slot „Otočný bod Hodinové ručičky“ a na ikonu „kopírovat“ jej duplikujte.
-19: Dvakrát klikněte na nový slot „Otočný bod Hodinové ručičky“ a přejmenujte jej na „Otočný bod Minutové ručičky“.
-20: Otevřete slot a změňte název nového slotu „Hodinová ručička“ na „Minutová ručička“.
-21: Změňte velikost x na „0,05“.
-22: Zkopírujte hodnotu x v poli Velikost na hodnotu X v poli „UVScale“.
-23: Změňte hodnotu z v poli Pozice na "-0,02"
-24: Vyměňte nástroje a použijte materiál dle vlastního výběru na síť "Minutová ručička"
-25: Vyberte slot "Otočka minutové ručičky" a kliknutím na ikonu "kopírovat" jej duplikujte
-26: Dvakrát klikněte na nový slot "Otočka minutové ručičky" a přejmenujte jej na "Otočka vteřinové ručičky"
-27: Otevřete slot a změňte název nového slotu "Minutová ručička" na "Vteřinová ručička"
-28: Změňte velikost x na "0,03"
-29: Zkopírujte hodnotu x v poli Velikost na hodnotu X v poli "UVScale"
-20: Změňte hodnotu z v poli Poloha na "-0,025" (abyste ji později nemuseli měnit)
-31: Vyměňte nástroje a použijte materiál dle vlastního výběru na síť "Vteřinová ručička"
+2. Vytvořte podřízený objekt.
+3. Přejmenujte podřízený objekt na „Otočení hodinové ručičky“
+4. Otevřete kontextovou nabídku a vyberte „Vytvořit nový“.
+5. Vyberte „3D model“.
+6. Vyberte „Kvádr“.
+7. Další kliknutí na Kvádr.
+8. Otevřete kontextovou nabídku a vyberte „Otevřít inspektor“.
+9. Změňte název na „Hodinová ručička“.
+10. Změňte velikost na „.08“ (x), „0.5“ (y) a „0.005“ (z).
+11. Klikněte a přetáhněte hodnoty z „Velikost“ na „UVMěřítko“ pro osy x, y a z, abyste... zkopírujte je
+12. Přejděte na komponentu „Grabbable“ a zrušte zaškrtnutí políčka „Enabled“ (Povoleno).
+13. Přetáhněte slot „Hodinová ručička“ do slotu „Otočení hodinové ručičky“
+14. Ve slotu „Hodinová ručička“ klikněte na „Pozice“ a „Otočení“.
+15. Nastavte Pozici (y) na „0,25“.
+16. Nastavte Pozici (z) na „-0,015“.
+17: Přepněte do nástroje Materiál.
+18: Vyberte libovolný materiál a kliknutím na síť Hodinové ručičky jej aplikujte.
+19: Přepněte zpět do nástroje Vývojář.
+20: Klikněte na slot „Otočný bod Hodinové ručičky“ a na ikonu „kopírovat“ jej duplikujte.
+21: Dvakrát klikněte na nový slot „Otočný bod Hodinové ručičky“ a přejmenujte jej na „Otočný bod Minutové ručičky“.
+22: Otevřete slot a změňte název nového slotu „Hodinová ručička“ na „Minutová ručička“.
+23: Změňte velikost x na „0,05“.
+24: Zkopírujte hodnotu x v poli Velikost na hodnotu X v poli „UVScale“.
+25: Změňte hodnotu z v poli Pozice na "-0,02"
+26: Vyměňte nástroje a použijte materiál dle vlastního výběru na síť "Minutová ručička"
+27: Vyberte slot "Otočka minutové ručičky" a kliknutím na ikonu "kopírovat" jej duplikujte
+28: Dvakrát klikněte na nový slot "Otočka minutové ručičky" a přejmenujte jej na "Otočka vteřinové ručičky"
+29: Otevřete slot a změňte název nového slotu "Minutová ručička" na "Vteřinová ručička"
+30: Změňte velikost x na "0,03"
+31: Zkopírujte hodnotu x v poli Velikost na hodnotu X v poli "UVScale"
+32: Změňte hodnotu z v poli Poloha na "-0,025" (abyste ji později nemuseli měnit)
+33: Vyměňte nástroje a použijte materiál dle vlastního výběru na síť "Vteřinová ručička"
