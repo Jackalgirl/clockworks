@@ -1,0 +1,20 @@
+Note: in Desktop mode, press "3" to equip the Protoflux tool
+1.  With the Protoflux tool equipped, grab the "Hours" slot
+Note: in Desktop mode, press CTRL+T to open the Context Menu
+2.  Open the Context Menu and select "Unpack"  
+3.  Grab a "Minute" node and place it in front of the "Hour" node
+4.  Connect the "User Time" node's output to the input of the "Minute" node
+5.  Grab a "Divide (÷)" node and place it to the right of the "Minute" node
+Note: in Desktop mode, press SHIFT+R after pulling out a connector to create a "Display" or "Input" node
+6.  Pull out the bottom input of the "Minute" node and and secondary click to create an "int Input" node
+7.  Set the value to "60"
+8.  Connect the output of the "Divide" node to the bottom input of the "Multiply" node FIRST.
+Note: it is VERY IMPORTANT to connect this way first, so that the output of the "Multiply" node will be a float (a number that can have decimal places), instead of an integer (a whole number)
+9.  Grab an "Add (+)" node and place it to the right of the "Divide" node
+10. Connect the output of the "Divide" node to the bottom input of the "Add" node
+11. Connect the output of the Modulo node to the top input of the "Add" node
+12. Reposition nodes if necessary, then connect the input of the "Multiply" node to the output of the "Add" node.
+Note: in Desktop mode, target any node and press and hold CTRL+R to select all of the nodes
+13. Secondary click-and-hold on any of the nodes to select all of the nodes
+14. Open the Context menu and select "Pack In Place"
+Congratulations!  Your clock is now complete!
