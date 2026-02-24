@@ -1,0 +1,37 @@
+1. Malfermu la Kuntekstan Menuon kaj elektu "Krei Novan"
+2. Elektu "Malplenan Objekton"
+3. Alklaku "Position"
+4. Renomigu al "Horloĝo"
+5. Kreu infanan objekton
+6. Renomigu infanon al "Maŝaroj (Skaligu Min)"
+Noto: en la Skribotabla reĝimo, uzu CTRL+T por malfermi la Kuntekstan Menuon
+7. Malfermu la Kuntekstan Menuon kaj elektu "Krei Novan"
+8. Elektu "3D-modelon"
+9. Elektu "Sferan"
+Noto: en la Skribotabla reĝimo, celu objekton per via lasero, poste premu CTRL+R por kromklaki
+10. Kromklaku sur la Sfero
+11. Malfermu la Kuntekstan menuon kaj elektu "Malfermi Inspektoron"
+12. Ŝanĝu la nomon al "Nabo"
+13. Ŝanĝu la radiuson al "0.05"
+14. Rulumu al la komponanto "Grabble" kaj malmarku "Enabled"
+15. Alklaku "Position" kaj "Rotation"
+16. Reelektu la fendon "Retoj (Skaligu Min)" kaj kreu infanon
+17. Ŝanĝu nomo al "Ringo"
+18. Alklaku "Add Component"
+19. "Assets"
+20: "Procedural Meshes"
+21: "Legacy UI"
+22: "BevelRingMesh"
+23: Ŝanĝu la valoron "Width" al "0.05"
+24: Alklaku "Setup Renderer"
+25: Ŝanĝu la valoron por "Segments" al "60"
+26: Ŝanĝu la rotacion de la x-akso al "90"
+27: Alklaku "Add Component"
+28: "Physics"
+29: "Colliders"
+30: "Mesh Collider"
+31: Alklaku la Material Tool sur via ilbreto por interŝanĝi ilojn
+32: Elektu materialon por la nabo (ion ajn, kion vi ŝatas!)
+33: Alklaku la naban mašaron
+34: Ho ve! Se vi hazarde aplikas la materialon al io alia, malfermu vian kuntekstan menuon kaj elektu "Malfari".
+35: Interŝanĝu materialojn kaj apliku vian elektitan materialon al la ringo
