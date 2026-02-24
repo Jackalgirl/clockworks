@@ -1,0 +1,12 @@
+Note: in Desktop mode, press "3" to equip the Protoflux Tool
+1.  Open Dashboard and select "Inventory"
+2.  "Resonite Essentials"
+3.  "Tools"
+4.  Double-click the Protoflux Tool to spawn a tool
+5.  Select the tool, select "Equip Protoflux Tool"
+Note: in Desktop mode, press CTRL+T to open the Context Menu.
+6.  Open the Context Menu and select "Browse Nodes"
+7.  Select "Users"
+8.  Select "Local User"
+9.  Double-click to spawn a "Local User" node
+10. Delete a node by grabbing it, opening the Context menu, and selecting "Destroy"
