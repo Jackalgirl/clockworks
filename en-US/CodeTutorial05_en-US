@@ -1,0 +1,36 @@
+Note: in Desktop mode, press "3" to equip the Protoflux tool
+1.  With the Protoflux tool equipped, grab a "Host User" node
+2.  Grab a "User Time" node and place it to the right of the "Host User" node  
+3.  Pull out a connector from the output of "Host User" and connect it to the "User" input on the "User Time" node
+4.  Grab a "Minute" node and place it to the right of the "User Time" node
+5.  Pull out a connector from the output of the "User Time" node and connect it to the "DateTime" input of the "Minute" node
+6.  Grab a "Divide (÷)" node and place it under the time nodes
+7.  Pull out the top input and secondary click to create a "float Input" node
+8.  Repeat for the bottom input
+9.  Set the value of the top input to "360" and the value of the bottom input to "60"
+10. Grab a "Multiply (x)" node and place it to the right of the "Divide" node
+11.  Connect the output of the "Divide" node to the bottom input of the "Multiply" node FIRST.
+Note: it is VERY IMPORTANT to connect this way first, so that the output of the "Multiply" node will be a floating-point number (a number that can have decimal places), instead of an integer (a whole number)
+12. Grab an "Axis Angle (floatQ)" node and place it to the right of the "Multiply" node
+13. Connect the output of the "Multiply" node to the "Angle" input of the "Axis Angle" node
+Note: in Desktop mode, press SHIFT+R after pulling out a connector to create a "float3 Input" node
+14. Pull out the "Axis" input of the "Axis Angle" node and secondary click to create a "float3 Input" node
+15. Set the bottom value (z) to "-1"
+16. Grab a "Smooth Slerp (floatQ)" node and place it to the right of the "Axis Angle" node
+17. Connect the input of the "Smooth Slerp" node to the output of the "Axis Angle" node
+18. Pull out the "Speed" input of the "Smooth Slerp" node and secondary click to create an "float Input" node
+19. Set the value to "2"
+Note: in Desktop mode, press "2" to equip the Development tool
+20. If you do not have an Inspector spawned, swap tools to equip the Development tool
+Note: in Desktop mode, target the minute hand with your laser, secondary-click it with CTRL+R, and press CTRL+T to open the Context Menu
+20a. Secondary select your clock, open the Context Menu, and select "Open Inspector"
+20b. Swap tools to equip the Protoflux Tool
+21. On the inspector, select "Minute Hand Pivot"
+22. Grab the title "Rotation" from the "Rotation" entry of the "Minute Hand Pivot"
+23. Open the Context Menu and select "Drive" to create a "Value Field Drive (floatQ)" node
+24. Connect the output of the "Smooth Slerp" node to the input of the "Value Field Drive" (floatQ) node. You will now notice that your clock's minute hand is repositioned itself to an angle representing the current minute
+Note: in Desktop mode, target any node and press and hold CTRL+R to select all of the nodes
+25. Secondary click-and-hold on any of the nodes to select all of the nodes
+26. On the Inspector, click on the "Protoflux" node, then create a child slot
+27. Rename the child slot to "Minutes"
+28. Grab the "Minutes" slot, open the Context Menu, and select "Pack Into"
