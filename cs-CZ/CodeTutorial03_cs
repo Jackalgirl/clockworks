@@ -11,14 +11,15 @@ Poznámka: v režimu plochy stiskněte CTRL+R pro sekundární kliknutí
 Poznámka: v režimu plochy stiskněte CTRL+T pro otevření kontextové nabídky
 8. Otevřete kontextovou nabídku a vyberte „Otevřít inspektor“
 9. Klikněte na ikonu „kořen objektu“
-10. Dvojitým kliknutím na slot pro otočení vteřinové ručičky
-11. Z položky „Rotation“ v nástroji pro otočení vteřinové ručičky vyberte název „Rotation“
-12. Otevřete kontextovou nabídku a vyberte „Drive“ pro vytvoření uzlu Value Field Drive (floatQ)
-13. Umístěte tento uzel napravo od uzlu Axis Angle
-14. Připojte výstup uzlu Axis Angle ke vstupu „Rotation“ uzlu Value Field Drive
-15. Nyní uvidíte, že rotace vaší vteřinové ručičky se mění každou sekundu.
-16. Vyberte slot Protoflux a vytvořte potomka
-17. Přejmenujte potomka na „Seconds“
+10. Vyměňte nástroje, abyste si mohli vybavit nástroj Protoflux.
+11. Dvojitým kliknutím na slot pro otočení vteřinové ručičky
+12. Z položky „Rotation“ v nástroji pro otočení vteřinové ručičky vyberte název „Rotation“
+13. Otevřete kontextovou nabídku a vyberte „Drive“ pro vytvoření uzlu Value Field Drive (floatQ)
+14. Umístěte tento uzel napravo od uzlu Axis Angle
+15. Připojte výstup uzlu Axis Angle ke vstupu „Rotation“ uzlu Value Field Drive
+16. Nyní uvidíte, že rotace vaší vteřinové ručičky se mění každou sekundu.
+17. Vyberte slot Protoflux a vytvořte potomka
+18. Přejmenujte potomka na „Seconds“
 Poznámka: v režimu plochy vyberte libovolný uzel a stiskněte a podržte CTRL+R pro výběr všech uzlů
-18. Druhotným kliknutím a podržením vyberte všechny uzly Protoflux
-19. Zadejte název slotu Seconds, otevřete kontextovou nabídku a vyberte „Zabalit do“
+19. Druhotným kliknutím a podržením vyberte všechny uzly Protoflux
+20. Zadejte název slotu Seconds, otevřete kontextovou nabídku a vyberte „Zabalit do“
