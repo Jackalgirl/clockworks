@@ -1,0 +1,36 @@
+Noto: en Skribotabla reĝimo, premu "3" por ekipi la Protoflux-ilon
+1. Kun la Protoflux-ilo ekipita, prenu nodon "Host User"
+2. Prenu nodon "User Time" kaj metu ĝin dekstre de la nodo "Host User"
+3. Eltiru konektilon el la eligo de "Host User" kaj konektu ĝin al la enigo "User" sur la nodo "User Time"
+4. Prenu nodon "Minute" kaj metu ĝin dekstre de la nodo "User Time"
+5. Eltiru konektilon el la eligo de la nodo "User Time" kaj konektu ĝin al la enigo "DateTime" de la nodo "Minute"
+6. Prenu nodon "Divide (÷)" kaj metu ĝin sub la tempo-nodojn
+7. Eltiru la supran enigon kaj duaranga klako por krei nodon "float Input"
+8. Ripetu por la malsupra enigo
+9. Agordu la valoron de la supra enigo al "360" kaj la valoron de la malsupra enigo al "60"
+10. Prenu nodon "Multiply (x)" kaj metu ĝin dekstre de la Nodo "Divide"
+11. Konektu la eliron de la nodo "Divide" al la malsupra eniro de la nodo "Multiply" UNUE.
+Noto: estas TRE GRAVE konekti tiel unue, por ke la eligo de la nodo "Multiply" estu glitpunktnombro (nombro kiu povas havi decimalojn), anstataŭ entjero (tuta nombro).
+12. Prenu nodon "Axis Angle (floatQ)" kaj metu ĝin dekstre de la nodo "Multiply".
+13. Konektu la eligon de la nodo "Multiply" al la enigo "Angulo" de la nodo "Axis Angle".
+Noto: en Skribotabla reĝimo, premu SHIFT+R post eltiro de konektilo por krei nodon "float3 Input".
+14. Eltiru la enigon "Axis" de la nodo "Axis Angle" kaj duan klakon por krei nodon "float3 Input".
+15. Agordu la malsupran valoron (z) al "-1".
+16. Prenu nodon "Smooth Slerp (floatQ)" kaj metu ĝin dekstre de la nodo "Axis Angle".
+17. Konektu la enigon de la nodo "Smooth Slerp" al la eligo de la "Axis Angle". nodo
+18. Eltiru la enigon "Speed" de la nodo "Smooth Slerp" kaj duarange klaku por krei nodon "float Input"
+19. Agordu la valoron al "2"
+Noto: en Skribotabla reĝimo, premu "2" por ekipi la Development Tool
+20. Se vi ne havas Inspektoron kreitan, interŝanĝu ilojn por ekipi la Development Tool
+Noto: en Skribotabla reĝimo, celu la minutmontrilon per via lasero, duarange klaku ĝin per CTRL+R, kaj premu CTRL+T por malfermi la Kuntekstan Menuon
+20a. Duarange elektu vian horloĝon, malfermu la Kuntekstan Menuon, kaj elektu "Malfermi Inspektoron"
+20b. 21. Interŝanĝu ilojn por ekipi la Protoflux-Ilon
+21. En la inspektilo, elektu "Minutmontrila Pivoto"
+22. Prenu la titolon "Rotacio" el la eniro "Rotacio" de la Minutmontrila Pivoto
+23. Malfermu la Kuntekstan Menuon kaj elektu "Movi" por krei nodon "Value Field Drive (floatQ)"
+24. Konektu la eliron de la nodo "Smooth Slerp" al la eniro de la nodo "Value Field Drive" (floatQ). Vi nun rimarkos, ke la minutmontrilo de via horloĝo estas repoziciigita al angulo reprezentanta la nunan minuton.
+Noto: en la labortabla reĝimo, celu iun ajn nodon kaj premu kaj tenu CTRL+R por elekti ĉiujn nodojn.
+25. Dua klako kaj tenu sur iu ajn el la nodoj por elekti ĉiujn nodojn.
+26. En la Inspektilo, klaku sur la nodon "Protoflux", poste kreu infanfendon.
+27. Renomi la idan fendon al "Minutoj".
+28. Prenu la fendon "Minutoj", malfermu la Kuntekstan Menuon, kaj elektu "Paki en".
