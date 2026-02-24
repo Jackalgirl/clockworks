@@ -11,14 +11,15 @@ Noto: en Skribotabla reĝimo, premu CTRL+R por kromklaki
 Noto: en Skribotabla reĝimo, premu CTRL+T por malfermi la Kuntekstan Menuon
 8. Malfermu vian Kuntekstan Menuon kaj elektu "Malfermi Inspektoron"
 9. Alklaku la ikonon "objekta radiko"
-10. Duobla-klaku la fendon de la Sekundmontrilo Pivoto
-11. Prenu la titolon "Rotation" el la eniro "Rotation" de la Sekundmontrilo Pivoto
-12. Malfermu vian Kuntekstan Menuon kaj elektu "Direkti" por krei nodon "Value Field Drive (floatQ)"
-13. Poziciigu ĉi tiun nodon dekstre de la nodo "Axis Angle"
-14. Konektu la eliron de la nodo "Axis Angle" en la eniron "Rotation" de la nodo "Value Field Drive"
-15. Vi nun vidos, ke la rotacio de via sekundmontrilo ŝanĝiĝas ĉisekunde
-16. Elektu la Protoflux-fendn kaj kreu infanon
-17. Renomigu la infanon al "Sekundoj"
+10. Interŝanĝu ilojn por ekipi vian Protoflux-ilon.
+11. Duobla-klaku la fendon de la Sekundmontrilo Pivoto
+12. Prenu la titolon "Rotation" el la eniro "Rotation" de la Sekundmontrilo Pivoto
+13. Malfermu vian Kuntekstan Menuon kaj elektu "Direkti" por krei nodon "Value Field Drive (floatQ)"
+14. Poziciigu ĉi tiun nodon dekstre de la nodo "Axis Angle"
+15. Konektu la eliron de la nodo "Axis Angle" en la eniron "Rotation" de la nodo "Value Field Drive"
+16. Vi nun vidos, ke la rotacio de via sekundmontrilo ŝanĝiĝas ĉisekunde
+17. Elektu la Protoflux-fendn kaj kreu infanon
+18. Renomigu la infanon al "Sekundoj"
 Noto: en Skribotabla reĝimo, celu iun ajn nodon kaj premu kaj tenu CTRL+R por elekti ĉiujn nodojn
-18. Kromklaku kaj tenu por elekti ĉiujn Protoflux-nodojn
-19. Prenu la nomon de la fend "Seconds", malfermu vian Kuntekstan menuon, kaj elektu "Paki en"
+19. Kromklaku kaj tenu por elekti ĉiujn Protoflux-nodojn
+20. Prenu la nomon de la fend "Seconds", malfermu vian Kuntekstan menuon, kaj elektu "Paki en"
