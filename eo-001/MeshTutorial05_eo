@@ -1,0 +1,13 @@
+Noto: se vi fermis la Inspektilon, kromklaku la objekton (en Skribotabla reĝimo, celu la objekton per via lasero kaj premu CTRL+R), malfermu vian Kuntekstan Menuon (en Skribotabla reĝimo: CTRL+T), kaj elektu "Malfermi Inspektilon"
+1. Duobla-klaku la fendon "Nabo"
+2. Klaku kaj trenu la titolbreton de la komponanto "SphereMesh Collider" per via ĉefa mano
+3. Per via malĉefa mano, duobla-klaku la ĉefan fendon "Horloĝo"
+4. Metu la titolinformojn, kiujn vi tenas per via ĉefa mano, en la komponentan areon de la fendo "Horloĝo"
+5. Elektu "Kopii Komponanton"
+6. Elektu "Add Component"
+7. "Transform"
+8. "Interactions"
+9. "Grabbable" - vi nun povas kapti la horloĝon per la nabo kaj kunporti ĝin
+10. Aldonu idon al la fendo "Horloĝo"
+11. Renomi la novan fendon al "Protoflux"
+12. Vi nun pretas daŭrigi al la Lernzono por Kodi!
