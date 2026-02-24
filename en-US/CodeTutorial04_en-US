@@ -1,0 +1,14 @@
+1.  With the Protoflux Tool equipped, grab the "Seconds" slot
+2.  Open your Context Menu and select "Unpack"
+Note: in Desktop Mode, press "2" to equip the Development tool, and CTRL+T to open the Context Menu
+3.  To remove the gizmos, swap tools and select "Deselect All" on your Context Menu, then swap back
+4.  Grab a "Smooth Slerp" node and position it to the right of the "Axis Angle" node
+5.  Pull out a connector from the "Input" input of the "Smooth Slerp" node and connect it to the output of the "Axis Angle" node
+Note: in Desktop mode, press SHIFT+R after pulling out a connector to create a "float Input" node
+6.  Pull out a connector from "Speed" input of the "Smooth Slerp" node and secondary click to create a "float Input" field
+7.  Set the value of the field to "2"
+8.  Connect the input of the "Value Field Drive (FloatQ)" node to the output of the "Smooth Slerp" node
+9.  You will now notice that the second hand changes positions in a smoother fashion
+Note: in Desktop mode, target any node and press and hold CTRL+R to select all of the nodes
+10. Secondary click-and-hold on any of the nodes to select all of the nodes
+11. Grab the "Seconds" slot, open your Context Menu, and select "Pack Into"
