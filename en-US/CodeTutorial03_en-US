@@ -1,0 +1,25 @@
+a.  (Not demonstrated) Click on your toolshelf to store your Protoflux tool
+1.  If you did not create your own clock at the Mesh Tutorial station, you can grab one of the sample clocks to use
+Note: in Desktop mode, press "2" to equip a Development Tool
+2.  Open the Dashboard and select "Inventory"
+3.  Select "Resonite Essentials", then "Tools"
+4.  Double-click on the Development Tool to spawn a tool
+5.  Click on the tool and select "Equip Development Tool" to equip it
+6.  Close your Dashboard
+Note: in Desktop mode, press CTRL+R to secondary click
+7.  Target the second hand on your clock and secondary click
+Note: in Desktop mode, press CTRL+T to open the Context Menu
+8.  Open your Context Menu and select "Open Inspector"
+9.  Click the "object root" icon
+10. Swap tools to equip your Protoflux tool.
+11. Double-click on the "Second Hand Pivot" slot
+12. Grab the title "Rotation" from the "Rotation" entry of the "Second Hand Pivot"
+13. Open your Context Menu and select "Drive" to create a "Value Field Drive (floatQ)" node
+14. Position this node to the right of the "Axis Angle" node
+15. Connect the output of the "Axis Angle" node into the "Rotation" input of the "Value Field Drive" node
+16. You will now see that the rotation of your second hand is changing every second.
+17. Select the "Protoflux" slot and create a child
+18. Rename the child to "Seconds"
+Note: in Desktop mode, target any node and press and hold CTRL+R to select all of the nodes
+19. Secondary click-and-hold to select all of the Protoflux nodes
+20. Grab the name of the "Seconds" slot, open your Context menu, and select "Pack Into"
