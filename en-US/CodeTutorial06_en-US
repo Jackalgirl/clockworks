@@ -1,0 +1,43 @@
+Note: in Desktop mode, press "3" to equip the Protoflux tool
+1.  With the Protoflux tool equipped, grab a "Host User" node
+2.  Grab a "User Time" node and place it to the right of the "Host User" node  
+3.  Pull out a connector from the output of "Host User" and connect it to the "User" input on the "User Time" node
+4.  Grab an "Hour" node and place it to the right of the "User Time" node
+5.  Pull out a connector from the output of the "User Time" node and connect it to the "DateTime" input of the "Minute" node
+Note: in Desktop mode, press SHIFT+R after pulling out a connector to create a "Display" node
+6.  If you pull out a "Display" node from the "Hour" node and it is after 12pm where you are, you will notice that the displayed number is greater than 12.
+7.  Grab a "Modulo (%)" node and place it to the right of the "Hour" node
+8.  Connect the output of the Hour node to the top input of the "Modulo" node
+9.  Pull out the bottom input of the "Modulo" node and secondary click to create an "int Input" node
+10. Set the value of the node to 12
+11. If you pull out the output of the "Modulo" node, you will see that you are now converting the 24-hour display to a 12-hour display
+12. Grab a "Divide (÷)" node and place it under the "Modulo" node
+13. Pull out the top input of the "Divide" node and secondary click to create a "float Input" node
+14. Set the value to "360"
+15. Pull out the bottom input of the "Divide" node and secondary click to create another "float Input" node
+16. Set the value to "12"
+17. Grab a "Multiply (x)" node and place it to the right of the "Modulo" node
+18: Connect the output of the "Divide" node to the bottom input of the "Multiply" node FIRST.
+Note: it is VERY IMPORTANT to connect this way first, so that the output of the "Multiply" node will be a floating-point number (a number that can have decimal places), instead of an integer (a whole number)
+19. Grab an "Axis Angle (floatQ)" node and place it to the right of the "Multiply" node
+20. Connect the output of the "Multiply" node to the "Angle" input of the "Axis Angle" node
+21. Pull out the "Axis" input of the "Axis Angle" node and secondary click to create a "float3 Input" node
+22. Set the bottom value (z) to "-1"
+23. Grab a "Smooth Slerp (floatQ)" node and place it to the right of the "Axis Angle" node
+24. Connect the input of the "Smooth Slerp" node to the output of the "Axis Angle" node
+25. Pull out the "Speed" input of the "Smooth Slerp" node and secondary click to create an "float Input" node
+26. Set the value to "2"
+Note: in Desktop mode, press "2" to equip the Development tool
+27. If you do not have an Inspector spawned, swap tools to equip the Development tool
+Note: in Desktop mode, target the clock with your laser, secondary-click it with CTRL+R, and press CTRL+T to open the Context Menu
+27a. Secondary click your clock, open the Context Menu, and select "Open Inspector"
+27b. Swap tools to equip the Protoflux Tool
+28. On the inspector, select "Hour Hand Pivot"
+29. Grab the title "Rotation" from the "Rotation" entry of the "Hour Hand Pivot"
+30. Open the Context Menu and select "Drive" to create a "Value Field Drive (floatQ)" node
+31. Connect the output of the "Smooth Slerp" node to the input of the "Value Field Drive" (floatQ) node. You will now notice that your clock's hour hand is repositioned itself to an angle representing the current hour
+32. On the Inspector, click on the "Protoflux" node, then create a child slot
+33. Rename the child slot to "Hours"
+Note: in Desktop mode, target any node and press and hold CTRL+R to select all of the nodes
+34. Secondary select-and-hold on any of the nodes to select all of the nodes
+35. Grab the "Hours" slot, open the Context Menu, and select "Pack Into"
