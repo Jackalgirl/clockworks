@@ -1,0 +1,55 @@
+/// When triggered by `rePlayer.updateProgress`, updates the global progress world variables.
+module GlobalProgress
+
+/// The playlist slot of the mesh videos
+in MeshPlaylist: Slot element
+/// The playlist slot of the code videos
+in FluxPlaylist: Slot element
+/// Value of the localized text for 'Completed'
+in CompletedText: string
+
+/// The tutorial progress [0, 1]
+out GlobalProgress: float
+/// The message to display to the user above the progress bar
+out GlobalProgressMessage: string
+
+where {
+    // These aren't used here but are provided in case you want to drive something with them
+    GlobalProgress = ~input<float>("World/Tutorial.Progress").Value;
+    GlobalProgressMessage = ~input<string>("World/Tutorial.ProgressMessage").Value;
+
+
+    local Total: int;
+    NumMeshEntries = MeshPlaylist->ChildrenCount;
+    NumFluxEntries = FluxPlaylist->ChildrenCount;
+
+    /// Iterate through both playlists and total up the completed entries
+    Update =
+        switch For(NumMeshEntries)
+        | LoopStart |> Total <- 0
+        | LoopIteration _for |> impulse {
+            Entry = MeshPlaylist->GetChild(_for.Iteration);
+            IsDone = Entry->~read<bool>("VideoEntry/Done").Value;
+            if IsDone then
+                ValueIncrement<_>(Total);
+        }
+        | LoopEnd |>
+        switch For(NumFluxEntries)
+        | LoopIteration _for |> impulse {
+            Entry = FluxPlaylist->GetChild(_for.Iteration);
+            IsDone = Entry->~read<bool>("VideoEntry/Done").Value;
+            if IsDone then
+                ValueIncrement<_>(Total);
+        }
+        | LoopEnd |> impulse {
+            TotalDone = Total->as<float>;
+            TotalTasks = NumMeshEntries + NumFluxEntries;
+            // Because the variables may not exist yet we use `writeOrCreate`
+            ~writeOrCreate<float>(Path="World/Tutorial.Progress", Value= TotalDone / TotalTasks->as<float>);
+            ~writeOrCreate<string>(Path="World/Tutorial.ProgressMessage", Value=$"{Total}/{TotalTasks} {CompletedText}");
+            ~writeOrCreate<bool>(Path="World/Tutorial.Done", Value=(Total == TotalTasks)); // Used to toggle the coo-coo clock
+        };
+
+    // Sets up the event listener
+    ~receive("rePlayer.updateProgress", OnTriggered=Update)
+}

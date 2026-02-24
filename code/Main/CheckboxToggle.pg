@@ -1,0 +1,11 @@
+/// Used to drive the grey/green checkbox images based on the video status
+module CheckboxToggle
+
+out DoneEnabled: bool
+out TodoEnabled: bool
+
+where {
+    Done = ~input<bool>("VideoEntry/Done").Value;
+    DoneEnabled = Done;
+    TodoEnabled = not Done;
+}

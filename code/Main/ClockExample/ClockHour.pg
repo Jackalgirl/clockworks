@@ -1,0 +1,13 @@
+module ClockHour
+
+use Lib/HandRotation
+
+where {
+    CurrentTime = LocalUser->UserTime;
+    Hours = CurrentTime->DateTimeHour;
+    Minutes = CurrentTime->DateTimeMinute->as<float>;
+
+    HoursAndMinutes = (Hours mod 12)->as<float> + Minutes / 60.0;
+
+    HourRotation = HandRotation(HoursAndMinutes * (360.0 / 12.0));
+}

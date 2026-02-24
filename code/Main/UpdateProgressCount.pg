@@ -1,0 +1,36 @@
+/// Update the progress text for an individual video player
+module UpdateProgressCount
+
+/// The playlist slot
+in PlaylistEntries: Slot element
+/// Localized text for 'Completed'
+in CompletedText: string
+
+/// The text to display to the user
+out ProgressText: string
+
+where {
+    // This will syncronize the same text for everyone (even if they have different locales (TODO? fix))
+    sync ProgressText: string;
+    local Total: int;
+
+    NumEntries = PlaylistEntries->ChildrenCount;
+
+    /// count up the completed videos in only this playlist
+    Update =
+        switch For(NumEntries)
+        | LoopStart |> Total <- 0
+        | LoopIteration _for |> impulse {
+            Entry = PlaylistEntries->GetChild(_for.Iteration);
+            IsDone = Entry->~read<bool>("VideoEntry/Done").Value;
+            if IsDone then
+                ValueIncrement<_>(Total);
+        }
+        | LoopEnd |> impulse {
+            ProgressText <- $"{Total}/{NumEntries} {CompletedText}";
+        };
+
+    // We want to run this on the updateProgress event and on world start to initialize it
+    OnStart(OnlyHost=true, Trigger=Update);
+    ~receive("rePlayer.updateProgress", OnTriggered=Update);
+}

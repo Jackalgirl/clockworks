@@ -1,0 +1,10 @@
+/// Used to drive the help text/instructions for the current playlist item
+module EntryHelpText
+
+out HelpText: string
+
+where {
+    HelpText =
+        ~input<Slot>("rePlayer/currentPlaylistItem").Value
+        ->~read<string>("VideoEntry/HelpText").Value
+}

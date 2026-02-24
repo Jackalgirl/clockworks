@@ -1,0 +1,9 @@
+module HandRotation
+
+in HandAngle_Degrees: float
+out this: floatQ
+
+where {
+    AxisAngle_floatQ(Axis=pack<float3>(0.0, 0.0, -1.0), Angle=HandAngle_Degrees)
+    ->SmoothSlerp_floatQ(2.0);
+}

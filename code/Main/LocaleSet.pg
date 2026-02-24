@@ -1,0 +1,204 @@
+/// Localization of the Clockworks world. 
+/// On user spawn, sets the text displays in the world to the preferred locale.
+/// Uses en-US as a fallback if the chosen locale is not available for an item.
+module LocaleSet
+
+/// Localization store Slot with all the locale string inside stored as dynamic variables
+in Store: Slot element
+
+/// The string storing the local user's locale
+in UserLocales: string mutable
+
+// String values for the items in the world to update based on the locale
+// These are the value overrides that are written for each user in the world
+
+in StickyNote: string mutable
+
+in MeshTutorialHeader: string mutable
+in MeshTutorialDescription: string mutable
+
+in CodeTutorialHeader: string mutable
+in CodeTutorialDescription: string mutable
+
+in CreditsHeader: string mutable
+in CreditsMusic: string mutable
+in CreditsUI: string mutable
+in CreditsAssets: string mutable
+in CreditsCode: string mutable
+in CreditsBeta: string mutable
+in CreditsThanks: string mutable
+in CreditsTeamLead: string mutable
+in CreditsTranslationHelp: string mutable
+
+in MeshVidTitle1: string mutable
+in MeshVidTitle2: string mutable
+in MeshVidTitle3: string mutable
+in MeshVidTitle4: string mutable
+in MeshVidTitle5: string mutable
+
+in MeshVidHelp1: string mutable
+in MeshVidHelp2: string mutable
+in MeshVidHelp3: string mutable
+in MeshVidHelp4: string mutable
+in MeshVidHelp5: string mutable
+
+in CodeVidTitle1: string mutable
+in CodeVidTitle2: string mutable
+in CodeVidTitle3: string mutable
+in CodeVidTitle4: string mutable
+in CodeVidTitle5: string mutable
+in CodeVidTitle6: string mutable
+in CodeVidTitle7: string mutable
+
+in CodeVidHelp1: string mutable
+in CodeVidHelp2: string mutable
+in CodeVidHelp3: string mutable
+in CodeVidHelp4: string mutable
+in CodeVidHelp5: string mutable
+in CodeVidHelp6: string mutable
+in CodeVidHelp7: string mutable
+
+in ResourcesHeader: string mutable
+in ResourcesTranslation: string mutable
+in ResourcesDayNight: string mutable
+in ResourcesSounds: string mutable
+in ResourcesSoftware: string mutable
+in ResourcesReferences: string mutable
+in ResourcesVideo: string mutable
+
+in GardenHeader: string mutable
+in GardenDescription: string mutable
+in GardenCardTitle: string mutable
+in GardenCardBuilder: string mutable
+
+in VideoCompletedMesh: string mutable
+in VideoCompletedCode: string mutable
+
+use Lib/GetLocaleText
+
+where {
+    CultureString = $"{CurrentCulture}";
+    display(CultureString); // For debugging
+
+    SetLocaleTexts = impulse {
+        UserLocales <- CultureString;
+
+        StickyNote <- 
+            Store->GetLocaleText(CultureString, ".Sticky2");
+
+        MeshTutorialHeader <- 
+            Store->GetLocaleText(CultureString, ".MeshTutorialHeader");
+        MeshTutorialDescription <- 
+            Store->GetLocaleText(CultureString, ".MeshTutorialDescription");
+
+        CodeTutorialHeader <- 
+            Store->GetLocaleText(CultureString, ".CodeTutorialHeader");
+        CodeTutorialDescription <- 
+            Store->GetLocaleText(CultureString, ".CodeTutorialDescription");
+
+        CreditsHeader <-
+            Store->GetLocaleText(CultureString, ".CreditsHeader");
+        CreditsMusic <-
+            Store->GetLocaleText(CultureString, ".CreditsMusic");
+        CreditsUI <-
+            Store->GetLocaleText(CultureString, ".CreditsUI");
+        CreditsAssets <-
+            Store->GetLocaleText(CultureString, ".CreditsAssets");
+        CreditsCode <-
+            Store->GetLocaleText(CultureString, ".CreditsCode");
+        CreditsBeta <-
+            Store->GetLocaleText(CultureString, ".CreditsBeta");
+        CreditsThanks <-
+            Store->GetLocaleText(CultureString, ".CreditsThanks");
+        CreditsTeamLead <-
+            Store->GetLocaleText(CultureString, ".CreditsTeamLead");
+        CreditsTranslationHelp <-
+            Store->GetLocaleText(CultureString, ".CreditsTranslationHelp");
+
+        MeshVidTitle1 <-
+            Store->GetLocaleText(CultureString, ".MeshVidTitle1");
+        MeshVidTitle2 <-
+            Store->GetLocaleText(CultureString, ".MeshVidTitle2");
+        MeshVidTitle3 <-
+            Store->GetLocaleText(CultureString, ".MeshVidTitle3");
+        MeshVidTitle4 <-
+            Store->GetLocaleText(CultureString, ".MeshVidTitle4");
+        MeshVidTitle5 <-
+            Store->GetLocaleText(CultureString, ".MeshVidTitle5");
+
+        MeshVidHelp1 <-
+            Store->GetLocaleText(CultureString, ".MeshVidHelp1");
+        MeshVidHelp2 <-
+            Store->GetLocaleText(CultureString, ".MeshVidHelp2");
+        MeshVidHelp3 <-
+            Store->GetLocaleText(CultureString, ".MeshVidHelp3");
+        MeshVidHelp4 <-
+            Store->GetLocaleText(CultureString, ".MeshVidHelp4");
+        MeshVidHelp5 <-
+            Store->GetLocaleText(CultureString, ".MeshVidHelp5");
+
+        CodeVidTitle1 <-
+            Store->GetLocaleText(CultureString, ".CodeVidTitle1");
+        CodeVidTitle2 <-
+            Store->GetLocaleText(CultureString, ".CodeVidTitle2");
+        CodeVidTitle3 <-
+            Store->GetLocaleText(CultureString, ".CodeVidTitle3");
+        CodeVidTitle4 <-
+            Store->GetLocaleText(CultureString, ".CodeVidTitle4");
+        CodeVidTitle5 <-
+            Store->GetLocaleText(CultureString, ".CodeVidTitle5");
+        CodeVidTitle6 <-
+            Store->GetLocaleText(CultureString, ".CodeVidTitle6");
+        CodeVidTitle7 <-
+            Store->GetLocaleText(CultureString, ".CodeVidTitle7");
+
+        CodeVidHelp1 <-
+            Store->GetLocaleText(CultureString, ".CodeVidHelp1");
+        CodeVidHelp2 <-
+            Store->GetLocaleText(CultureString, ".CodeVidHelp2");
+        CodeVidHelp3 <-
+            Store->GetLocaleText(CultureString, ".CodeVidHelp3");
+        CodeVidHelp4 <-
+            Store->GetLocaleText(CultureString, ".CodeVidHelp4");
+        CodeVidHelp5 <-
+            Store->GetLocaleText(CultureString, ".CodeVidHelp5");
+        CodeVidHelp6 <-
+            Store->GetLocaleText(CultureString, ".CodeVidHelp6");
+        CodeVidHelp7 <-
+            Store->GetLocaleText(CultureString, ".CodeVidHelp7");
+
+
+        ResourcesHeader <-
+            Store->GetLocaleText(CultureString, ".ResourcesHeader");
+        ResourcesTranslation <-
+            Store->GetLocaleText(CultureString, ".ResourcesTranslation");
+        ResourcesDayNight <-
+            Store->GetLocaleText(CultureString, ".ResourcesDayNight");
+        ResourcesSounds <-
+            Store->GetLocaleText(CultureString, ".ResourcesSounds");
+        ResourcesSoftware <-
+            Store->GetLocaleText(CultureString, ".ResourcesSoftware");
+        ResourcesReferences <-
+            Store->GetLocaleText(CultureString, ".ResourcesReferences");
+        ResourcesVideo <-
+            Store->GetLocaleText(CultureString, ".ResourcesVideo");
+
+        GardenHeader <- 
+            Store->GetLocaleText(CultureString, ".GardenHeader");
+        GardenDescription <- 
+            Store->GetLocaleText(CultureString, ".GardenDescription");
+        GardenCardTitle <- 
+            Store->GetLocaleText(CultureString, ".GardenCardTitle");
+        GardenCardBuilder <- 
+            Store->GetLocaleText(CultureString, ".GardenCardBuilder");
+
+        VideoCompletedMesh <-
+            Store->GetLocaleText(CultureString, ".VideoCompleted");
+        VideoCompletedCode <-
+            Store->GetLocaleText(CultureString, ".VideoCompleted");
+    };
+
+    // For some reason, Resonite doesn't initialize the variables right at spawn so we need to delay updating the localization a little
+    UserSpawn(OnlyHost=false, OnSpawn=StartAsyncTask(TaskStart=DelayUpdates(30, Next=SetLocaleTexts)));
+    CallInput(SetLocaleTexts); // For debugging
+}

@@ -1,0 +1,27 @@
+/// Lookup the locale text for an item in the world.
+/// Default to the en-US locale if the provided culture is unknown.
+module GetLocaleText
+
+in LocalizationStore: Slot
+
+/// A culture string like en-US or ja-JP
+in CultureString: string
+
+/// The label of the variable to lookup. Starts with the '.'. Example: ".Sticky2"
+in TextLabel: string
+
+out this: string
+
+where {
+    Languages = "Languages/";
+    Var = 
+        LocalizationStore
+        ->~read<string>(ConcatenateMultiString([Languages, CultureString, TextLabel]));
+
+    if Var.FoundValue then 
+        Var.Value
+    else
+        LocalizationStore
+        ->~read<string>("Langauges/en-US"->ConcatenateString(TextLabel))
+        .Value
+}

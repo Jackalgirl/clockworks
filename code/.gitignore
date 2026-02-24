@@ -1,0 +1,6 @@
+# files to ignore in git repositories
+*.brson         # compiled Resonite Records
+
+build/          # build artifacts
+.pg-packages/   # dependencies
+pgx/            # published packages

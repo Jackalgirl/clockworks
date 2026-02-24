@@ -1,0 +1,25 @@
+name = "Clockworks"
+# version = "0.0.0"               # use semantic versions
+authors = ["Papaltine"]
+license = "Unlicense"
+description = "Code assests used for the Clockworks MMC26 project"
+repository = "https://github.com/Jackalgirl/clockworks/"
+# homepage = "https://project-name.com/"
+
+# the default build profile
+[build.dev]
+# optimization_preset = "dev"
+# output_directory = "build"
+no_default_assets = true     # don't include templates/heap slots
+
+# configuration when building with `--profile release`
+[build.release]
+# optimization_preset = "release"
+# output_directory = "build"
+no_default_assets = true     # don't include templates/heap slots
+
+# Specify dependencies to use in the project: they can be local (file://) or downloaded from the internet (https+pgzip://).
+# import using `from Dependency use Path/To/Module` inside your code
+[dependencies]
+# Dependency = { uri = "https+pgzip://remote-protograph-packages.com/packages/download/v0.0.0/Dependency-0.0.0.pgzip" }
+# LocalProject = { uri = "file:///home/user/LocalProject" }

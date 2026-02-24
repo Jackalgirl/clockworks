@@ -1,0 +1,10 @@
+module ClockSecond
+
+use Lib/HandRotation
+
+where {
+    CurrentTime = LocalUser->UserTime;
+    Seconds = CurrentTime->DateTimeSecond->as<float>;
+
+    SecondRotation = HandRotation(Seconds * (360.0 / 60.0));
+}
