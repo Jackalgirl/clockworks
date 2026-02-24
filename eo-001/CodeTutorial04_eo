@@ -1,0 +1,14 @@
+1. Kun la Protoflux-ilo ekipita, prenu la fendon "Sekundoj"
+2. Malfermu vian Kuntekstan Menuon kaj elektu "Malpaki"
+Noto: en Skribotabla Reĝimo, premu "2" por ekipi la Development Tool, kaj CTRL+T por malfermi la Kuntekstan Menuon
+3. Por forigi la aparatojn, interŝanĝu ilojn kaj elektu "Malselekti Ĉion" en via Kunteksta Menuo, poste interŝanĝu reen
+4. Prenu nodon "Smooth Slerp" kaj poziciigu ĝin dekstre de la nodo "Axis Angle"
+5. Eltiru konektilon el la enigo "Enigo" de la nodo "Smooth Slerp" kaj konektu ĝin al la eligo de la nodo "Axis Angle"
+Noto: en Skribotabla reĝimo, premu SHIFT+R post eltiro de konektilo por krei nodon "float Input"
+6. Eltiru konektilon el la enigo "Speed" de la nodo "Smooth Slerp" kaj duan klakon por krei kampon "float Input"
+7. Agordu la valoron de la kampo al "2"
+8. Konektu la enigon de la "Value Field Drive (FloatQ)" nodo al la eligo de la nodo "Smooth Slerp"
+9. Vi nun rimarkos, ke la sekundomontrilo ŝanĝas poziciojn pli glate
+Noto: en Skribotabla reĝimo, celu iun ajn nodon kaj premu kaj tenu CTRL+R por elekti ĉiujn nodojn
+10. Dua klako kaj tenu sur iu ajn el la nodoj por elekti ĉiujn nodojn
+11. Prenu la fendon Sekundoj, malfermu vian Kuntekstan Menuon, kaj elektu "Paki En"
