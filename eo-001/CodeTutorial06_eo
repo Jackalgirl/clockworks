@@ -1,0 +1,42 @@
+Noto: en Skribotabla reĝimo, premu "3" por ekipi la Protoflux-ilon
+1. Kun la Protoflux-ilo ekipita, prenu nodon "Host Time"
+2. Prenu nodon "Uzanto-Tempo" kaj metu ĝin dekstre de la nodo "Host Time"
+3. Eltiru konektilon el la eligo de "Host Time" kaj konektu ĝin al la enigo "Uzanto" sur la nodo "Uzanto-Tempo"
+4. Prenu nodon "Hour" kaj metu ĝin dekstre de la nodo "Uzanto-Tempo"
+5. Eltiru konektilon el la eligo de la nodo "Uzanto-Tempo" kaj konektu ĝin al la enigo "DateTime" de la nodo "Minute"
+Noto: en Skribotabla reĝimo, premu SHIFT+R post eltiro de konektilo por krei nodon "Display"
+6. Se vi eltiras nodon "Display" el la nodo "Hour" kaj estas post la 12a horo kie vi estas, vi rimarkos, ke la montrata nombro estas pli granda ol 12.
+7. Prenu nodon "Modulo (%)" kaj metu ĝin dekstre de la nodo "Hour"
+8. Konekti la eliron de la nodo "Hour" al la supra enigo de la nodo "Modulo".
+9. Eltiru la malsupran enigon de la nodo "Modulo" kaj duarange alklaku por krei nodon "int Input".
+10. Agordu la valoron de la nodo al 12.
+11. Se vi eltiras la eliron de la nodo "Modulo", vi vidos, ke vi nun konvertas la 24-horan ekranon al 12-hora ekrano.
+12. Prenu nodon "Divide (÷)" kaj metu ĝin sub la nodon "Modulo".
+13. Eltiru la supran enigon de la nodo "Divide" kaj duarange alklaku por krei nodon "float Input".
+14. Agordu la valoron al "360".
+15. Eltiru la malsupran enigon de la nodo "Divide" kaj duarange alklaku por krei alian nodon "float Input".
+16. Agordu la valoron al "12".
+17. Prenu nodon "Multiply (x)" kaj metu ĝin dekstre de la nodo "Modulo".
+18: Konekti la eliron de la nodo "Divide" al la malsupra. enigo de la nodo "Multiply" UNUE. Noto: estas TRE GRAVE konekti tiel unue, por ke la eligo de la nodo "Multipliku" estu glitpunktnombro (nombro kiu povas havi decimalojn), anstataŭ entjero (tuta nombro).
+19. Prenu nodon "Axis Angle (floatQ)" kaj metu ĝin dekstre de la nodo "Multipliku".
+20. Konektu la eligon de la nodo "Multipliku" al la enigo "Angle" de la nodo "Axis Angle".
+21. Eltiru la enigon "Axis" de la nodo "Axis Angle" kaj duale klaku por krei nodon "float3 Input".
+22. Agordu la malsupran valoron (z) al "-1".
+23. Prenu nodon "Smooth Slerp (floatQ)" kaj metu ĝin dekstre de la nodo "Axis Angle".
+24. Konektu la enigon de la nodo "Smooth Slerp" al la eligo de la nodo "Axis Angle".
+25. Eltiru la enigon "Speed" de la nodo "Smooth Slerp" kaj duale klaku por krei nodon "float Input"
+26. Agordu la valoron al "2"
+Noto: en Skribotabla reĝimo, premu "2" por ekipi la Development Tool
+27. Se vi ne havas Inspektoron kreitan, interŝanĝu ilojn por ekipi la Development Tool
+Noto: en Skribotabla reĝimo, celu la horloĝon per via lasero, duarang-klaku ĝin per CTRL+R, kaj premu CTRL+T por malfermi la Kuntekstan Menuon
+27a. Kromklaku vian horloĝon, malfermu la Kuntekstan Menuon, kaj elektu "Malfermi Inspektoron"
+27b. Interŝanĝu ilojn por ekipi la Protoflux-Ilon
+28. En la inspektoro, elektu "Hormontrilo Pivoto"
+29. Prenu la titolon "Rotation" el la eniro "Rotation" de la Hormontrilo Pivoto
+30. Malfermu la Kuntekstan Menuon kaj elektu "Direkti" por krei nodon "Value Field Drive (floatQ)"
+31. Konektu la eliron de la nodo "Smooth Slerp" al la eniro de la nodo "Value Field Drive" (floatQ). Vi nun rimarkos, ke la horindikilo de via horloĝo estas repoziciigita al angulo reprezentanta la nunan horon.
+32. En la Inspektilo, alklaku la nodon "Protoflux", poste kreu subfendon.
+33. Renomigu la subfendon al "Horoj".
+Noto: en la labortabla reĝimo, celu iun ajn nodon kaj premu kaj tenu CTRL+R por elekti ĉiujn nodojn.
+34. Duavice elektu kaj tenu iun ajn el la nodoj por elekti ĉiujn nodojn.
+35. Prenu la fendon "Horoj", malfermu la Kuntekstan Menuon, kaj elektu "Paki en".
