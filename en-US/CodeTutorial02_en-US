@@ -1,0 +1,21 @@
+1.  Grab a "Host User" node
+2.  Grab a "User Time" node and position it to the right of the "Host User" node
+3.  Pull out a connector from the output of the "Host User" node and drop it into the "User" input of the "User Time" node
+4.  Grab a "Second" node and position it to the right of the "User Time" node
+5.  Pull out a connector from the output of the "User Time" node and drop it into the "DateTime" input of the "Second" node. If the node is at an angle, click once to align it to the nearest axis (which should be the y axis, or straight up and down)
+Note: in Desktop mode, press SHIFT+R after pulling out a connector to create a "Display" node
+6.  Pull out a connect from the output of the "Second" node and secondary click to create a "Display" node, which shows the current second as an integer (int)
+7.  Grab a "Divide (÷)" node and position it below the time-related nodes
+8.  Pull out a connector from the top input and click to create a "float Input" field
+9.  Set the value of this field to 360
+10. Pull out the connector from the top input and click to create another "float Input" field
+11. Set the value of this new field to 60
+12. Grab a "Multply (x)" node and position it to the right of the "Divide" node
+13. Connect the output of the "Divide" node to the bottom input of the "Multiply" node FIRST.
+Note: it is VERY IMPORTANT to connect this way first, so that the output of the "Multiply" node will be a floating-point number (a number that can have decimal places), instead of an integer (a whole number)
+14. Connect the output of the "Second" node into the top input of the "Multiply" node
+15. Grab an "Axis Angle (floatQ)" node and position it to the right of the "Multiply" node
+16. Connect the output of the "Multiply" node into the "Angle" input of the "Axis Angle" node
+17. Pull out the "Axis" input and click to create "float 3" (x,y,z inputs that are all float numbers)
+18. Set the value of the bottom input field (z) to "-1"
+19. If you pull out the output of the "Axis Angle" node and click to create a "Display", you will see that the z-axis is changing every second, by 1/60th of a circle (360 degrees).
