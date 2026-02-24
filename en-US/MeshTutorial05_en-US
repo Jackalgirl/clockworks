@@ -1,0 +1,13 @@
+Note: if you have closed the Inspector, secondary click on the object (in Desktop mode, target the object with your laser and press CTRL+R), open your Context Menu (in Desktop mode: CTRL+T), and select "Open Inspector"
+1.  Double-click the "Hub" object
+2.  Click and drag the title bar of the "SphereMesh Collider" component with your primary hand
+3.  With your off-hand, double-click on the main "Clock" slot
+4.  Drop the title info that you are holding with your primary hand into the component area of the "Clock" slot
+5.  Select "Copy Component"
+6.  Select "Add Component"
+7.  "Transform"
+8.  "Interactions"
+9.  "Grabbable" - you can now grab the clock by the hub and carry it with you
+10. Add a child to the Clock slot
+11. Rename the new slot to "Protoflux"
+12. You are now ready to proceed to the Coding Tutorial area!
