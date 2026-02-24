@@ -1,0 +1,37 @@
+Noto: se vi fermis la Inspektoron, dua klako sur la objekto (en la labortabla reĝimo celu la objekton kaj premu CTRL+R), malfermu vian Kuntekstan Menuon (en la labortabla reĝimo: CTRL+T), kaj elektu "Malfermi Inspektoron"
+1. Reelektu la objekton "Mašaroj (Skaligu Min)"
+2. Kreu infanan objekton
+3. Renomigu la infanon al "Hormontrilo Pivoto"
+4. Renomigu al "Horloĝo"
+5. Kreu infanan objekton
+6. Renomigu la infanon al "Retoj (Skaligu min)"
+7. Malfermu la Kuntekstan Menuon kaj elektu "Krei novan"
+8. Elektu "3D-modelon"
+9. Elektu "Kuban"
+10. Kromklaku la Kubon
+11. Malfermu la Kuntekstan Menuon kaj elektu "Malfermi Inspektoron"
+12. Ŝanĝu la nomon al "Hormontrilo"
+13. Ŝanĝu la Grandecon ("Size") al ".08" (x), "0.5" (y), kaj "0.005" (z)
+14. Klaku kaj trenu la valorojn de "Size" al "UVScale" por x, y kaj z por kopii ilin
+15. Rulumu al la komponanto "Grabbable" kaj malelektu "Enabled". 
+16. Trenu la fendeton de la Hormontrilo en la fendeton de la Hormontrilo-Pivoto.
+17. Sur la fendeto de la Hormontrilo, alklaku "Position" kaj "Rotation".
+18. Agordu "Position" (y) al "0.25".
+19. Agordu "Position" (z) al "-0.015".
+20: Ŝanĝu al la Material Tool.
+21: Elektu ajnan materialon, kiun vi ŝatas, kaj alklaku la Hormontrilan maŝon por apliki ĝin.
+22: Reiru al la Development Tool.
+23: Alklaku la fendeton "Hormontrilo-Pivoto" kaj la ikonon "kopii" por duplikati ĝin.
+24: Duobla-klaku la novan fendeton "Hormontrilo-Pivoto" kaj renomu ĝin al "Minutmontrilo-Pivoto".
+25: Malfermu la fendeton kaj ŝanĝu la nomon de la nova fendeto "Hormontrilo" al "Minutmontrilo".
+26: Ŝanĝu la Grandecon ("Size") de x al "0.05".
+27: Kopiu la valoron de x de "Size" al la valoro de X sur "UVScale".
+28: Ŝanĝu la valoron de z de "Position" al "-0.02"
+29: Interŝanĝu ilojn kaj apliku la materialon laŭ via elekto al la mašaro "Minutmontrilo"
+30: Elektu la fendon "Minutmontrila Pivoto" kaj alklaku la ikonon "kopii" por duplikati ĝin
+31: Duobla-klaku la novan fendon "Minutmontrila Pivoto" kaj renomu ĝin al "Duamontrila Pivoto"
+32: Malfermu la fendon kaj ŝanĝu la nomon de la nova fendo "Minutmontrilo" al "Duamontrilo"
+33: Ŝanĝu la Grandecon ("Size") de x al "0.03"
+34: Kopiu la valoron de x de "Size" al la valoro de X sur "UVScale"
+35: Ŝanĝu la valoron de z de "Position" al "-0.025" (por ke vi ne devu ŝanĝi ĝin poste)
+36: Interŝanĝu ilojn kaj apliku la materialon laŭ via elekto al la mašaro "Duamontrilo"
