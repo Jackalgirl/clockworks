@@ -1,0 +1,24 @@
+a. (Ne montrita) Alklaku vian ilobreton por konservi vian Protoflux-ilon
+1. Se vi ne kreis vian propran horloĝon ĉe la Mesh-lernilo, vi povas preni unu el la specimenaj horloĝoj por uzi
+Noto: en Skribotabla reĝimo, premu "2" por ekipi Development tool
+2. Malfermu la Instrumentpanelon kaj elektu "Inventaro"
+3. Elektu "Resonite Essentials", poste "Tools"
+4. Duobla-klaku la Evoluigan Ilon por krei ilon
+5. Alklaku la ilon kaj elektu "Ekipi Development Tool" por ekipi ĝin
+6. Fermu vian Instrumentpanelon
+Noto: en Skribotabla reĝimo, premu CTRL+R por kromklaki
+7. Celu la sekundmontrilon sur via horloĝo kaj kromklaku
+Noto: en Skribotabla reĝimo, premu CTRL+T por malfermi la Kuntekstan Menuon
+8. Malfermu vian Kuntekstan Menuon kaj elektu "Malfermi Inspektoron"
+9. Alklaku la ikonon "objekta radiko"
+10. Duobla-klaku la fendon de la Sekundmontrilo Pivoto
+11. Prenu la titolon "Rotation" el la eniro "Rotation" de la Sekundmontrilo Pivoto
+12. Malfermu vian Kuntekstan Menuon kaj elektu "Direkti" por krei nodon "Value Field Drive (floatQ)"
+13. Poziciigu ĉi tiun nodon dekstre de la nodo "Axis Angle"
+14. Konektu la eliron de la nodo "Axis Angle" en la eniron "Rotation" de la nodo "Value Field Drive"
+15. Vi nun vidos, ke la rotacio de via sekundmontrilo ŝanĝiĝas ĉisekunde
+16. Elektu la Protoflux-fendn kaj kreu infanon
+17. Renomigu la infanon al "Sekundoj"
+Noto: en Skribotabla reĝimo, celu iun ajn nodon kaj premu kaj tenu CTRL+R por elekti ĉiujn nodojn
+18. Kromklaku kaj tenu por elekti ĉiujn Protoflux-nodojn
+19. Prenu la nomon de la fend "Seconds", malfermu vian Kuntekstan menuon, kaj elektu "Paki en"
