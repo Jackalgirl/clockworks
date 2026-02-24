@@ -1,0 +1,20 @@
+Poznámka: v režimu plochy stiskněte klávesu „3“ pro aktivaci nástroje Protoflux
+1. S aktivovaným nástrojem Protoflux uchopte slot Hodiny
+Poznámka: v režimu plochy stiskněte klávesy CTRL+T pro otevření kontextové nabídky
+2. Otevřete kontextovou nabídku a vyberte „Vybalit“
+3. Uchopte uzel Minutes a umístěte jej před uzel Hour
+4. Připojte výstup uzlu User Time ke vstupu uzlu Minute
+5. Uchopte uzel Divide (÷) a umístěte jej napravo od uzlu Minute
+Poznámka: v režimu plochy stiskněte po vytažení spojnice klávesy SHIFT+R pro vytvoření uzlu Zobrazení nebo Vstup
+6. Vytáhněte spodní vstup uzlu Minute a následným kliknutím vytvořte uzel „int Input“
+7. Nastavte hodnotu na „60“
+8. NEJPRV připojte výstup uzlu Divide ke spodnímu vstupu uzlu Multiply.
+Poznámka: Je VELMI DŮLEŽITÉ nejprve propojit tímto způsobem, aby výstup uzlu Multiply byl číslo s desetinnou čárkou (float), nikoli celé číslo (integer).
+9. Umístěte uzel Add (+) napravo od uzlu Divide.
+10. Připojte výstup uzlu Divide ke spodnímu vstupu uzlu Add.
+11. Připojte výstup uzlu Modulo k hornímu vstupu uzlu Add.
+12. V případě potřeby přemístěte uzly a poté připojte vstup uzlu Multiply k výstupu uzlu Add.
+Poznámka: v režimu plochy vyberte libovolný uzel a stiskněte a podržte CTRL+R pro výběr všech uzlů.
+13. Druhým kliknutím a podržením myši na libovolném z uzlů vyberte všechny uzly.
+14. Otevřete kontextovou nabídku a vyberte „Zabalit v místě“.
+Gratulujeme! Vaše hodiny jsou nyní hotové!
