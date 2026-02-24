@@ -1,0 +1,34 @@
+Note: if you have closed the Inspector, secondary click on the object (in Desktop mode target the object and press CTRL+R), open your Context Menu (in Desktop mode: CTRL+T), and select "Open Inspector"
+1.  Reselect the "Meshes (Scale Me)" object
+2.  Create a child object
+3.  Rename the child to "Hour Hand Pivot"
+4.  Open Context Menu and select "Create New"
+5.  Select "3D Model"
+6.  Select "Box"
+7. Secondary click on the Box
+8. Open the Context Menu and select "Open Inspector"
+9. Change the name to "Hour Hand"
+10. Change the "Size" to ".08" (x), "0.5" (y), and "0.005" (z)
+11. Click and drag the values from "Size" to "UVScale" for x, y and z to copy them
+12. Scroll to the "Grabbable" component and deselect "Enabled".
+13. Drag the "Hour Hand" slot into the "Hour Hand Pivot" slot
+14. On the "Hour Hand" slot, click "Position" and "Rotation"
+15. Set "Position" (y) to "0.25"
+16. Set "Position" (z) to "-0.015"
+17: Swap to the "Material Tool"
+18: Select any material you like and click on the "Hour Hand" mesh to apply it
+19: Swap back to the "Development Tool"
+20: Click on the "Hour Hand Pivot" slot and on the "copy" icon to duplicate it
+21: Double-click on the new "Hour Hand Pivot" slot and rename it to "Minute Hand Pivot"
+22: Open up the slot and change the name of the new "Hour Hand" slot to "Minute Hand"
+23: Change the "Size" on x to "0.05"
+24: Copy the value of x on "Size" to the value of X on "UVScale"
+25: Change the value of z on "Position" to "-0.02"
+26: Swap tools and apply the material of your choice to the "Minute Hand" mesh
+27: Select the "Minute Hand Pivot" slot and click on the "copy" icon to duplicate it
+28: Double-click on the new "Minute Hand Pivot" slot and rename it to "Second Hand Pivot"
+29: Open up the slot and change the name of the new "Minute Hand" slot to "Second Hand"
+30: Change the Size on x to "0.03"
+31: Copy the value of x on "Size" to the value of X on "UVScale"
+32: Change the value of z on "Position" to "-0.025" (so you don't have to change it later)
+33: Swap tools and apply the material of your choice to the "Second Hand" mesh
