@@ -1,4 +1,4 @@
-Noto: se vi fermis la Inspektoron, dua klako sur la objekto (en la labortabla reĝimo celu la objekton kaj premu CTRL+R), malfermu vian Kuntekstan Menuon (en la labortabla reĝimo: CTRL+T), kaj elektu "Malfermi Inspektoron"
+Noto: se vi fermis la Inspektilon, dua klako sur la objekto (en la labortabla reĝimo celu la objekton kaj premu CTRL+R), malfermu vian Kuntekstan Menuon (en la labortabla reĝimo: CTRL+T), kaj elektu "Malfermi Inspektilon"
 1. Reelektu la objekton "Mašaroj (Skaligu Min)"
 2. Kreu infanan objekton
 3. Renomigu la infanon al "Hormontrilo Pivoto"
@@ -9,7 +9,7 @@ Noto: se vi fermis la Inspektoron, dua klako sur la objekto (en la labortabla re
 8. Elektu "3D-modelon"
 9. Elektu "Kuban"
 10. Kromklaku la Kubon
-11. Malfermu la Kuntekstan Menuon kaj elektu "Malfermi Inspektoron"
+11. Malfermu la Kuntekstan Menuon kaj elektu "Malfermi Inspektilon"
 12. Ŝanĝu la nomon al "Hormontrilo"
 13. Ŝanĝu la Grandecon ("Size") al ".08" (x), "0.5" (y), kaj "0.005" (z)
 14. Klaku kaj trenu la valorojn de "Size" al "UVScale" por x, y kaj z por kopii ilin
