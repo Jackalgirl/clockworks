@@ -1,0 +1,25 @@
+a. (Non illustré) Cliquez sur votre étagère à outils pour ranger votre outil ProtoFlux.
+1. Si vous n'avez pas créé votre propre horloge à la station Tutoriel Mesh, vous pouvez utiliser l'une des horloges d'exemple.
+Remarque : en mode Bureau, appuyez sur « 2 » pour équiper un outil de développement.
+2. Ouvrez le tableau de bord et sélectionnez « Inventaire ».
+3. Sélectionnez « Resonite Essentials », puis « Tools ».
+4. Double-cliquez sur l'outil de développement pour le faire apparaître.
+5. Cliquez sur l'outil et sélectionnez « Équiper l'Outil de développement » pour l'équiper.
+6. Fermez votre tableau de bord.
+Remarque : en mode Bureau, appuyez sur CTRL+R pour effectuer un clic secondaire.
+7. Visez la trotteuse de votre horloge et effectuez un clic secondaire.
+Remarque : en mode Bureau, appuyez sur CTRL+T pour ouvrir le menu contextuel.
+8. Ouvrez le menu contextuel et sélectionnez « Ouvrir l'inspecteur ».
+9. Cliquez sur l'icône « racine de l'objet ».
+10. Changez d'outil pour équiper votre outil ProtoFlux. 
+11. Double-cliquez sur l'emplacement « Pivot de l'Aiguille des Secondes ».
+12. Sélectionnez « Rotation » dans l'entrée « Rotation » du « Pivot de l'Aiguille des Secondes ».
+13. Ouvrez le menu contextuel et sélectionnez « Pilotage » pour créer un node « Value Drive Field (floatQ) ».
+14. Positionnez ce node à droite du node « Axis Angle ».
+15. Connectez la sortie du node « Axis Angle » à l'entrée « Rotation » du node « Value Drive Field ».
+16. Vous constaterez alors que la rotation de la trotteuse change chaque seconde. 
+17. Sélectionnez l'emplacement « Protoflux » et créez un sous-élément.
+18. Renommez le sous-élément « Secondes ».
+Remarque : en mode Bureau, sélectionnez un node et maintenez les touches CTRL+R enfoncées pour sélectionner tous les nodes.
+19. Cliquez et maintenez la touche enfoncée une seconde fois pour sélectionner tous les nodes Protoflux.
+20. Sélectionnez l'emplacement « Secondes », ouvrez le menu contextuel et sélectionnez « Emballer dans ».
