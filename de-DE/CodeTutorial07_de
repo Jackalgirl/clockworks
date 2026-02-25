@@ -1,0 +1,20 @@
+Hinweis: Im Desktop-Modus drücken Sie „3“, um das Protoflux-Tool auszurüsten.
+1. Wählen Sie mit dem Protoflux-Tool den Slot „Stunden“ aus.
+Hinweis: Drücken Sie im Desktop-Modus CTRL+T, um das Kontextmenü zu öffnen.
+2. Öffnen Sie das Kontextmenü und wählen Sie „Entpacken aus“.
+3. Wählen Sie einen „Minute“-Knoten aus und platzieren Sie ihn vor dem „Stunden“-Knoten.
+4. Verbinden Sie den Ausgang des „User Time“-Knotens mit dem Eingang des „Minute“-Knotens.
+5. Wählen Sie einen „Divide (÷)“-Knoten aus und platzieren Sie ihn rechts neben dem „Minute“-Knoten.
+Hinweis: Drücken Sie im Desktop-Modus nach dem Herausziehen eines Verbindungsstücks SHIFT+R, um einen „Display“- oder „Eingabe“-Knoten zu erstellen.
+6. Ziehen Sie den unteren Eingang des „Minute“-Knotens heraus und klicken Sie mit der rechten Maustaste, um einen „int Input“-Knoten zu erstellen.
+7. Stellen Sie den Wert auf „60“ ein.
+8. Verbinden Sie zuerst den Ausgang des „Divide“-Knotens mit dem unteren Eingang des „Multiply“-Knotens.
+Hinweis: Es ist SEHR WICHTIG, diese Verbindung zuerst herzustellen, damit der Ausgang des „Multiply“-Knotens eine Gleitkommazahl (eine Zahl mit Nachkommastellen) und keine ganze Zahl ist.
+9. Nehmen Sie einen „Add (+)“-Knoten und platzieren Sie ihn rechts neben dem „Divide“-Knoten.
+10. Verbinden Sie den Ausgang des „Divide“-Knotens mit dem unteren Eingang des „Add“-Knotens.
+11. Verbinden Sie den Ausgang des „Modulo“-Knotens mit dem oberen Eingang des „Add“-Knotens.
+12. Positionieren Sie die Knoten gegebenenfalls neu und verbinden Sie dann den Eingang des „Multiply“-Knotens mit dem Ausgang des „Add“-Knotens.
+Hinweis: Im Desktop-Modus können Sie alle Knoten auswählen, indem Sie einen beliebigen Knoten anklicken und CTRL+R gedrückt halten.
+13. Klicken und halten Sie einen beliebigen Knoten, um alle Knoten auszuwählen.
+14. Öffnen Sie das Kontextmenü und wählen Sie „Hier verpacken“.
+Herzlichen Glückwunsch! Ihre Uhr ist nun fertig!
