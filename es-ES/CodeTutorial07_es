@@ -1,0 +1,20 @@
+Nota: en el modo Escritorio, presione "3" para habilitar la Herramienta Proto-Flux.
+1. Con la Herramienta Proto-Flux habilitada, seleccione la ranura "Horas".
+Nota: en el modo Escritorio, presione CTRL+T para abrir el menú contextual.
+2. Abra el menú contextual y seleccione "Desempaquetar".
+3. Seleccione un nodo "Minute" y colóquelo delante del nodo "Hour".
+4. Conecte la salida del nodo "User Time" a la entrada del nodo "Minute".
+5. Seleccione un nodo "Divide (÷)" y colóquelo a la derecha del nodo "Minute".
+Nota: en el modo Escritorio, presione SHIFT+R después de extraer un conector para crear un nodo "Display" o "Input".
+6. Extraiga la entrada inferior del nodo "Minute" y haga clic secundario para crear un nodo "int Input".
+7. Establezca el valor en "60".
+8. Conecte la salida del nodo "Divide" a la entrada inferior. PRIMERO, conecte el nodo "Multiply".
+Nota: Es MUY IMPORTANTE conectar de esta manera primero para que la salida del nodo "Multiply" sea un número de punto flotante (un número que puede tener decimales), en lugar de un entero (un número entero).
+9. Tome un nodo "Add (+)" y colóquelo a la derecha del nodo "Divide".
+10. Conecte la salida del nodo "Divide" a la entrada inferior del nodo "Add".
+11. Conecte la salida del nodo "Modulo" a la entrada superior del nodo "Add".
+12. Reubique los nodos si es necesario y luego conecte la entrada del nodo "Multiply" a la salida del nodo "Add". 
+Nota: En el modo Escritorio, seleccione cualquier nodo y mantenga presionadas las teclas CTRL+R para seleccionar todos los nodos.
+13. Haga clic secundario y mantenga presionado en cualquiera de los nodos para seleccionarlos todos.
+14. Abra el menú contextual y seleccione "Empaquetar en su lugar".
+¡Felicitaciones! ¡Su reloj está completo!
