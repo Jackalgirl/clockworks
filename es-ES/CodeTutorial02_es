@@ -1,0 +1,20 @@
+1. Seleccione un nodo "Host User"
+2. Seleccione un nodo "User Time" y colóquelo a la derecha del nodo "Host User"
+3. Extraiga un conector de la salida del nodo "Host User" y colóquelo en la entrada "User" del nodo "User Time"
+4. Seleccione un nodo "Second" y colóquelo a la derecha del nodo "User Time"
+5. Extraiga un conector de la salida del nodo "User Time" y colóquelo en la entrada "DateTime" del nodo "Second". Si el nodo está en ángulo, haga clic una vez para alinearlo con el eje más cercano (que debería ser el eje y, o vertical).
+Nota: en el modo Escritorio, presione SHIFT+R después de extraer un conector para crear un nodo "Display".
+6. Extraiga un conector de la salida del nodo "Second" y haga clic secundario para crear un nodo "Display", que muestra el segundo actual como un entero (int).
+7. Seleccione un nodo "Divide (÷)" y colóquelo debajo de los nodos relacionados con el tiempo.
+8. Extraiga un conector de la entrada superior y haga clic para crear un campo "float Input".
+9. Establezca el valor de este campo en 360.
+10. Extraiga el conector de la entrada superior y haga clic para crear otro campo "float Input".
+11. Establezca el valor de este nuevo campo en 60.
+12. Seleccione un nodo "Multiply (x)" y colóquelo a la derecha del nodo "Divide".
+13. Conecte la salida del PRIMERO, conecte el nodo "Divide" a la entrada inferior del nodo "Multiply". Nota: Es MUY IMPORTANTE conectar de esta manera primero, para que la salida del nodo "Multiply" sea un número de punto flotante (un número que puede tener decimales), en lugar de un entero (un número entero).
+14. Conecte la salida del nodo "Second" a la entrada superior del nodo "Multiply".
+15. Seleccione un nodo "Axis Angle (floatQ)" y colóquelo a la derecha del nodo "Multiply".
+16. Conecte la salida del nodo "Multiply" a la entrada "Angle" del nodo "Axis Angle".
+17. Extraiga la entrada "Axis" y haga clic para crear "float 3" (las entradas x, y, z son todos números flotantes).
+18. Establezca el valor del campo de entrada inferior (z) en "-1".
+19. Si extrae la salida del nodo "Axis Angle" y hace clic para crear una "Display", verá que el eje z está cambiando. cada segundo, 1/60 de un círculo (360 grados).
