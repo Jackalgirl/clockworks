@@ -1,0 +1,37 @@
+1. Abra el menú contextual y seleccione "Crear Nuevo".
+2. Seleccione "Objeto vacío".
+3. Haga clic en "Position".
+4. Cambie el nombre a "Reloj".
+5. Cree un objeto secundario.
+6. Cambie el nombre del secundario a "Mallas (Escalarme)".
+Nota: en el modo de escritorio, use CTRL+T para abrir el menú contextual.
+7. Abra el menú contextual y seleccione "Crear Nuevo".
+8. Seleccione "Modelo 3D".
+9. Seleccione "Esfera".
+Nota: en el modo de escritorio, apunte a un objeto con el láser y luego presione CTRL+R para hacer clic secundario.
+10. Haga clic secundario en la esfera.
+11. Abra el menú contextual y seleccione "Abrir Inspector".
+12. Cambie el nombre a "Centro".
+13. Cambie el radio a "0.05".
+14. Desplácese hasta el componente "Grabbable" y desmarque "Enabled".
+15. Haga clic en "Position" y "Rotation".
+16. Vuelva a seleccionar la ranura "Mallas (Escalarme)". Crea un elemento secundario.
+17. Cambia el nombre a "Anillo".
+18. Haz clic en "Add Component".
+19. "Assets".
+20: "Procedural Meshes".
+21: "Legacy UI".
+22: "BevilRingMesh".
+23: Cambia el valor de "Width" a "0.05".
+24: Haz clic en "Setup Renderer".
+25: Cambia el valor de "Segments" a "60".
+26: Cambia la rotación del eje x a "90".
+27: Haz clic en "Add Component".
+28: "Physics".
+29: "Colliders".
+30: "Mesh Collider".
+31: Haz clic en la Herramienta Material en la barra de herramientas para intercambiar herramientas.
+32: Selecciona un material para el "Centro" (¡el que prefieras!).
+33: Haz clic en la malla "Centro".
+34: ¡Uy! Si aplicas el material accidentalmente a otra cosa, abre el menú contextual y selecciona "Deshacer".
+35: Intercambia los materiales y aplica el material seleccionado al "Anillo".
