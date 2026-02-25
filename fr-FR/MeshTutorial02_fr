@@ -1,0 +1,37 @@
+1. Ouvrez le menu contextuel et sélectionnez « Nouvelle création ».
+2. Sélectionnez « Objet vide ».
+3. Cliquez sur « Position ».
+4. Renommez l'objet en « Horloge ».
+5. Créez un objet enfant.
+6. Renommez l'objet enfant en « Maillage (Mise à l'échelle) ».
+Remarque : en mode Bureau, utilisez Ctrl+T pour ouvrir le menu contextuel.
+7. Ouvrez le menu contextuel et sélectionnez « Nouvelle création ».
+8. Sélectionnez « Modèle 3D ».
+9. Sélectionnez « Sphère ».
+Remarque : en mode Bureau, ciblez un objet avec votre laser, puis appuyez sur Ctrl+R pour effectuer un clic secondaire.
+10. Cliquez sur la sphère.
+11. Ouvrez le menu contextuel et sélectionnez « Ouvrir l'inspecteur ».
+12. Renommez l'objet en « Centre ».
+13. Définissez le rayon sur « 0,05 ».
+14. Accédez au composant « Grabbable » et décochez « Enabled ».
+15. Cliquez sur « Position » et « Rotation ».
+16. Resélectionnez l'emplacement « Maillage (Mise à l'échelle) » et créez un Enfant
+17. Renommez l'élément en « Anneau ».
+18. Cliquez sur « Add Component ».
+19. Accédez à « Assets ».
+20. Cliquez sur « Procedural Meshes ».
+21. Cliquez sur « Legacy UI ».
+22. Cliquez sur « BevelRingMesh ».
+23. Modifiez la valeur de « Width » à « 0,05 ».
+24. Cliquez sur « Setup Renderer ».
+25. Modifiez la valeur de « Segments » à « 60 ».
+26. Modifiez la rotation de l'axe X à « 90 ».
+27. Cliquez sur « Add Component ».
+28. Cliquez sur « Physics ».
+29. Cliquez sur « Colliders ».
+30. Cliquez sur « Mesh Collider ».
+31. Cliquez sur l'éditeur de matériaux dans votre barre d'outils pour changer d'outil.
+32. Sélectionnez un matériau pour le « Centre » (celui de votre choix !).
+33. Cliquez sur le maillage du « Centre ».
+34. Oups ! Si vous appliquez accidentellement le matériau à un autre élément, ouvrez le menu contextuel et sélectionnez « Défaire ». 
+35 : Changez de matériau et appliquez le matériau choisi sur l'« Anneau ».
