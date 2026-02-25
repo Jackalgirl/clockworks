@@ -1,0 +1,21 @@
+1. Wählen Sie einen „Host User“-Knoten aus.
+2. Wählen Sie einen „User Time“-Knoten aus und positionieren Sie ihn rechts neben dem „Host User“-Knoten.
+3. Verbinden Sie den Ausgang des „Host User“-Knotens mit dem Eingang „Benutzer“ des „User Time“-Knotens.
+4. Wählen Sie einen „Sekunde“-Knoten aus und positionieren Sie ihn rechts neben dem „User Time“-Knoten.
+5. Verbinden Sie den Ausgang des „User Time“-Knotens mit dem Eingang „DateTime“ des „Sekunde“-Knotens. Wenn der Knoten schräg steht, klicken Sie einmal, um ihn an der nächstgelegenen Achse auszurichten (diese sollte die y-Achse oder senkrecht nach oben und unten verlaufen).
+Hinweis: Drücken Sie im Desktop-Modus nach dem Ziehen eines Verbindungsknotens SHIFT+R, um einen „Display“-Knoten zu erstellen.
+6. Ziehen Sie einen Verbindungsknoten vom Ausgang des „Sekunden“-Knotens und klicken Sie mit der rechten Maustaste, um einen „Display“-Knoten zu erstellen, der die aktuelle Sekunde als Ganzzahl (int) anzeigt.
+7. Ziehen Sie einen „Divide (÷)“-Knoten und positionieren Sie ihn unterhalb der zeitbezogenen Knoten.
+8. Ziehen Sie einen Verbindungsknoten vom oberen Eingang und klicken Sie, um ein „float Input“ zu erstellen.
+9. Stellen Sie den Wert dieses Felds auf 360 ein.
+10. Ziehen Sie den Verbindungsknoten vom oberen Eingang und klicken Sie, um ein weiteres „float Input“ zu erstellen.
+11. Stellen Sie den Wert dieses neuen Felds auf 60 ein.
+12. Ziehen Sie einen „Multiply (x)“-Knoten und positionieren Sie ihn rechts neben dem „Divide“-Knoten.
+13. Verbinden Sie den Ausgang des „Divide“-Knotens mit dem unteren Eingang des Zuerst den Knoten „Multiply“ ausführen.
+Hinweis: Es ist SEHR WICHTIG, diese Verbindung zuerst herzustellen, damit der Ausgang des „Multiply“-Knotens eine Gleitkommazahl (eine Zahl mit Nachkommastellen) und keine ganze Zahl ist.
+14. Verbinden Sie den Ausgang des „Sekunde“-Knotens mit dem oberen Eingang des „Multiply“-Knotens.
+15. Wählen Sie einen „Axis Angle (floatQ)“-Knoten aus und positionieren Sie ihn rechts neben dem „Multiply“-Knoten.
+16. Verbinden Sie den Ausgang des „Multiply“-Knotens mit dem „Angle“-Eingang des „Axis Angle“-Knotens.
+17. Ziehen Sie den „Axis“-Eingang heraus und klicken Sie, um „float 3“ zu erstellen (x-, y- und z-Eingänge, die alle Gleitkommazahlen sind).
+18. Setzen Sie den Wert des unteren Eingangsfelds (z) auf „-1“.
+19. Wenn Sie den Ausgang des „Axis Angle“-Knotens herausziehen und klicken, um eine „Display“ zu erstellen, sehen Sie, dass sich die z-Achse jede Sekunde ändert, 1/60 eines Kreises (360 Grad).
