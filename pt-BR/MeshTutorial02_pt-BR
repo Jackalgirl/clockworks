@@ -1,0 +1,37 @@
+1. Abra o Menu de Contexto e selecione “Criar Novo”
+2. Selecione “Objeto Vazio”
+3. Clique em “Position”
+4. Renomeie para “Relógio”
+5. Crie um objeto filho
+6. Renomeie o filho para “Malhas (Escalar)”
+Nota: no modo Desktop, use CTRL+T para abrir o Menu de Contexto
+7. Abra o Menu de Contexto e selecione “Criar Novo”
+8. Selecione “Modelo 3D”
+9. Selecione “Esfera”
+Nota: no modo Desktop, mire em um objeto com o laser e pressione CTRL+R para clicar com o botão direito do mouse
+10. Clique com o botão direito do mouse na esfera
+11. Abra o menu de contexto e selecione “Abrir Inspetor”
+12. Altere o nome para “Centro”
+13. Altere o raio para “0,05”
+14. Role até o componente “Grabbable” e desmarque “Enabled”
+15. Clique em “Posição” e “Rotação”
+16. Selecione “Malhas” (Escalar-me) slot" e crie um filho
+17. Altere o nome para “Anel”
+18. Clique em “Add Compoonent”
+19. “Assets”
+20: “Procedural Meshes”
+21: “Legacy UI”
+22: “BevelRingMesh”
+23: Altere o valor de “Width” para “0,05”
+24: Clique em “Setup Renderer”
+25: Altere o valor de “Segments” para “60”
+26: Altere a rotação do eixo x para “90”
+27: Clique em “Add Component”
+28: “Physics”
+29: “Colliders”
+30: “Mesh Collider”
+31: Clique na Material Tool na sua barra de ferramentas para trocar de ferramenta
+32: Selecione um material para o Centro (qualquer um que você goste!)
+33: Clique na malha do “Hub”
+34: Ops! Se você acidentalmente aplicar o material a outra coisa, abra seu contexto menu e selecione "Desfazer".
+35: Troque os materiais e aplique o material escolhido ao anel.
