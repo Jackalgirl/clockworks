@@ -1,0 +1,21 @@
+1. Sélectionnez un node « Host User ».
+2. Sélectionnez un node « User Time » et placez-le à droite du node « Host User ».
+3. Branchez un connecteur à la sortie du node « Host User » et connectez-le à l'entrée « Utilisateur » du node « User Time ».
+4. Sélectionnez un node « Second » et placez-le à droite du node « User Time ».
+5. Branchez un connecteur à la sortie du node « User Time » et connectez-le à l'entrée « DateTime » ​​du node « Second ». Si le node est incliné, cliquez une fois pour l'aligner sur l'axe le plus proche (qui devrait être l'axe Y, ou vertical).
+Remarque : en mode Bureau, appuyez sur SHIFT+R après avoir tiré un connecteur pour créer un node « Display ».
+6. Tirez un connecteur de la sortie du node « Second » et cliquez une Second fois pour créer un node « Display », qui affiche la Second actuelle sous forme d'entier (int).
+7. Sélectionnez un node « Divide (÷) » et placez-le sous les nodes liés au temps.
+8. Tirez un connecteur de l'entrée supérieure et cliquez pour créer un champ « float Input ».
+9. Attribuez la valeur 360 à ce champ.
+10. Tirez le connecteur de l'entrée supérieure et cliquez pour créer un autre champ « float Input ».
+11. Attribuez la valeur 60 à ce nouveau champ.
+12. Sélectionnez un node « Multiply (x) » et placez-le à droite du node « Divide ».
+13. Connectez la sortie du node « Divide » au node inférieur. entrée du node « Multiply » en premier.
+Remarque : il est TRÈS IMPORTANT de réaliser cette connexion en premier, afin que la sortie du node « Multiply » soit un nombre à virgule flottante (un nombre pouvant avoir des décimales), et non un entier.
+14. Connectez la sortie du node « Second » à l'entrée supérieure du node « Multiply ».
+15. Sélectionnez un node « Axis Angle (floatQ) » et positionnez-le à droite du node « Multiply ».
+16. Connectez la sortie du node « Multiply » à l'entrée « Angle » du node « Axis Angle ».
+17. Développez l'entrée « Axis » et cliquez pour créer « float 3 » (entrées x, y et z de type nombre à virgule flottante).
+18. Attribuez la valeur « -1 » au champ d'entrée inférieur (z).
+19. Si vous développez la sortie du node « Axis Angle » et cliquez pour créer un « Display », vous constaterez que l'axe z se déplace chaque Second. 1/60e de cercle (360 degrés).
