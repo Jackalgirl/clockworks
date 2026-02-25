@@ -1,0 +1,43 @@
+Hinweis: Im Desktop-Modus drücken Sie „3“, um das Protoflux-Tool auszurüsten.
+1. Wählen Sie mit ausgerüstetem Protoflux-Tool einen „Host User“-Knoten aus.
+2. Wählen Sie einen „User Time“-Knoten aus und platzieren Sie ihn rechts neben dem „Host User“-Knoten.
+3. Ziehen Sie einen Verbinder vom Ausgang des „Host User“-Knotens und verbinden Sie ihn mit dem „User“-Eingang des „User Time“-Knotens.
+4. Ziehen Sie einen „Hour“-Knoten und platzieren Sie ihn rechts neben dem „Benutzerzeit“-Knoten.
+5. Ziehen Sie einen Verbinder vom Ausgang des „Benutzerzeit“-Knotens und verbinden Sie ihn mit dem „Datum/Uhrzeit“-Eingang des „Minuten“-Knotens.
+Hinweis: Drücken Sie im Desktop-Modus nach dem Ziehen eines Verbinders SHIFT+R, um einen „Display“-Knoten zu erstellen.
+6. Wenn Sie einen „Display“-Knoten vom „Hour“-Knoten ziehen und es nach 12 Uhr mittags ist, wird Ihnen eine Zahl größer als 12 angezeigt.
+7. Ziehen Sie einen „Modulo (%)“-Knoten und platzieren Sie ihn rechts neben dem „Hour“-Knoten.
+8. Verbinden Sie den Ausgang des „Hour“-Knotens mit dem oberen Eingang des „Modulo“-Knotens.
+9. Ziehen Sie den unteren Eingang des „Modulo“-Knotens heraus und klicken Sie mit der rechten Maustaste, um einen „int Input“-Knoten zu erstellen.
+10. Stellen Sie den Wert des Knotens auf 12 ein.
+11. Wenn Sie den Ausgang des „Modulo“-Knotens herausziehen, sehen Sie, dass die 24-Stunden-Anzeige nun umgerechnet wird. auf eine 12-Stunden-Anzeige
+12. Ziehen Sie einen „Divide (÷)“-Knoten und platzieren Sie ihn unter dem „Modulo“-Knoten.
+13. Ziehen Sie den oberen Eingang des „Divide“-Knotens heraus und klicken Sie mit der rechten Maustaste, um einen „float Input“-Knoten zu erstellen.
+14. Stellen Sie den Wert auf „360“ ein.
+15. Ziehen Sie den unteren Eingang des „Divide“-Knotens heraus und klicken Sie mit der rechten Maustaste, um einen weiteren „float Input“-Knoten zu erstellen.
+16. Stellen Sie den Wert auf „12“ ein.
+17. Ziehen Sie einen „Multiply (x)“-Knoten heraus und platzieren Sie ihn rechts neben dem „Modulo“-Knoten.
+18. Verbinden Sie ZUERST den Ausgang des „Divide“-Knotens mit dem unteren Eingang des „Multiply“-Knotens.
+Hinweis: Es ist SEHR WICHTIG, diese Verbindung zuerst herzustellen, damit der Ausgang des „Multiply“-Knotens eine Gleitkommazahl (eine Zahl mit Dezimalstellen) und keine ganze Zahl ist.
+19. Ziehen Sie einen „Axis Angle (floatQ)“-Knoten und platzieren Sie ihn rechts neben dem „Multiply“-Knoten.
+20. Verbinden Sie den Ausgang des „Multiply“-Knotens mit dem „Angle“-Eingang des „Axis Angle“-Knotens.
+21. Ziehen Sie den „Axis“-Eingang des „Axis Angle“-Knotens heraus und erstellen Sie per Rechtsklick einen „float3 Input“-Knoten.
+22. Setzen Sie den unteren Wert (z) auf „-1“.
+23. Ziehen Sie einen „Smooth Slerp (floatQ)“-Knoten heraus und platzieren Sie ihn rechts neben dem „Axis Angle“-Knoten.
+24. Verbinden Sie den Eingang des „Smooth Slerp“-Knotens mit dem Ausgang des „Axis Angle“-Knotens.
+25. Ziehen Sie den „Speed“-Eingang den Knoten „Smooth Slerp“ mit einem Sekundärklick erstellen, um einen Knoten „float Input“ zu erstellen.
+26. Stellen Sie den Wert auf „2“ ein.
+Hinweis: Im Desktop-Modus die Taste „2“ drücken, um das Entwicklung-Tool auszurüsten.
+27. Falls kein Inspektor geöffnet ist, das Werkzeug wechseln, um das Entwicklung-Tool auszurüsten.
+Hinweis: Im Desktop-Modus die Uhr mit dem Laser anvisieren, mit CTRL+R einen Sekundärklick ausführen und CTRL+T drücken, um das Kontextmenü zu öffnen.
+27a. Mit einem Sekundärklick die Uhr anklicken, das Kontextmenü öffnen und „Inspektor öffnen“ auswählen.
+27b. Werkzeugtausch zum Protoflux-Tool
+28. Im Inspektor „Stundenzeiger-Drehpunkt“ auswählen.
+29. Den Titel „Rotation“ aus dem Eintrag „Rotation“ des „Stundenzeiger-Drehpunkts“ übernehmen.
+30. Das Kontextmenü öffnen und „Drive“ auswählen, um einen „Value Field Drive (floatQ)“-Knoten zu erstellen.
+31. Den Ausgang des „Smooth Slerp“-Knotens mit dem Eingang des „Value Field Drive (floatQ)“-Knotens verbinden. Sie werden nun feststellen, dass der Stundenzeiger Ihrer Uhr in einem Winkel positioniert ist, der die aktuelle Stunde anzeigt.
+32. Klicken Sie im Inspektor auf den Knoten „Protoflux“ und erstellen Sie einen untergeordneten Slot.
+33. Benennen Sie den untergeordneten Slot in „Stunden“ um.
+Hinweis: Im Desktop-Modus können Sie einen beliebigen Knoten auswählen und CTRL+R gedrückt halten, um alle Knoten auszuwählen.
+34. Wählen Sie anschließend einen beliebigen Knoten erneut aus und halten Sie die Maustaste gedrückt, um alle Knoten auszuwählen.
+35. Ziehen Sie den Slot „Stunden“, öffnen Sie das Kontextmenü und wählen Sie „Packen in“.
