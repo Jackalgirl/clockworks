@@ -1,0 +1,14 @@
+1. Con la Herramienta Proto-Flux equipada, selecciona la ranura "Segundos".
+2. Abre el menú contextual y selecciona "Descomprimir".
+Nota: en el modo de escritorio, pulsa "2" para equipar la Herramienta de Desarrollo y Ctrl+T para abrir el menú contextual.
+3. Para eliminar los dispositivos, intercambia las herramientas y selecciona "Deseleccionar Todo" en el menú contextual; luego, vuelve a intercambiarlas.
+4. Selecciona un nodo "Smooth Slerp" y colócalo a la derecha del nodo "Axis Angle".
+5. Extrae un conector de la entrada "Input" del nodo "Smooth Slerp" y conéctalo a la salida del nodo "Axis Angle".
+Nota: en el modo de escritorio, pulsa SHIFT+R después de extraer un conector para crear un nodo "float Input".
+6. Extrae un conector de la entrada "Velocidad" del nodo "Smooth Slerp" y haz clic secundario para crear un campo "float Input".
+7. Establece el valor del campo en "2".
+8. Conecte la entrada del nodo "Value Field Drive (FloatQ)" a la salida del nodo "Smooth Slerp".
+9. Ahora notará que el segundero cambia de posición de forma más suave.
+Nota: en el modo Escritorio, seleccione cualquier nodo y mantenga presionadas las teclas CTRL+R para seleccionar todos los nodos.
+10. Haga clic secundario y mantenga presionado en cualquiera de los nodos para seleccionarlos todos.
+11. Seleccione la ranura "Segundos", abra el menú contextual y seleccione "Empaquetar en".
