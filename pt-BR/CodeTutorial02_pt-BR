@@ -1,0 +1,21 @@
+1. Selecione um nó "Host User"
+2. Selecione um nó "User Time" e posicione-o à direita do nó "Host User"
+3. Conecte um conector da saída do nó "Host User" à entrada "User" do nó "User Time"
+4. Selecione um nó "Second" e posicione-o à direita do nó "User Time"
+5. Conecte um conector da saída do nó "User Time" à entrada "DateTime" do nó "Second". Se o nó estiver em um ângulo, clique uma vez para alinhá-lo ao eixo mais próximo (que deve ser o eixo y, ou seja, na vertical).
+Nota: no modo Desktop, pressione SHIFT+R após puxar um conector para criar um nó "Display".
+6. Puxe um conector da saída do nó "Second" e clique novamente para criar um nó "Display", que mostra o segundo atual como um número inteiro (int).
+7. Pegue um nó "Divide (÷)" e posicione-o abaixo dos nós relacionados ao tempo.
+8. Puxe um conector da entrada superior e clique para criar um campo "float Input".
+9. Defina o valor deste campo para 360.
+10. Puxe o conector da entrada superior e clique para criar outro campo "float Input".
+11. Defina o valor deste novo campo para 60.
+12. Pegue um nó "Multiply (x)" e posicione-o à direita do nó "Divide".
+13. Conecte a saída do nó "Divide" à entrada inferior do Primeiro, aplique o nó "Multiply".
+Nota: É MUITO IMPORTANTE conectar desta forma primeiro, para que a saída do nó "Multiply" seja um número de ponto flutuante (um número que pode ter casas decimais), em vez de um inteiro (um número inteiro).
+14. Conecte a saída do nó "Second" à entrada superior do nó "Multiply".
+15. Pegue um nó "Axis Angle (floatQ)" e posicione-o à direita do nó "Multiply".
+16. Conecte a saída do nó "Multiply" à entrada "Angle" do nó "Axis Angle".
+17. Extraia a entrada "Angle" e clique para criar "float 3" (entradas x, y, z que são todas números de ponto flutuante).
+18. Defina o valor do campo de entrada inferior (z) para "-1".
+19. Se você extrair a saída do nó "Axis Angle" e clicar para criar um "Display", verá que o eixo z está mudando a cada segundo, em incrementos de 1/60. de um círculo (360 graus).
