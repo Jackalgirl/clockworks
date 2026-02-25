@@ -1,0 +1,34 @@
+Hinweis: Falls Sie den Inspektor geschlossen haben, klicken Sie mit der rechten Maustaste auf das Objekt (im Desktop-Modus: Objekt anvisieren und CTRL+R drücken), öffnen Sie das Kontextmenü (im Desktop-Modus: CTRL+T) und wählen Sie „Inspektor öffnen“.
+1. Wählen Sie das Objekt „Netze (Skalieren)“ erneut aus.
+2. Erstellen Sie ein untergeordnetes Objekt.
+3. Benennen Sie das untergeordnete Objekt in „Stundenzeiger-Drehpunkt“ um.
+4. Öffnen Sie das Kontextmenü und wählen Sie „Neu“.
+5. Wählen Sie „3D-Modell“.
+6. Wählen Sie „Quader“.
+7. Klicken Sie mit der rechten Maustaste auf den Quader.
+8. Öffnen Sie das Kontextmenü und wählen Sie „Inspektor öffnen“.
+9. Ändern Sie den Namen in „Stundenzeiger“.
+10. Ändern Sie die „Size“ auf „0,08“ (x), „0,5“ (y) und „0,005“ (z).
+11. Ziehen Sie die Werte von „Size“ auf „UVScale“ für x, y und z, um sie zu kopieren.
+12. Scrollen Sie zur Komponente „Grabbable“ und deaktivieren Sie sie. "Enabled".
+13. Ziehen Sie den Slot „Stundenzeiger“ in den Slot „Stundenzeiger-Drehpunkt“.
+14. Klicken Sie im Slot „Stundenzeiger“ auf „Position“ und „Rotation“.
+15. Stellen Sie die „Position“ (y) auf „0,25“ ein.
+16. Stellen Sie die „Position“ (z) auf „-0,015“ ein.
+17. Wechseln Sie zum Material-Tool.
+18. Wählen Sie ein beliebiges Material aus und klicken Sie auf das Mesh „Stundenzeiger“, um es anzuwenden.
+19. Wechseln Sie zurück zum Entwickler-Tool.
+20. Klicken Sie auf den Slot „Stundenzeiger-Drehpunkt“ und anschließend auf das Kopiersymbol, um ihn zu duplizieren.
+21. Doppelklicken Sie auf den neuen Slot „Stundenzeiger-Drehpunkt“ und benennen Sie ihn in „Minutenzeiger-Drehpunkt“ um.
+22. Öffnen Sie den Slot und benennen Sie den neuen Slot „Stundenzeiger“ in „Minutenzeiger“ um.
+23. Ändern Sie die „Size“ auf x auf „0,05“.
+24. Kopieren Sie den Wert von x bei „Size“ auf den X-Wert von „UVScale“.
+26: Ändern Sie den Wert von „Z“ bei „Position“ auf „-0,02“.
+27: Wechseln Sie das Werkzeug und wenden Sie das gewünschte Material auf das „Minutenzeiger“-Mesh an.
+28: Wählen Sie den Slot „Minutenzeiger-Drehpunkt“ aus und klicken Sie auf das Kopiersymbol, um ihn zu duplizieren.
+29: Doppelklicken Sie auf den neuen Slot „Minutenzeiger-Drehpunkt“ und benennen Sie ihn in „Sekundenzeiger-Drehpunkt“ um.
+20: Öffnen Sie den Slot und benennen Sie den neuen Slot „Minutenzeiger“ in „Sekundenzeiger“ um.
+31: Ändern Sie die Size bei „X“ auf „0,03“.
+32: Kopieren Sie den Wert von „X“ bei „Size“ auf den X-Wert von „UV-Skalierung“.
+33: Ändern Sie den Wert von „Z“ bei „Position“ auf „-0,025“ (damit Sie ihn später nicht mehr ändern müssen).
+34: Wechseln Sie das Werkzeug und wenden Sie das gewünschte Material auf das „Sekundenzeiger“-Mesh an.
