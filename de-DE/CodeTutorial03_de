@@ -1,0 +1,25 @@
+a. (Nicht demonstriert) Klicken Sie auf Ihr Werkzeugregal, um Ihr Protoflux-Tool zu speichern.
+1. Falls Sie an der Mesh-Tutorial-Station keine eigene Uhr erstellt haben, können Sie eine der Beispieluhren verwenden.
+Hinweis: Drücken Sie im Desktop-Modus die Taste „2“, um ein Entwicklung-Tool auszurüsten.
+2. Öffnen Sie das Dashboard und wählen Sie „Inventar“.
+3. Wählen Sie „Resonite Essentials“ und anschließend „Tools“.
+4. Doppelklicken Sie auf das Entwicklungs-Tool, um es zu erzeugen.
+5. Klicken Sie auf das Werkzeug und wählen Sie „Entwicklung-Tool ausrüsten“, um es auszurüsten.
+6. Schließen Sie Ihr Dashboard.
+Hinweis: Drücken Sie im Desktop-Modus SHIFT+R für einen Sekundärklick.
+7. Zielen Sie auf den Sekundenzeiger Ihrer Uhr und klicken Sie mit der Sekundärtaste.
+Hinweis: Drücken Sie im Desktop-Modus Strg+T, um das Kontextmenü zu öffnen.
+8. Öffnen Sie das Kontextmenü und wählen Sie „Inspektor öffnen“.
+9. Klicken Sie auf das Symbol „Objektstamm“.
+10. Tauschen Sie die Werkzeuge, um Ihr Protoflux-Tool auszurüsten.
+11. Doppelklicken Sie auf den Slot „Sekundenzeiger-Drehpunkt“.
+12. Übernehmen Sie den Titel „Rotation“ aus dem Eintrag „Rotation“ des „Sekundenzeiger-Drehpunkts“.
+13. Öffnen Sie das Kontextmenü und wählen Sie „Drive“, um einen Value Field Drive (floatQ)“-Knoten zu erstellen.
+14. Positionieren Sie diesen Knoten rechts neben dem Knoten „Axis Angle“.
+15. Verbinden Sie den Ausgang des Knotens „Axis Angle“ mit dem Eingang „Rotation“ des Knotens Value Field Drive“.
+16. Sie werden nun sehen, dass sich die Drehung Ihres Sekundenzeigers jede Sekunde ändert.
+17. Wählen Sie den Slot „Protoflux“ aus und erstellen Sie ein untergeordnetes Element.
+18. Benennen Sie das untergeordnete Element in „Sekunden“ um.
+Hinweis: Im Desktop-Modus können Sie einen beliebigen Knoten auswählen und SHIFT+R gedrückt halten, um alle Knoten auszuwählen.
+19. Klicken und halten Sie die Maustaste gedrückt, um alle Protoflux-Knoten auszuwählen.
+20. Kopieren Sie den Namen des Slots „Sekunden“, öffnen Sie das Kontextmenü und wählen Sie „Verpacken nach“.
