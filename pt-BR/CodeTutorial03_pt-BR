@@ -1,0 +1,25 @@
+a. (Não demonstrado) Clique na sua prateleira de ferramentas para guardar sua Protoflux Tool.
+1. Se você não criou seu próprio relógio na estação Tutorial de Malha, você pode pegar um dos relógios de exemplo para usar.
+Nota: no modo Desktop, pressione "2" para equipar uma Development Tool.
+2. Abra o Painel e selecione "Inventário".
+3. Selecione "Resonite Essentials" e depois "Tools".
+4. Clique duas vezes na Development Tool para gerar uma ferramenta.
+5. Clique na ferramenta e selecione "Equipar Development Tool" para equipá-la.
+6. Feche o Painel.
+Nota: no modo Desktop, pressione CTRL+R para clicar com o botão direito do mouse.
+7. Selecione o ponteiro dos segundos do seu relógio e clique com o botão direito do mouse.
+Nota: no modo Desktop, pressione CTRL+T para abrir o Menu de Contexto.
+8. Abra o Menu de Contexto e selecione "Abrir Inspetor".
+9. Clique no ícone "raiz do objeto".
+10. Troque de ferramenta para equipar sua Protoflux Tool.
+11. Clique duas vezes no slot "Ponteiro do Segundo"
+12. Copie o título "Rotation" da entrada "Rotation" do "Ponteiro do Segundo"
+13. Abra o Menu de Contexto e selecione "Drive" para criar um nó "Value Field Drive (floatQ)"
+14. Posicione este nó à direita do nó "Axis Angle"
+15. Conecte a saída do nó "Axis Angle" à entrada "Rotação" do nó "Value Field Drive"
+16. Agora você verá que a rotação do ponteiro dos segundos está mudando a cada segundo.
+17. Selecione o slot "Protoflux" e crie um filho.
+18. Renomeie o filho para "Segundos".
+Nota: no modo Desktop, selecione qualquer nó e pressione e segure CTRL+R para selecionar todos os nós.
+19. Clique e segure novamente para selecionar todos os nós Protoflux.
+20. Copie o nome do slot "Segundos", abra o menu de contexto e selecione "Compactar em".
