@@ -1,0 +1,43 @@
+Remarque : si vous avez fermé l’Inspecteur, cliquez avec le bouton droit sur l’objet (en mode Bureau, sélectionnez l’objet et appuyez sur Ctrl+R), ouvrez le menu contextuel (en mode Bureau : Ctrl+T) et sélectionnez « Ouvrir l’inspecteur ».
+1. Resélectionnez l’objet « Maillages (Mise à l’échelle) ».
+2. Créez un objet enfant.
+3. Renommez l’objet enfant « Nombres ».
+4. Cliquez sur l’icône « copier » pour le dupliquer.
+5. Sélectionnez le nouvel emplacement « Nombres » et renommez-le « Pivot des Nombres ».
+6. Ouvrez le menu contextuel et sélectionnez «  Nouvelle création ».
+7. Sélectionnez « Texte ».
+8. Sélectionnez « Contour ».
+9. Cliquez sur l’icône en forme de crayon et remplacez le texte par « 12 ».
+10. Sélectionnez l’objet avec le bouton droit, ouvrez le menu contextuel et sélectionnez « Ouvrir l’inspecteur ».
+11. Remplacez le nom par « 12 ».
+12. Faites défiler jusqu’au composant « Grabbable » et désélectionnez « Enabled ».
+13. Faites glisser l’emplacement 12 dans… Emplacement « Maillages (Mise à l'échelle) »
+14. Sélectionnez l'emplacement 12 et cliquez sur « Position » puis « Rotation ».
+15. Définissez la position (y) sur « 0,6 ».
+16. Cliquez sur l'icône « copier » pour dupliquer l'emplacement 12.
+17. Modifiez la valeur de « Text » sur « 1 ».
+18. Renommez l'emplacement « 1 ».
+19. Faites glisser l'emplacement « 1 » dans l'emplacement « Pivot des Nombres ».
+20. Sélectionnez l'emplacement « Pivot des Nombres » et modifiez sa rotation sur l'axe z à « -30 ». Ne confondez pas le champ de position avec le champ de rotation (mais si vous le faites, vous pouvez annuler l'opération).
+21 : Ouvrez l'emplacement « Pivot des Nombres » et faites glisser l'emplacement « 1 » dans l'emplacement « Nombres ».
+22 : Réinitialisez la rotation dans l'emplacement « Pivot des Nombres ».
+23 : Répétez les étapes 15 à 21 pour créer et faire pivoter « 2 ».
+24 : Procédez de la même manière pour 3, mais avant de le déplacer hors de « Pivot des Nombres », sélectionnez « 3 » et modifiez sa rotation sur Z à « 90 ».
+25 : Déplacez ensuite « 3 » dans l'emplacement « Nombres » et réinitialisez la rotation du « Pivot des Nombres ».
+26 : Suivez la même procédure pour créer et faire pivoter « 4 » et « 5 », mais au lieu de les faire pivoter sur l'axe Z à « 90 » comme vous l'avez fait pour « 3 », faites-les pivoter de 180°.
+27 : N'oubliez pas de déplacer vos « Nombres » terminés dans l'emplacement « Nombres » et de réinitialiser la rotation du l'emplacement « Pivot des Nombres ».
+28 : Faites glisser « 12 » dans l’emplacement « Nombres ».
+29 : Double-cliquez sur l’emplacement « Nombres » et cliquez sur l’icône « Copier » pour le dupliquer.
+30 : Faites glisser le nouvel emplacement « Nombres » dans l’emplacement « Pivot des Nombres ».
+31 : Définissez la rotation sur l’axe Z de l’emplacement « Pivot des Nombres » à 180°.
+32 : Ouvrez les emplacements « Pivot des Nombres » et « Nombres » pour sélectionner le nouvel emplacement « 12 ».
+33 : Modifiez la rotation sur l’axe Z de l’emplacement « 12 » à 180°.
+34 : Renommez l’emplacement « 6 » et modifiez son texte pour qu’il affiche également « 6 ».
+35 : Faites glisser l’emplacement « 6 » ainsi modifié dans l’emplacement « Nombres ».
+36 : Répétez cette opération pour modifier les nombres dupliqués. Définissez les rotations Z des « Nombres » en ajoutant 180 à leurs valeurs actuelles, comme suit :
+- 7 : « -210 »
+- 8 : « -240 »
+- 9 : « 0 »
+- 10 : « 240 »
+- 11 : « 210 »
+37 : Une fois que vous avez glissé « 11 » dans l’emplacement « Nombres », utilisez l’icône « recycler » pour supprimer l’emplacement « Pivot des Nombres ».
