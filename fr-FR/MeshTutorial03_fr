@@ -1,0 +1,35 @@
+Remarque : si vous avez fermé l’Inspecteur, cliquez avec le bouton droit sur l’objet (en mode Bureau, sélectionnez l’objet et appuyez sur Ctrl+R), ouvrez le menu contextuel (en mode Bureau : Ctrl+T) et sélectionnez « Ouvrir l’inspecteur ».
+1. Resélectionnez l’objet « Maillages (Mise à l’échelle) ».
+2. Créez un objet enfant.
+3. Renommez l’enfant « Pivot de l’Aiguille des Heures ».
+4. Ouvrez le menu contextuel et sélectionnez « Nouvelle création ».
+5. Sélectionnez « Modèle 3D ».
+6. Sélectionnez « Boîte ».
+7. Cliquez avec le bouton droit sur la boîte.
+8. Ouvrez le menu contextuel et sélectionnez « Ouvrir l’inspecteur ».
+9. Renommez l’objet « Aiguille des Heures ».
+10. Modifiez la « Size » à « 0,08 » (x), « 0,5 » (y) et « 0,005 » (z).
+11. Cliquez et faites glisser les valeurs de « Size » vers « Scale UV » pour x, y et z afin de les copier.
+12. Faites défiler jusqu’au composant « Grabbable » et désélectionnez « Enabled ». 
+13. Faites glisser l'emplacement « Aiguille des Heures » dans l'emplacement « Pivot de l'Aiguille des Heures ».
+14. Dans l'emplacement « Aiguille des Heures », cliquez sur « Position » puis sur « Rotation ».
+15. Définissez la « Position » (y) sur « 0,25 ».
+16. Définissez la « Position » (z) sur « -0,015 ».
+17. Passez à éditeur de matériaux.
+18. Sélectionnez le matériau de votre choix et cliquez sur le maillage de l'« Aiguille des Heures » pour l'appliquer.
+19. Revenez à l'Outil de développement.
+20. Cliquez sur l'emplacement « Pivot de l'Aiguille des Heures », puis sur l'icône « copier » pour le dupliquer.
+21. Double-cliquez sur le nouvel emplacement « Pivot de l'Aiguille des Heures » et renommez-le « Pivot de l'Aiguille des Minutes ».
+22. Ouvrez l'emplacement et renommez le nouvel emplacement « Aiguille des Heures » en « Aiguille des Minutes ».
+23. Définissez la « Size » (x) sur « 0,05 ».
+24. Copiez la valeur. 
+25 : Modifiez la valeur de x dans « Size » à la valeur de X dans « UVScale ».
+26 : Modifiez la valeur de z dans « Position » à « -0,02 ».
+27 : Changez d’outil et appliquez le matériau de votre choix au maillage « Aiguille des Minutes ».
+28 : Sélectionnez l’emplacement « Pivot de l'Aiguille des Minutes » et cliquez sur l’icône « copier » pour le dupliquer.
+29 : Double-cliquez sur le nouvel emplacement « Pivot de l'Aiguille des Minutes » et renommez-le « Pivot de l'Aiguille des Secondes ».
+30 : Ouvrez l’emplacement et renommez le nouvel emplacement « Aiguille des Minutes » en « Aiguille des Secondes ».
+31 : Modifiez la valeur de x dans « Size » à « 0,03 ».
+32 : Copiez la valeur de x dans « Size » et appliquez-la à la valeur de X dans « UVScale ».
+33 : Modifiez la valeur de z dans « Position » à « -0,025 » (pour ne plus avoir à la modifier ultérieurement).
+34 : Changez d’outil et appliquez le matériau de votre choix au maillage « Aiguille des Secondes ». 
