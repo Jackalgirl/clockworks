@@ -1,0 +1,42 @@
+Nota: en el modo Escritorio, pulsa "3" para equipar la Herramienta Proto-Flux.
+1. Con la Herramienta Proto-Flux equipada, selecciona un nodo "Host User".
+2. Selecciona un nodo "User Time" y colócalo a la derecha del nodo "Host User".
+3. Extrae un conector de la salida de "Host User" y conéctalo a la entrada "User" del nodo "User Time".
+4. Selecciona un nodo "Hour" y colócalo a la derecha del nodo "User Time".
+5. Extrae un conector de la salida del nodo "User Time" y conéctalo a la entrada "DateTime" del nodo "Minute".
+Nota: en el modo Escritorio, pulsa SHIFT+R después de extraer un conector para crear un nodo "Display".
+6. Si extraes un nodo "Display" del nodo "Hour" y son más de las 12 p. m. donde te encuentras, notarás que el número mostrado es mayor que 12.
+7. Seleccione un nodo "Modulo (%)" y colóquelo a la derecha del nodo "Hour".
+8. Conecte la salida del nodo "Hour" a la entrada superior del nodo "Modulo".
+9. Extraiga la entrada inferior del nodo "Modulo" y haga clic secundario para crear un nodo "Entrada int".
+10. Establezca el valor del nodo en 12.
+11. Si extrae la salida del nodo "Modulo", verá que está convirtiendo el formato de 24 horas a 12 horas.
+12. Seleccione un nodo "Divide (÷)" y colóquelo debajo del nodo "Modulo".
+13. Extraiga la entrada superior del nodo "Divide" y haga clic secundario para crear un nodo "float Input".
+14. Establezca el valor en "360".
+15. Extraiga la entrada inferior del nodo "Divide" y haga clic secundario para crear otro nodo "float Input". Nodo
+16. Establezca el valor en "12".
+17. Seleccione un nodo "Multiply (x)" y colóquelo a la derecha del nodo "Modulo".
+18: Conecte PRIMERO la salida del nodo "Dividir" a la entrada inferior del nodo "Multiply". Nota: Es MUY IMPORTANTE conectar de esta manera primero, para que la salida del nodo "Multiply" sea un número de punto flotante (un número que puede tener decimales), en lugar de un entero (un número entero).
+19. Tome un nodo "Axis Angle (floatQ)" y colóquelo a la derecha del nodo "Multiply".
+20. Conecte la salida del nodo "Multiply" a la entrada "Angle" del nodo "Axis Angle".
+21. Extraiga la entrada "Axis" del nodo "Axis Angle" y haga clic secundario para crear un nodo "float3 Input".
+22. Establezca el valor inferior (z) en "-1".
+23. Tome un nodo "Smooth Slerp (floatQ)" y colóquelo a la derecha del nodo "Axis Angle".
+24. Conecte la entrada del nodo "Smooth Slerp" a la salida del nodo "Axis Angle". Nodo
+25. Extrae la entrada "Speed" del nodo "Smooth Slerp" y haz clic secundario para crear un nodo "float Input".
+26. Establece el valor en "2".
+Nota: en el modo Escritorio, pulsa "2" para equipar la Herramienta de Desarrollo.
+27. Si no tienes un Inspector, cambia de herramienta para equipar la Herramienta de Desarrollo.
+Nota: en el modo Escritorio, apunta al reloj con tu láser, haz clic secundario con CTRL+R y pulsa CTRL+T para abrir el menú contextual.
+27a. Haz clic secundario en el reloj, abre el menú contextual y selecciona "Abrir Inspector".
+27b. Intercambiar herramientas para equipar la Herramienta Proto-Flux.
+28. En el inspector, seleccione "Pivote de la Manecilla de la Hora".
+29. Seleccione el título "Rotación" en la entrada "Rotación" del "Pivote de la Manecilla de la Hora".
+30. Abra el menú contextual y seleccione "Controlar" para crear un nodo "Value Drive Field (floatQ)".
+31. Conecte la salida del nodo "Smooth Slerp" a la entrada del nodo "Value Drive Field" (floatQ). Ahora notará que la manecilla de la hora de su reloj se ha reposicionado a un ángulo que representa la hora actual.
+32. En el Inspector, haga clic en el nodo "Protoflux" y luego cree una ranura secundaria.
+33. Cambie el nombre de la ranura secundaria a "Horas".
+Nota: en el modo Escritorio, seleccione cualquier nodo y mantenga presionadas las teclas CTRL+R para seleccionar todos los nodos.
+34. Mantenga presionada la tecla de selección secundaria en cualquiera de los nodos para seleccionarlos todos.
+35. Seleccione la ranura "Horas", abra el menú contextual y seleccione "Empaquetar en".
