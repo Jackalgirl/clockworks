@@ -1,0 +1,43 @@
+Nota: Si ha cerrado el Inspector, haga clic secundario en el objeto (en modo Escritorio, apunte al objeto con el láser y presione CTRL+R), abra el Menú contextual (en modo Escritorio: CTRL+T) y seleccione "Abrir Inspector".
+1. Vuelva a seleccionar el objeto "Mallas (Escalar)".
+2. Cree un objeto secundario.
+3. Cambie el nombre del secundario a "Números".
+4. Haga clic en el icono "copiar" para duplicarlo.
+5. Seleccione la nueva ranura "Números" y cámbiele el nombre a "Pivote de Números".
+6. Abra el Menú contextual y seleccione "Crear Nuevo".
+7. Seleccione "Texto".
+8. Seleccione "Contorno".
+9. Haga clic en el icono del lápiz y cambie el texto a "12".
+10. Seleccione el objeto con el botón secundario, abra el Menú contextual y seleccione "Abrir Inspector".
+11. Cambie el nombre a "12".
+12. Desplácese hasta el componente "Grabbable" y desmarque "Enabled".
+13. Arrastre el 12. Inserte la ranura en la ranura "Mallas (Escalarme)".
+14. Seleccione la ranura 12 y haga clic en "Position" y "Rotation".
+15. Establezca la posición (y) en "0.6".
+16. Haga clic en el icono "copiar" para duplicar la ranura 12.
+17. Cambie el valor de "Text" a "1".
+18. Cambie el nombre de la ranura a "1".
+19. Arrastre la ranura 1 a la ranura "Pivote de números".
+20. Seleccione la ranura "Pivote de números" y cambie su rotación en z a "-30". No confundas el campo de posición con el de rotación (aunque si lo haces, puedes deshacerlo).
+21: Abre la ranura "Números Pivot" y arrastra la ranura 1 a la ranura "Números".
+22: Restablece la rotación en la ranura "Números Pivot".
+23: Repite los pasos 15-21 para crear y rotar "2".
+24: Haz lo mismo con "3", pero antes de sacarlo de la ranura "Números Pivot", selecciona "3" y cambia su rotación en Z a "90".
+25: Luego, mueve "3" a la ranura "Números" y restablece su rotación.
+26: Sigue el mismo proceso para crear y rotar "4" y "5", pero en lugar de rotarlos en Z a "90" como hiciste con "3", rótalos 180.
+27: No olvides mover tus "Números" terminados a la ranura "Números" y restablecerla. Rotación de la ranura "Números Pivote"
+28: Arrastre "12" a la ranura "Números"
+29: Haga doble clic en la ranura "Números" y haga clic en el icono "copiar" para duplicarla
+30: Arrastre la nueva ranura "Números" a la ranura "Números Pivote"
+31: Ajuste la rotación en z de la ranura "Números Pivote" a 180°
+32: Abra las ranuras "Números Pivote" y "Números" para seleccionar la nueva ranura "12"
+33: Cambie la rotación en z de la ranura "12" a 180°
+34: Cambie el nombre de la ranura a "6" y modifique su texto para que también diga "6"
+35: Arrastre la ranura "6" terminada a la ranura "Números"
+36: Repita este proceso para cambiar los números duplicados. Establezca las rotaciones z para los "Números" sumando 180 a sus valores actuales, como se indica a continuación:
+- 7: "-210"
+- 8: "-240"
+- 9: "0"
+- 10: "240"
+- 11: "210"
+37: Una vez que haya arrastrado "11" a la ranura "Números", utilice el icono de reciclaje para eliminar la ranura "Pivote de números".
