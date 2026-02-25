@@ -1,0 +1,36 @@
+Hinweis: Im Desktop-Modus drücken Sie „3“, um das Protoflux-Tool auszurüsten.
+1. Wählen Sie mit ausgerüstetem Protoflux-Tool einen „Host User“-Knoten aus.
+2. Wählen Sie einen „User Time“-Knoten aus und platzieren Sie ihn rechts neben dem „Host User“-Knoten.
+3. Ziehen Sie einen Verbinder vom Ausgang des „Host User“-Knotens und verbinden Sie ihn mit dem „User“-Eingang des „User Time“-Knotens.
+4. Wählen Sie einen „Minute“-Knoten aus und platzieren Sie ihn rechts neben dem „User Time“-Knoten.
+5. Ziehen Sie einen Verbinder vom Ausgang des „User Time“-Knotens aus und verbinden Sie ihn mit dem „DateTime“-Eingang des „Minute“-Knotens.
+6. Wählen Sie einen „Divide (÷)“-Knoten aus und platzieren Sie ihn unter den Zeitknoten.
+7. Ziehen Sie den oberen Eingang heraus und klicken Sie mit der rechten Maustaste, um einen „float Input“-Knoten zu erstellen.
+8. Wiederholen Sie dies für den unteren Eingang.
+9. Stellen Sie den Wert des oberen Eingangs auf „360“ und den Wert des unteren Eingangs auf „60“ ein.
+10. Wählen Sie einen „Multiply (x)“-Knoten aus und platzieren Sie ihn auf dem Rechts vom Knoten „Divide“
+11. Verbinden Sie ZUERST den Ausgang des Knotens „Divide“ mit dem unteren Eingang des Knotens „Multiply“.
+Hinweis: Es ist SEHR WICHTIG, diese Verbindung zuerst herzustellen, damit der Ausgang des „Multiply“-Knotens eine Gleitkommazahl (eine Zahl mit Dezimalstellen) und keine ganze Zahl ist.
+12. Ziehen Sie einen „Axis Angle (floatQ)“-Knoten und platzieren Sie ihn rechts neben dem „Multiply“-Knoten.
+13. Verbinden Sie den Ausgang des „Multiply“-Knotens mit dem „Angle“-Eingang des „Axis Angle“-Knotens.
+Hinweis: Drücken Sie im Desktop-Modus nach dem Herausziehen eines Verbindungsstücks SHIFT+R, um einen „float3-Eingang“-Knoten zu erstellen.
+14. Ziehen Sie den „Axis“-Eingang des „Axis Angle“-Knotens heraus und klicken Sie mit der rechten Maustaste, um einen „float3 Input“-Knoten zu erstellen.
+15. Stellen Sie den unteren Wert (z) auf „-1“ ein.
+16. Ziehen Sie einen „Smooth Slerp (floatQ)“-Knoten und platzieren Sie ihn rechts neben dem „Axis Angle“-Knoten.
+17. Verbinden Sie den Eingang des „Smooth Slerp (floatQ)“-Knotens mit dem „Axis Angle“-Knoten. Verbinden Sie den „Slerp“-Knoten mit dem Ausgang des „Axis Angle“-Knotens.
+18. Ziehen Sie den „Speed“-Eingang des „Smooth Slerp“-Knotens heraus und erstellen Sie per Sekundärklick einen „float Input“-Knoten.
+19. Stellen Sie den Wert auf „2“.
+Hinweis: Drücken Sie im Desktop-Modus „2“, um das Entwicklung-Tool auszurüsten.
+20. Falls kein Inspektor geöffnet ist, wechseln Sie das Werkzeug, um das Entwicklung-Tool auszurüsten.
+Hinweis: Im Desktop-Modus zielen Sie mit dem Laser auf den Minutenzeiger, klicken Sie mit CTRL+R darauf und drücken Sie CTRL+T, um das Kontextmenü zu öffnen.
+20a. Wählen Sie Ihre Uhr mit der Sekundärtaste aus, öffnen Sie das Kontextmenü und wählen Sie „Inspektor öffnen“.
+20b. Werkzeugtausch zum Protoflux-Tool
+21. Im Inspektor „Minutenzeiger-Drehpunkt“ auswählen.
+22. Den Titel „Rotation“ aus dem Eintrag „Rotation“ des „Minutenzeiger-Drehpunkts“ übernehmen.
+23. Das Kontextmenü öffnen und „Drive“ auswählen, um einen „Value Field Drive (floatQ)“-Knoten zu erstellen.
+24. Den Ausgang des „Smooth Slerp“-Knotens mit dem Eingang des „Value Field Drive (floatQ)“-Knotens verbinden. Sie werden nun feststellen, dass der Minutenzeiger Ihrer Uhr die aktuelle Minute anzeigt.
+Hinweis: Im Desktop-Modus wählen Sie einen beliebigen Knoten aus und halten Sie CTRL+R gedrückt, um alle Knoten auszuwählen.
+25. Klicken und halten Sie einen beliebigen Knoten, um alle Knoten auszuwählen.
+26. Klicken Sie im Inspektor auf den Knoten „Protoflux“ und erstellen Sie einen untergeordneten Slot.
+27. Benennen Sie den untergeordneten Slot in „Minuten“ um.
+28. Wählen Sie den Slot „Minuten“ aus, öffnen Sie das Kontextmenü und wählen Sie „Packen in“.
