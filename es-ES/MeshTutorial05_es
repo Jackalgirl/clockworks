@@ -1,0 +1,13 @@
+Nota: Si ha cerrado el Inspector, haga clic secundario en el objeto (en modo Escritorio, apunte al objeto con el láser y presione CTRL+R), abra el Menú contextual (en modo Escritorio: CTRL+T) y seleccione "Abrir Inspector".
+1. Haga doble clic en el objeto "Centro".
+2. Haga clic y arrastre la barra de título del componente "SphereMesh Collider" con la mano principal.
+3. Con la mano izquierda, haga doble clic en la ranura principal "Reloj".
+4. Coloque la información del título que sostiene con la mano principal en el área de componentes de la ranura "Reloj".
+5. Seleccione "Copy Component".
+6. Seleccione "Add Component".
+7. "Transform".
+8. "Interactions".
+9. "Grabbable": ahora puede agarrar el reloj por el hub y llevarlo consigo.
+10. Agregue un elemento secundario a la ranura "Reloj".
+11. Cambie el nombre de la nueva ranura a "Protoflux".
+12. ¡Ya está listo para pasar al Tutorial de Programación!
