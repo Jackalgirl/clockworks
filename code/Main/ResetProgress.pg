@@ -1,0 +1,35 @@
+/// Utility flux to reset the progress for the tutorial
+module ResetProgress
+
+in MeshPlayer: Slot element
+in CodePlayer: Slot element
+
+in MeshPlaylist: Slot element
+in CodePlaylist: slot element
+
+where {
+    NumMeshEntries = MeshPlaylist->ChildrenCount;
+    NumFluxEntries = CodePlaylist->ChildrenCount;
+    DoneVarPath = "VideoEntry/Done";
+
+    Reset = 
+        switch For(NumMeshEntries)
+        | LoopIteration _for |> impulse {
+            MeshPlaylist
+            ->GetChild(_for.Iteration)
+            ->~write(DoneVarPath, Value=false);
+        }
+        | LoopEnd |>
+        switch For(NumFluxEntries)
+        | LoopIteration _for |> impulse {
+            CodePlaylist
+            ->GetChild(_for.Iteration)
+            ->~write("VideoEntry/Done", Value=false);
+        }
+        | LoopEnd |> impulse {
+            MeshPlayer->~trigger("rePlayer.updateProgress");
+            CodePlayer->~trigger("rePlayer.updateProgress");
+        };
+
+    CallInput(Reset);
+}
