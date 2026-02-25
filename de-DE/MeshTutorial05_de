@@ -1,0 +1,13 @@
+Hinweis: Falls Sie den Inspektor geschlossen haben, klicken Sie mit der rechten Maustaste auf das Objekt (im Desktop-Modus: Objekt anvisieren und CTRL+R drücken), öffnen Sie das Kontextmenü (im Desktop-Modus: CTRL+T) und wählen Sie „Inspektor öffnen“.
+1. Wählen Sie das Objekt „Nabe“ erneut aus.
+2. Ziehen Sie die Titelleiste der Komponente „SphereMesh Collider“ mit Ihrer Haupthand.
+3. Doppelklicken Sie mit Ihrer Nebenhand auf den Hauptplatz „Uhr“.
+4. Ziehen Sie die Titelleiste, die Sie mit Ihrer Haupthand halten, in den Komponentenbereich des Platzes „Uhr“.
+5. Wählen Sie „Komponente kopieren“.
+6. Wählen Sie „Add Component“.
+7. „Transform“.
+8. „Interactions“.
+9. „Grabbable“ – Sie können die Uhr nun am Hub greifen und mit sich führen.
+10. Fügen Sie dem Slot „Uhr“ ein untergeordnetes Element hinzu.
+11. Benennen Sie den neuen Slot in „Protoflux“ um.
+12. Sie können nun mit dem Programmier-Tutorial fortfahren!
