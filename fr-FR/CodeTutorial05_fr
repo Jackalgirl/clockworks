@@ -1,0 +1,35 @@
+Remarque : en mode Bureau, appuyez sur « 3 » pour équiper l’outil ProtoFlux.
+1. Avec l’outil Protoflux équipé, sélectionnez un node « Host User ».
+2. Sélectionnez un node « User Time » et placez-le à droite du node « Host User ».
+3. Tirez un connecteur de la sortie du node « Host User » et connectez-le à l’entrée « Utilisateur » du node « User Time ».
+4. Sélectionnez un node « Minute » et placez-le à droite du node « User Time ».
+5. Tirez un connecteur de la sortie du node « User Time » et connectez-le à l’entrée « DateTime » ​​du node « Minute ».
+6. Sélectionnez un node « Divide (÷) » et placez-le sous les nodes de temps.
+7. Tirez sur l’entrée supérieure et cliquez une seconde fois pour créer un node « float Input ».
+8. Répétez l’opération pour l’entrée inférieure.
+9. Attribuez la valeur « 360 » à l’entrée supérieure et la valeur « 60 » à l’entrée inférieure.
+10. Prenez un node « Multiply (x) » et placez-le à droite du node « Divide ».
+11. Connectez d'abord la sortie du node « Divide » à l'entrée inférieure du node « Multiply ». Remarque : il est TRÈS IMPORTANT de réaliser cette connexion en premier, afin que la sortie du node « Multiply » soit un nombre à virgule flottante (un nombre pouvant avoir des décimales), et non un entier.
+12. Sélectionnez un node « Axis Angle (floatQ) » et placez-le à droite du node « Multiply ».
+13. Connectez la sortie du node « Multiply » à l'entrée « Angle » du node « Axis Angle ».
+Remarque : en mode Bureau, appuyez sur SHIFT+R après avoir tiré un connecteur pour créer un node « float3 Input ».
+14. Tirez l'entrée « Axis » du node « Axis Angle » et cliquez une seconde fois pour créer un node « float3 Input ».
+15. Définissez la valeur inférieure (z) sur « -1 ».
+16. Sélectionnez un node « Smooth Slerp (floatQ) » et placez-le à droite du node « Axis Angle ».
+17. Connectez l'entrée du node « Smooth Slerp » à la sortie du node « Axis Angle ».
+18. Détachez l'entrée « Speed » du node « Smooth Slerp » et cliquez avec le bouton droit pour créer un node « float Input ».
+19. Attribuez la valeur « 2 ».
+Remarque : en mode Bureau, appuyez sur « 2 » pour activer l'outil de développement.
+20. Si l'Inspecteur n'est pas ouvert, changez d'outil pour activer l'outil de développement.
+Remarque : en mode Bureau, visez l'aiguille des minutes avec le laser, cliquez dessus avec le bouton droit tout en maintenant la touche CTRL+R, puis appuyez sur CTRL+T pour ouvrir le menu contextuel.
+20a. Sélectionnez l'horloge, ouvrez le menu contextuel et sélectionnez « Ouvrir l'Inspecteur ».
+20b. Changez d'outil pour équiper l'outil ProtoFlux.
+21. Dans l'inspecteur, sélectionnez « Pivot de l'Aiguille des Minutes ».
+22. Sélectionnez le titre « Rotation » dans l'entrée « Rotation » du « Pivot de l'Aiguille des Minutes ».
+23. Ouvrez le menu contextuel et sélectionnez « Conduire » pour créer un node « Value Drive Field (floatQ) ».
+24. Connectez la sortie du node « Smooth Slerp » à l'entrée du node « Value Drive Field (floatQ) ». Vous remarquerez maintenant que l'aiguille des minutes de votre horloge s'est repositionnée selon un angle représentant la minute actuelle.
+Remarque : en mode Bureau, sélectionnez un node et maintenez les touches CTRL+R enfoncées pour sélectionner tous les nodes.
+25. Cliquez et maintenez le bouton de la souris enfoncé sur un node pour tous les sélectionner.
+26. Dans l'Inspecteur, cliquez sur le node « Protoflux », puis créez un emplacement enfant.
+27. Renommez l'emplacement enfant « Minutes ».
+28. Sélectionnez l'emplacement « Minutes », ouvrez le menu contextuel et choisissez « Emballer dans ».
