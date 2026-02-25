@@ -1,0 +1,14 @@
+1. Rüsten Sie das Protoflux-Tool aus und wählen Sie den Slot „Sekunden“.
+2. Öffnen Sie das Kontextmenü und wählen Sie „Entpacken aus“.
+Hinweis: Im Desktop-Modus drücken Sie „2“, um das Entwicklungstool auszurüsten, und CTRL+T, um das Kontextmenü zu öffnen.
+3. Um die Gizmos zu entfernen, wechseln Sie das Tool und wählen Sie im Kontextmenü „Alles abwählen“. Wechseln Sie anschließend wieder zurück.
+4. Wählen Sie einen „Smooth Slerp“-Knoten und positionieren Sie ihn rechts neben dem „Axis Angle“-Knoten.
+5. Ziehen Sie einen Verbinder vom „Input“-Eingang des „Smooth Slerp“-Knotens und verbinden Sie ihn mit dem Ausgang des „Axis Angle“-Knotens.
+Hinweis: Drücken Sie im Desktop-Modus nach dem Ziehen eines Verbinders SHIFT+R, um einen „float Input“-Knoten zu erstellen.
+6. Ziehen Sie einen Verbinder vom „Speed“-Eingang des „Smooth Slerp“-Knotens und klicken Sie mit der rechten Maustaste, um ein „float Input“-Feld zu erstellen.
+7. Stellen Sie den Wert des Felds auf „2“ ein.
+8. Verbinden Sie den Eingang des „Value Field Drive“ mit dem Ausgang des Knotens „Smooth Slerp“.
+9. Sie werden feststellen, dass sich der Sekundenzeiger nun flüssiger bewegt.
+Hinweis: Im Desktop-Modus können Sie alle Knoten auswählen, indem Sie einen beliebigen Knoten anklicken und Strg+R gedrückt halten.
+10. Klicken und halten Sie einen beliebigen Knoten, um alle Knoten auszuwählen.
+11. Wählen Sie den Slot „Sekunden“ aus, öffnen Sie das Kontextmenü und wählen Sie „Packen in“.
