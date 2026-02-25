@@ -1,0 +1,35 @@
+Nota: En el modo Escritorio, presione "3" para equipar la Herramienta Proto-Flux.
+1. Con la Herramienta Proto-Flux equipada, seleccione un nodo "Host User".
+2. Seleccione un nodo "User Time" y colóquelo a la derecha del nodo "Host User".
+3. Extraiga un conector de la salida de "Host User" y conéctelo a la entrada "User" del nodo "User Time".
+4. Seleccione un nodo "Minute" y colóquelo a la derecha del nodo "User Time".
+5. Extraiga un conector de la salida del nodo "User Time" y conéctelo a la entrada "DateTime" del nodo "Minute".
+6. Seleccione un nodo "Divide (÷)" y colóquelo debajo de los nodos de tiempo.
+7. Extraiga la entrada superior y haga clic secundario para crear un nodo "Entrada flotante".
+8. Repita el procedimiento para la entrada inferior.
+9. Establezca el valor de la entrada superior en "360" y el valor de la inferior en "360". Entrada a "60"
+10. Tome un nodo "Multiply (x)" y colóquelo a la derecha del nodo "Divide".
+11. Conecte la salida del nodo "Divide" a la entrada inferior del nodo "Multiply" PRIMERO. Nota: Es MUY IMPORTANTE conectar de esta manera primero, para que la salida del nodo "Multiply" sea un número de punto flotante (un número que puede tener decimales), en lugar de un entero (un número entero).
+12. Tome un nodo "Axis Angle (floatQ)" y colóquelo a la derecha del nodo "Multiply".
+13. Conecte la salida del nodo "Multiply" a la entrada "Angle" del nodo "Axis Angle".
+Nota: En el modo de escritorio, presione SHIFT+R después de extraer un conector para crear un nodo "float3 Input".
+14. Extraiga la entrada "Axis" del nodo "Axis Angle" y haga clic secundario para crear un nodo "float3 Input".
+15. Establezca el valor inferior (z) en "-1".
+16. Tome un nodo "Smooth Slerp (floatQ)" y colóquelo a la derecha del nodo "Axis Angle".
+17. Conecte la entrada del nodo "Smooth Slerp" a la salida del nodo "Axis Angle".
+18. Extrae la entrada "Speed" del nodo "Smooth Slerp" y haz clic secundario para crear un nodo "float Input".
+19. Establece el valor en "2".
+Nota: en el modo Escritorio, pulsa "2" para equipar la Herramienta de Desarrollo.
+20. Si no tienes un Inspector, cambia de herramienta para equipar la Herramienta de Desarrollo.
+Nota: en el modo Escritorio, apunta al minutero con el láser, haz clic secundario con Ctrl+R y pulsa Ctrl+T para abrir el menú contextual.
+20a. Selecciona el reloj, abre el menú contextual y selecciona "Abrir Inspector".
+20b. Intercambiar herramientas para equipar la Herramienta Proto-Flux.
+21. En el inspector, seleccione "Pivote de la Manecilla de Minutos".
+22. Seleccione el título "Rotation" en la entrada "Rotation" del "Pivote de la Manecilla de Minutos".
+23. Abra el menú contextual y seleccione "Controlar" para crear un nodo "Value Field Drive (floatQ)".
+24. Conecte la salida del nodo "Smooth Slerp" a la entrada del nodo "Value Field Drive" (floatQ). Ahora notará que la manecilla de minutos de su reloj se ha reposicionado a un ángulo que representa el minuto actual.
+Nota: En el modo Escritorio, seleccione cualquier nodo y mantenga presionadas las teclas CTRL+R para seleccionar todos los nodos.
+25. Haga clic secundario y mantenga presionado en cualquiera de los nodos para seleccionarlos todos.
+26. En el Inspector, haga clic en el nodo "Protoflux" y luego cree una ranura secundaria.
+27. Cambie el nombre de la ranura secundaria a "Minutos".
+28. Seleccione la ranura "Minutos", abra el menú contextual y seleccione "Empaquetar en".
