@@ -1,0 +1,34 @@
+Nota: Si ha cerrado el Inspector, haga clic secundario en el objeto (en modo Escritorio, seleccione el objeto y presione CTRL+R), abra el Menú contextual (en modo Escritorio: CTRL+T) y seleccione "Abrir Inspector".
+1. Vuelva a seleccionar el objeto "Mallas (Escalarme)".
+2. Cree un objeto secundario.
+3. Cambie el nombre del secundario a "Pivote de la Manecilla de la Hora".
+4. Abra el Menú contextual y seleccione "Crear Nuevo".
+5. Seleccione "Modelo 3D".
+6. Seleccione "Cubo".
+7. Haga clic secundario en el cubo
+8. Abra el Menú contextual y seleccione "Abrir Inspector".
+9. Cambie el nombre a "Manecilla de la Hora".
+10. Cambie el "Size" a "0.08" (x), "0.5" (y) y "0.005" (z).
+11. Haga clic y arrastre los valores de "Size" a "Scale UV" para x, y y z para copiarlos.
+12. Desplácese hasta el componente "Grabbable" y desmarque "Enabled". 
+13. Arrastre la ranura "Manecilla de la Hora" a la ranura "Pivote de la Manecilla de la Hora".
+14. En la ranura "Manecilla de la Hora", haga clic en "Position" y "Rotation".
+15. Establezca "Position" (y) en "0.25".
+16. Establezca "Position" (z) en "-0.015".
+17: Cambie a la Herramienta Material.
+18: Seleccione el material que desee y haga clic en la malla "Manecilla de la Hora" para aplicarlo.
+19: Vuelva a la Herramienta de Desarrollo.
+20: Haga clic en la ranura "Pivote de la Manecilla de la Hora" y en el icono "Copiar" para duplicarlo.
+21: Haga doble clic en la nueva ranura "Pivote de la Manecilla de la Hora" y renómbrela "Pivote de la Manecilla de los Minutos".
+22: Abra la ranura y cambie el nombre de la nueva ranura "Manecilla de la Hora" a "Manecilla de los Minutos".
+23: Cambie el "Width" en x a "0.05"
+24: Copia el valor de x en "Width" al valor de X en "Scale UV"
+25: Cambia el valor de z en "Position" a "-0.02"
+26: Intercambia las herramientas y aplica el material que prefieras a la malla "Manecilla de los Minutos"
+27: Selecciona la ranura "Pivote de la Manecilla de los Minutos" y haz clic en el icono "Copiar" para duplicarla
+28: Haz doble clic en la nueva ranura "Pivote de la Manecilla de los Minutos" y renómbrala ""Pivote de la Manecilla de los Segundos""
+29: Abre la ranura y cambia el nombre de la nueva ranura "Manecilla de los Minutos" a "Manecilla de los Segundos"
+30: Cambia el tamaño de x a "0.03"
+31: Copia el valor de x en "Width" al valor de X en "Scale UV"
+32: Cambia el valor de z en "Position" a "-0.025" (para no tener que cambiarlo más tarde)
+33: Intercambia herramientas y aplica el material de tu elección a la malla "Manecilla de los Segundos"
