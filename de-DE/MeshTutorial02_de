@@ -1,0 +1,37 @@
+1. Kontextmenü öffnen und „Neu“ auswählen.
+2. „Leeres Objekt“ auswählen.
+3. „Position“ anklicken.
+4. In „Uhr“ umbenennen.
+5. Ein untergeordnetes Objekt erstellen.
+6. Untergeordnetes Objekt in „Netze (Skalieren)“ umbenennen.
+Hinweis: Im Desktop-Modus mit Strg+T das Kontextmenü öffnen.
+7. Kontextmenü öffnen und „Neu“ auswählen.
+8. „3D-Modell“ auswählen.
+9. „Kugel“ auswählen.
+Hinweis: Im Desktop-Modus ein Objekt mit dem Laser anvisieren und dann Strg+R für einen Sekundärklick drücken.
+10. Sekundärklick auf die Kugel.
+11. Kontextmenü öffnen und „Inspektor öffnen“ auswählen.
+12. In „Nabe“ umbenennen.
+13. Radius auf „0,05“ ändern.
+14. Zur Komponente „Grabbable“ scrollen und „Enabled“ deaktivieren.
+15. „Position“ und „Rotation“ anklicken.
+16. Den Slot „Netze (Skalieren)“ erneut auswählen und ein neues untergeordnetes Objekt erstellen.
+17. Benennen Sie das Element in „Ring“ um.
+18. Klicken Sie auf „Add Component“.
+19. „Assets“
+20: „Procedural Meshes“
+21: „Legacy UI“
+22: „BevelRingMesh“
+23: Ändern Sie den Wert für „Width“ auf „0,05“.
+24: Klicken Sie auf „Setup Renderer“.
+25: Ändern Sie den Wert für „Segments“ auf „60“.
+26: Ändern Sie die Drehung um die x-Achse auf „90“.
+27: Klicken Sie auf „Add Component“.
+28: „Physics“
+29: „Colliders“
+30: „Mesh Collider“
+31: Klicken Sie in Ihrer Werkzeugleiste auf das Material-Tool, um die Werkzeuge zu wechseln.
+32: Wählen Sie ein Material für den „Nabe“ (beliebig!).
+33: Klicken Sie auf das „Nabe“-Mesh.
+34: Ups! Falls Sie das Material versehentlich auf ein anderes Objekt angewendet haben, öffnen Sie das Kontextmenü und wählen Sie „Rückgängig“.
+35: Tauschen Sie die Materialien aus und bringen Sie das von Ihnen gewählte Material auf den "Ring" auf.
