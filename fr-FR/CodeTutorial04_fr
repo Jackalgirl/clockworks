@@ -1,0 +1,14 @@
+1. Avec l'outil Protoflux équipé, sélectionnez l'emplacement « Secondes ».
+2. Ouvrez le menu contextuel et sélectionnez « Déballer ».
+Remarque : en mode Bureau, appuyez sur « 2 » pour équiper l'outil de développement, puis sur Ctrl+T pour ouvrir le menu contextuel.
+3. Pour supprimer les éléments, changez d'outil et sélectionnez « Désélectionner tout » dans le menu contextuel, puis revenez à l'outil précédent.
+4. Sélectionnez un node « Smooth Slerp » et positionnez-le à droite du node « Axis Angle ».
+5. Tirez un connecteur de l'entrée « Input » du node « Smooth Slerp » et connectez-le à la sortie du node « Axis Angle ».
+Remarque : en mode Bureau, appuyez sur SHIFT+R après avoir tiré un connecteur pour créer un node « float Input ».
+6. Tirez un connecteur de l'entrée « Speed » du node « Smooth Slerp » et cliquez une seconde fois pour créer un champ « float Input ».
+7. Attribuez la valeur « 2 » au champ.
+8. Connectez l'entrée du le node « Value Field Drive (FloatQ) » à la sortie du node « Smooth Slerp ».
+9. Vous remarquerez alors que la trotteuse se déplace de manière plus fluide.
+Remarque : en mode Bureau, sélectionnez un node et maintenez la touche CTRL+R enfoncée pour sélectionner tous les nodes.
+10. Cliquez et maintenez le bouton droit sur un node pour tous les sélectionner.
+11. Sélectionnez l’emplacement « Secondes », ouvrez le menu contextuel et choisissez « Emballer dans ».
