@@ -1,0 +1,42 @@
+Remarque : en mode Bureau, appuyez sur « 3 » pour équiper l’outil ProtoFlux.
+1. Avec l’outil Protoflux équipé, sélectionnez un node « Host User ».
+2. Sélectionnez un node « User Time » et placez-le à droite du node « Utilisateur hôte ».
+3. Tirez un connecteur de la sortie du node « Utilisateur hôte » et connectez-le à l’entrée « Utilisateur » du node « User Time ».
+4. Sélectionnez un node « Hour » ​​et placez-le à droite du node « User Time ».
+5. Tirez un connecteur de la sortie du node « User Time » et connectez-le à l’entrée « DateTime » ​​du node « Minute ».
+Remarque : en mode Bureau, appuyez sur SHIFT+R après avoir tiré un connecteur pour créer un node « Display ».
+6. Si vous tirez un node « Display » du node « Hour » ​​et qu’il est après midi (heure locale), vous constaterez que le nombre affiché est supérieur à 12.
+7. Sélectionnez un node « Modulo (%) ». Placez-le à droite du node « Hour ».
+8. Connectez la sortie du node « Hour » ​​à l'entrée supérieure du node « Modulo ».
+9. Détachez l'entrée inférieure du node « Modulo » et cliquez avec le bouton droit pour créer un node « int Input ».
+10. Attribuez la valeur 12 à ce node.
+11. Si vous détachez la sortie du node « Modulo », vous constaterez que l'affichage 24 heures est désormais converti en affichage 12 heures.
+12. Ajoutez un node « Divide (÷) » et placez-le sous le node « Modulo ».
+13. Détachez l'entrée supérieure du node « Divide » et cliquez avec le bouton droit pour créer un node « float Input ».
+14. Attribuez la valeur 360.
+15. Détachez l'entrée inférieure du node « Divide » et cliquez avec le bouton droit pour créer un autre node « float Input ».
+16. Attribuez la valeur 12.
+17. Ajoutez un node « Multiply (x) ». et placez-le à droite du node « Modulo ».
+18 : Connectez d’abord la sortie du node « Divide » à l’entrée inférieure du node « Multiply ». Remarque : il est TRÈS IMPORTANT de réaliser cette connexion en premier, afin que la sortie du node « Multiply » soit un nombre à virgule flottante (un nombre pouvant avoir des décimales), et non un entier.
+19. Sélectionnez un node « Axis Angle (floatQ) » et placez-le à droite du node « Multiply ».
+20. Connectez la sortie du node « Multiply » à l'entrée « Angle » du node « Axis Angle ».
+21. Détachez l'entrée « Axis » du node « Axis Angle » et cliquez une seconde fois pour créer un node « float3 Input ».
+22. Définissez la valeur inférieure (z) sur « -1 ».
+23. Sélectionnez un node « Smooth Slerp (floatQ) » et placez-le à droite du node « Axis Angle ».
+24. Connectez l'entrée du node « Smooth Slerp » à la sortie du node « Axis Angle ».
+25. Détachez l'entrée « Speed » du node « Smooth Slerp » et clic secondaire pour créer un node « float Input »
+26. Définissez la valeur sur « 2 »
+Remarque : en mode Bureau, appuyez sur « 2 » pour équiper l’outil de développement
+27. Si l’Inspecteur n’est pas ouvert, changez d’outil pour équiper l’outil de développement
+Remarque : en mode Bureau, visez l’horloge avec le laser, cliquez dessus avec le bouton droit de la souris tout en maintenant la touche CTRL+R, puis appuyez sur CTRL+T pour ouvrir le menu contextuel
+27a. Cliquez sur l’horloge avec le bouton droit de la souris, ouvrez le menu contextuel et sélectionnez « Ouvrir l’Inspecteur »
+27b. Changez d'outil pour équiper l'outil ProtoFlux.
+28. Dans l'inspecteur, sélectionnez « Pivot de l'Aiguille des Heures ».
+29. Sélectionnez le titre « Rotation » dans l'entrée « Rotation » du « Pivot de l'Aiguille des Heures ».
+30. Ouvrez le menu contextuel et sélectionnez « Conduire » pour créer un node « Value Drive Field (floatQ) ».
+31. Connectez la sortie du node « Smooth Slerp » à l'entrée du node « Value Drive Field (floatQ) ». Vous remarquerez maintenant que l'aiguille des heures de votre horloge s'est repositionnée selon un angle représentant l'heure actuelle.
+32. Dans l'Inspecteur, cliquez sur le node « Protoflux », puis créez un emplacement enfant.
+33. Renommez l'emplacement enfant « Heures ».
+Remarque : en mode Bureau, sélectionnez un node et maintenez la touche CTRL+R enfoncée pour sélectionner tous les nodes.
+34. Maintenez la touche CTRL+R enfoncée sur n'importe quel node pour tous les sélectionner.
+35. Saisissez l'emplacement « Heures », ouvrez le menu contextuel et sélectionnez « Emballer dans ».
