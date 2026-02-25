@@ -1,0 +1,25 @@
+a. (No mostrado) Haz clic en tu estantería de herramientas para guardar tu Herramienta Proto-Flux.
+1. Si no creaste tu propio reloj en la estación Tutorial de Mesh, puedes usar uno de los relojes de muestra.
+Nota: en el modo Escritorio, pulsa "2" para equipar una Herramienta de Desarrollo.
+2. Abre el Panel de Control y selecciona "Inventario".
+3. Selecciona "Resonite Essentials" y luego "Tools".
+4. Haz doble clic en la Herramienta de Desarrollo para generar una.
+5. Haz clic en la herramienta y selecciona "Equipar Herramienta de Desarrollo" para equiparla.
+6. Cierra el Panel de Control.
+Nota: en el modo Escritorio, pulsa CTRL+R para hacer clic secundario.
+7. Apunta al segundero de tu reloj y haz clic secundario.
+Nota: en el modo Escritorio, pulsa CTRL+T para abrir el menú contextual.
+8. Abre el menú contextual y selecciona "Abrir Inspector".
+9. Haz clic en el icono "raíz del objeto".
+10. Intercambia herramientas para equipar tu Herramienta Proto-Flux. 
+11. Haga doble clic en la ranura "Pivote del Segundero".
+12. Seleccione el título "Rotation" en la entrada "Rotation" del "Pivote del Segundero".
+13. Abra el menú contextual y seleccione "Controlar" para crear un nodo "Value Field Drive(floatQ)".
+14. Coloque este nodo a la derecha del nodo "Axis Angle".
+15. Conecte la salida del nodo "Axis Angle" a la entrada "Rotation" del nodo "Value Field Drive".
+16. Ahora verá que la rotación del segundero cambia cada segundo. 
+17. Seleccione la ranura "Protoflux" y cree un hijo.
+18. Cambie el nombre del hijo a "Segundos".
+Nota: en el modo Escritorio, seleccione cualquier nodo y mantenga presionadas las teclas CTRL+R para seleccionar todos los nodos.
+19. Haga clic secundario y mantenga presionado para seleccionar todos los nodos Protoflux.
+20. Seleccione el nombre de la ranura "Segundos", abra el menú contextual y seleccione "Empaquetar en".
