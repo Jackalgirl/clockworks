@@ -44,6 +44,6 @@ Hinweis: Drücken Sie im Desktop-Modus Strg+T, um das Kontextmenü zu öffnen.
 16. Sie werden nun sehen, dass sich die Drehung Ihres Sekundenzeigers jede Sekunde ändert.
 17. Wählen Sie den Slot „Protoflux“ aus und erstellen Sie ein untergeordnetes Element.
 18. Benennen Sie das untergeordnete Element in „Sekunden“ um.
-Hinweis: Im Desktop-Modus können Sie einen beliebigen Knoten auswählen und SHIFT+R gedrückt halten, um alle Knoten auszuwählen.
+Hinweis: Im Desktop-Modus können Sie einen beliebigen Knoten auswählen und CTRL+R gedrückt halten, um alle Knoten auszuwählen.
 19. Klicken und halten Sie die Maustaste gedrückt, um alle Protoflux-Knoten auszuwählen.
 20. Kopieren Sie den Namen des Slots „Sekunden“, öffnen Sie das Kontextmenü und wählen Sie „Verpacken nach“.
