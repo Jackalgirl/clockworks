@@ -1,0 +1,13 @@
+Remarque : si vous avez fermé l’Inspecteur, cliquez avec le bouton droit sur l’objet (en mode Bureau, sélectionnez l’objet et appuyez sur Ctrl+R), ouvrez le menu contextuel (en mode Bureau : Ctrl+T) et sélectionnez « Ouvrir l’inspecteur ».
+1. Double-cliquez sur l'objet « Centre ».
+2. Cliquez et faites glisser la barre de titre du composant « SphereMesh Collider » avec votre main principale.
+3. Avec votre autre main, double-cliquez sur l'emplacement principal « Horloge ».
+4. Déposez le titre que vous tenez dans la zone du composant de l'emplacement « Horloge ».
+5. Sélectionnez « Copier le composan ».
+6. Sélectionnez « Add Component ».
+7. Sélectionnez « Transform ».
+8. Sélectionnez « Interactions ».
+9. Sélectionnez « Grabbable » : vous pouvez maintenant saisir l'horloge par le hub et la transporter.
+10. Ajoutez un enfant à l'emplacement « Horloge ».
+11. Renommez le nouvel emplacement « Protoflux ».
+12. Vous êtes maintenant prêt à passer au tutoriel de programmation !
