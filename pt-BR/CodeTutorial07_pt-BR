@@ -1,0 +1,19 @@
+Nota: no modo Desktop, pressione "3" para equipar a Protoflux Tool.
+1. Com a Protoflux Tool equipada, selecione o slot "Horas".
+Nota: no modo Desktop, pressione CTRL+T para abrir o Menu de Contexto.
+2. Abra o Menu de Contexto e selecione "Descompactar".
+3. Selecione um nó "Minute" e coloque-o na frente do nó "Hour".
+4. Conecte a saída do nó "User Time" à entrada do nó "Minute".
+5. Selecione um nó "Divide (÷)" e coloque-o à direita do nó "Minute".
+Nota: no modo Desktop, pressione SHIFT+R após puxar um conector para criar um nó "Display" ou "Input".
+6. Puxe a entrada inferior do nó "Minute" e clique com o botão direito para criar um nó "int Input".
+7. Defina o valor para "60".
+8. Conecte a saída do nó "Divide" à entrada inferior do nó "Multiply" PRIMEIRO. Nota: É MUITO IMPORTANTE conectar desta forma primeiro, para que a saída do nó "Multiply" seja um número de ponto flutuante (um número que pode ter casas decimais), em vez de um número inteiro (um número inteiro).
+9. Pegue um nó "Add (+)" e coloque-o à direita do nó "Divide".
+10. Conecte a saída do nó "Divide" à entrada inferior do nó "Add".
+11. Conecte a saída do nó "Modulo" à entrada superior do nó "Add".
+12. Reposicione os nós, se necessário, e então conecte a entrada do nó "Multiply" à saída do nó "Add".
+Nota: No modo Desktop, selecione qualquer nó e pressione e segure CTRL+R para selecionar todos os nós.
+13. Clique e segure novamente em qualquer um dos nós para selecionar todos eles.
+14. Abra o menu de contexto e selecione "Compactar no Lugar".
+Parabéns! Seu relógio está completo!
