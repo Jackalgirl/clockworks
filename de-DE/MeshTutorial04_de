@@ -1,0 +1,42 @@
+Hinweis: Falls Sie den Inspektor geschlossen haben, klicken Sie mit der rechten Maustaste auf das Objekt (im Desktop-Modus: Objekt anvisieren und CTRL+R drücken), öffnen Sie das Kontextmenü (im Desktop-Modus: CTRL+T) und wählen Sie „Inspektor öffnen“.
+1. Wählen Sie das Objekt „Netze (Skalieren)“ erneut aus.
+2. Ein untergeordnetes Objekt erstellen.
+3. Das untergeordnete Objekt in „Zahlen“ umbenennen.
+4. Auf das Kopiersymbol klicken, um es zu duplizieren.
+5. Den neuen Slot „Zahlen“ auswählen und in „Zahlen-Pivot“ umbenennen.
+6. Das Kontextmenü öffnen und „Neu“ auswählen.
+7. „Text“ auswählen.
+8. „Kontur“ auswählen.
+9. Auf das Stiftsymbol klicken und den Text in „12“ ändern.
+10. Das Objekt mit der rechten Maustaste auswählen, das Kontextmenü öffnen und „Inspektor öffnen“ auswählen.
+11. Den Namen in „12“ ändern.
+12. Zur Komponente „Grabbable“ scrollen und „Enabled“ deaktivieren.
+13. Den Slot „12“ in den Slot „Netze (Skalieren)“ ziehen.
+14. Den Slot „12“ auswählen und auf „Position“ und „Rotation“ klicken.
+15. Die Position (y) auf „0,6“ setzen.
+16. Auf das Kopiersymbol klicken, um den Slot „12“ zu duplizieren.
+17. Ändern Sie den Wert von „Text“ auf „1“.
+18. Benennen Sie den Slot in „1“ um.
+19. Ziehen Sie den Slot „1“ in den Slot „Zahlen-Drehpunkt“.
+20. Wählen Sie den Slot „Zahlen-Drehpunkt“ aus und ändern Sie seine Drehung um die Z-Achse auf „-30“. Verwechseln Sie nicht das Positionsfeld mit dem Rotationsfeld (falls doch, können Sie die Änderung rückgängig machen).
+21: Öffnen Sie den Bereich „Zahlen-Drehpunkt“ und ziehen Sie den Eintrag „1“ in den Bereich „Zahlen“.
+22: Setzen Sie die Rotation im Bereich „Zahlen-Drehpunkt“ zurück.
+23: Wiederholen Sie die Schritte 15–21, um „2“ zu erstellen und zu drehen.
+24: Führen Sie die gleichen Schritte für „3“ durch. Bevor Sie „3“ aus dem Bereich „Zahlen-Drehpunkt“ verschieben, wählen Sie „3“ aus und ändern Sie die Rotation um die Z-Achse auf „90°“.
+25: Verschieben Sie anschließend „3“ in den Bereich „Zahlen“ und setzen Sie die Rotation im Bereich „Zahlen-Drehpunkt“ zurück.
+26: Führen Sie die gleichen Schritte aus, um „4“ und „5“ zu erstellen und zu drehen. Drehen Sie diese jedoch nicht wie „3“ um „90°“, sondern um 180°.
+27: Vergessen Sie nicht, die fertigen „Zahlen“ in den Bereich „Zahlen“ zu verschieben und die Rotation zurückzusetzen. 28. Ziehen Sie „12“ in das Feld „Zahlen“.
+29. Doppelklicken Sie auf das Feld „Zahlen“ und klicken Sie auf das Kopiersymbol, um es zu duplizieren.
+30. Ziehen Sie das neue Feld „Zahlen“ in das Feld „Zahlen-Drehpunkt“.
+31. Stellen Sie die Drehung um die Z-Achse für das Feld „Zahlen-Drehpunkt“ auf 180° ein.
+32. Öffnen Sie die Felder „Zahlen-Drehpunkt“ und „Zahlen“ und wählen Sie das neue Feld „12“ aus.
+33. Ändern Sie die Drehung um die Z-Achse für das Feld „12“ auf 180°.
+34. Benennen Sie das Feld in „6“ um und ändern Sie den Text ebenfalls in „6“.
+35. Ziehen Sie das fertige Feld „6“ in das Feld „Zahlen“.
+36. Wiederholen Sie diesen Vorgang, um die duplizierten Zahlen zu ändern. Stellen Sie die Drehung um die Z-Achse für die Zahlen ein, indem Sie 180° zu ihrem aktuellen Wert addieren. Werte wie folgt:
+- 7: "-210"
+- 8: "-240"
+- 9: "0"
+- 10: "240"
+- 11: "210"
+37: Nachdem Sie "11" in das Feld "Zahlen" gezogen haben, verwenden Sie das Recycling-Symbol, um das Feld "Zahlen-Pivot" zu löschen.
