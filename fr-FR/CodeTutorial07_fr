@@ -1,0 +1,19 @@
+Remarque : en mode Bureau, appuyez sur « 3 » pour équiper l’outil ProtoFlux.
+1. L’outil Protoflux étant équipé, sélectionnez l’emplacement « Heures ».
+Remarque : en mode Bureau, appuyez sur CTRL+T pour ouvrir le menu contextuel.
+2. Ouvrez le menu contextuel et sélectionnez « Déballer ».
+3. Sélectionnez un node « Minute » et placez-le devant le node « Hour ».
+4. Connectez la sortie du node « User Time » à l’entrée du node « Minute ».
+5. Sélectionnez un node « Divide (÷) » et placez-le à droite du node « Minute ».
+Remarque : en mode Bureau, appuyez sur Shift+R après avoir tiré un connecteur pour créer un node « Display » ou « Input ».
+6. Tirez l’entrée inférieure du node « Minute » et cliquez une seconde fois pour créer un node « int Input ».
+7. Définissez la valeur sur « 60 ».
+8. Connectez d’abord la sortie du node « Divide » à l’entrée inférieure du node « Multiply ». Remarque : il est TRÈS IMPORTANT de réaliser cette connexion en premier, afin que la sortie du node « Multiply » soit un nombre à virgule flottante (un nombre pouvant avoir des décimales), et non un entier.
+9. Prenez un node « Add (+) » et placez-le à droite du node « Divide ».
+10. Connectez la sortie du node « Divide » à l'entrée inférieure du node « Add ».
+11. Connectez la sortie du node « Modulo » à l'entrée supérieure du node « Add ».
+12. Repositionnez les nodes si nécessaire, puis connectez l'entrée du node « Multiply » à la sortie du node « Add ».
+Remarque : en mode Bureau, sélectionnez un node et maintenez la touche CTRL+R enfoncée pour sélectionner tous les nodes.
+13. Cliquez et maintenez le bouton de la souris enfoncé sur l'un des nodes pour tous les sélectionner.
+14. Ouvrez le menu contextuel et sélectionnez « Emballer sur place ».
+Félicitations ! Votre horloge est maintenant terminée !
