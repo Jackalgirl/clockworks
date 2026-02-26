@@ -14,24 +14,25 @@ Nota: en el modo de escritorio, apunte a un objeto con el láser y luego presion
 12. Cambie el nombre a "Centro".
 13. Cambie el radio a "0.05".
 14. Desplácese hasta el componente "Grabbable" y desmarque "Enabled".
-15. Haga clic en "Position" y "Rotation".
-16. Vuelva a seleccionar la ranura "Mallas (Escalarme)". Crea un elemento secundario.
-17. Cambia el nombre a "Anillo".
-18. Haz clic en "Add Component".
-19. "Assets".
-20: "Procedural Meshes".
-21: "Legacy UI".
-22: "BevilRingMesh".
-23: Cambia el valor de "Width" a "0.05".
-24: Haz clic en "Setup Renderer".
-25: Cambia el valor de "Segments" a "60".
-26: Cambia la rotación del eje x a "90".
-27: Haz clic en "Add Component".
-28: "Physics".
-29: "Colliders".
-30: "Mesh Collider".
-31: Haz clic en la Herramienta Material en la barra de herramientas para intercambiar herramientas.
-32: Selecciona un material para el "Centro" (¡el que prefieras!).
-33: Haz clic en la malla "Centro".
-34: ¡Uy! Si aplicas el material accidentalmente a otra cosa, abre el menú contextual y selecciona "Deshacer".
-35: Intercambia los materiales y aplica el material seleccionado al "Anillo".
+15. Arrastre la ranura "Centro" sobre el título "Mallas (Escalarme)" para hacer que "Centro" sea un elemento secundario de la ranura "Mallas".
+16. Haga clic en "Position" y "Rotation".
+17. Vuelva a seleccionar la ranura "Mallas (Escalarme)". Crea un elemento secundario.
+18. Cambia el nombre a "Anillo".
+19. Haz clic en "Add Component".
+20. "Assets".
+21: "Procedural Meshes".
+22: "Legacy UI".
+23: "BevilRingMesh".
+24: Cambia el valor de "Width" a "0.05".
+25: Haz clic en "Setup Renderer".
+26: Cambia el valor de "Segments" a "60".
+27: Cambia la rotación del eje x a "90".
+28: Haz clic en "Add Component".
+29: "Physics".
+30: "Colliders".
+31: "Mesh Collider".
+32: Haz clic en la Herramienta Material en la barra de herramientas para intercambiar herramientas.
+33: Selecciona un material para el "Centro" (¡el que prefieras!).
+34: Haz clic en la malla "Centro".
+35: ¡Uy! Si aplicas el material accidentalmente a otra cosa, abre el menú contextual y selecciona "Deshacer".
+36: Intercambia los materiales y aplica el material seleccionado al "Anillo".
