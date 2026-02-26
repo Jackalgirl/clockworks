@@ -2,8 +2,8 @@ Hinweis: Im Desktop-Modus drücken Sie „3“, um das Protoflux-Tool auszurüst
 1. Wählen Sie mit ausgerüstetem Protoflux-Tool einen „Host User“-Knoten aus.
 2. Wählen Sie einen „User Time“-Knoten aus und platzieren Sie ihn rechts neben dem „Host User“-Knoten.
 3. Ziehen Sie einen Verbinder vom Ausgang des „Host User“-Knotens und verbinden Sie ihn mit dem „User“-Eingang des „User Time“-Knotens.
-4. Ziehen Sie einen „Hour“-Knoten und platzieren Sie ihn rechts neben dem „Benutzerzeit“-Knoten.
-5. Ziehen Sie einen Verbinder vom Ausgang des „Benutzerzeit“-Knotens und verbinden Sie ihn mit dem „Datum/Uhrzeit“-Eingang des „Minuten“-Knotens.
+4. Ziehen Sie einen „Minute“-Knoten und platzieren Sie ihn rechts neben dem „Benutzerzeit“-Knoten.
+5. Ziehen Sie einen Verbinder vom Ausgang des „Benutzerzeit“-Knotens und verbinden Sie ihn mit dem „Datum/Uhrzeit“-Eingang des „Minute“-Knotens.
 Hinweis: Drücken Sie im Desktop-Modus nach dem Ziehen eines Verbinders SHIFT+R, um einen „Display“-Knoten zu erstellen.
 6. Wenn Sie einen „Display“-Knoten vom „Hour“-Knoten ziehen und es nach 12 Uhr mittags ist, wird Ihnen eine Zahl größer als 12 angezeigt.
 7. Ziehen Sie einen „Modulo (%)“-Knoten und platzieren Sie ihn rechts neben dem „Hour“-Knoten.
