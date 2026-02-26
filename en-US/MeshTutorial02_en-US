@@ -14,24 +14,25 @@ Note: in Desktop mode, target an object with your laser, then press CTRL+R to se
 12. Change the name to "Hub"
 13. Change the radius to "0.05"
 14. Scroll to the "Grabbable" component and uncheck "Enabled"
-15. Click "Position" and "Rotation"
-16. Reselect the "Meshes (Scale Me)" slot and create a child
-17. Change name to "Ring"
-18. Click "Add Component"
-19. "Assets"
-20: "Procedural Meshes"
-21: "Legacy UI"
-22: "BevelRingMesh"
-23: Change the "Width" value to "0.05"
-24: Click "Setup Renderer"
-25: Change the value for "Segments" to "60"
-26: Change the x-axis rotation to "90"
-27: Click "Add Component"
-28: "Physics"
-29: "Colliders"
-30: "Mesh Collider"
-31: Click on the Material Tool on your tool shelf to swap tools
-32: Select a material for the hub (anything you like!)
-33: Click on the hub mesh
-34: Ooops!  If you accidentally apply the material to something else, open up your context menu and select "Undo".
-35: Swap out materials and apply your chosen material to the ring
+15. Drag the "Hub" slot on top of the title "Meshes (Scale Me)" to make the "Hub" a child of the "Meshes" slot.
+16. Click "Position" and "Rotation"
+17. Reselect the "Meshes (Scale Me)" slot and create a child
+18. Change name to "Ring"
+19. Click "Add Component"
+20. "Assets"
+22: "Procedural Meshes"
+22: "Legacy UI"
+23: "BevelRingMesh"
+24: Change the "Width" value to "0.05"
+25: Click "Setup Renderer"
+26: Change the value for "Segments" to "60"
+27: Change the x-axis rotation to "90"
+28: Click "Add Component"
+29: "Physics"
+30: "Colliders"
+31: "Mesh Collider"
+32: Click on the Material Tool on your tool shelf to swap tools
+33: Select a material for the hub (anything you like!)
+34: Click on the hub mesh
+35: Ooops!  If you accidentally apply the material to something else, open up your context menu and select "Undo".
+36: Swap out materials and apply your chosen material to the ring
