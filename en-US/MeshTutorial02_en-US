@@ -1,6 +1,6 @@
 1.  Open Context Menu and select "Create New"
 2.  Select "Empty Object"
-3.  Click "Position"
+3.  Click "Rotation"
 4.  Rename to "Clock"
 5.  Create a child object
 6.  Rename child to "Meshes (Scale Me)"
