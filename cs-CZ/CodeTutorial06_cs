@@ -2,7 +2,7 @@ Poznámka: v režimu Desktop stiskněte klávesu "3" pro aktivaci nástroje Prot
 1. S aktivovaným nástrojem Protoflux uchopte uzel Host User
 2. Uchopte uzel User Time a umístěte jej napravo od uzlu Host User
 3. Vytáhněte konektor z výstupu uzlu Host User a připojte jej ke vstupu "User" v uzlu User Time
-4. Uchopte uzel Hour a umístěte jej napravo od uzlu User Time
+4. Uchopte uzel Minue a umístěte jej napravo od uzlu User Time
 5. Vytáhněte konektor z výstupu uzlu User Time a připojte jej ke vstupu "DateTime" v poznámkě Minute
 Poznámka: v režimu Desktop stiskněte po vytažení konektoru klávesy SHIFT+R pro vytvoření uzlu Display
 6. Pokud vytáhnete uzel Display z uzlu Hour a je po 12:00, všimnete si, že zobrazené číslo je větší než 12.
