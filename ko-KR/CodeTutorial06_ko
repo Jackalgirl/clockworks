@@ -3,7 +3,7 @@
 2. "User Time" 노드를 선택하여 "Host User" 노드 오른쪽에 배치합니다.
 3. "Host User" 노드의 출력에서 ​​커넥터를 빼내어 "User Time" 노드의 "User" 입력에 연결합니다.
 4. "Hour" 노드를 선택하여 "User Time" 노드 오른쪽에 배치합니다.
-5. "User Time" 노드의 출력에서 ​​커넥터를 빼내어 "Minute" 노드의 "DateTime" 입력에 연결합니다.
+5. "User Time" 노드의 출력에서 ​​커넥터를 빼내어 "Hour" 노드의 "DateTime" 입력에 연결합니다.
 참고: 데스크톱 모드에서는 커넥터를 뺀 후 SHIFT+R을 눌러 "Display" 노드를 생성합니다.
 6. "Hour" 노드에서 "Display" 노드를 빼냈을 때 현재 위치가 오후 12시 이후라면 표시되는 숫자가 12보다 큰 것을 확인할 수 있습니다.
 7. "Modulo (%)" 노드를 선택하여 배치합니다. "Hour" 노드 오른쪽에
