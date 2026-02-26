@@ -14,24 +14,25 @@ Remarque : en mode Bureau, ciblez un objet avec votre laser, puis appuyez sur C
 12. Renommez l'objet en « Centre ».
 13. Définissez le rayon sur « 0,05 ».
 14. Accédez au composant « Grabbable » et décochez « Enabled ».
-15. Cliquez sur « Position » et « Rotation ».
-16. Resélectionnez l'emplacement « Maillage (Mise à l'échelle) » et créez un Enfant
-17. Renommez l'élément en « Anneau ».
-18. Cliquez sur « Add Component ».
-19. Accédez à « Assets ».
-20. Cliquez sur « Procedural Meshes ».
-21. Cliquez sur « Legacy UI ».
-22. Cliquez sur « BevelRingMesh ».
-23. Modifiez la valeur de « Width » à « 0,05 ».
-24. Cliquez sur « Setup Renderer ».
-25. Modifiez la valeur de « Segments » à « 60 ».
-26. Modifiez la rotation de l'axe X à « 90 ».
-27. Cliquez sur « Add Component ».
-28. Cliquez sur « Physics ».
-29. Cliquez sur « Colliders ».
-30. Cliquez sur « Mesh Collider ».
-31. Cliquez sur l'éditeur de matériaux dans votre barre d'outils pour changer d'outil.
-32. Sélectionnez un matériau pour le « Centre » (celui de votre choix !).
-33. Cliquez sur le maillage du « Centre ».
-34. Oups ! Si vous appliquez accidentellement le matériau à un autre élément, ouvrez le menu contextuel et sélectionnez « Défaire ». 
-35 : Changez de matériau et appliquez le matériau choisi sur l'« Anneau ».
+15. Faites glisser l'emplacement « Centre » au-dessus du titre « Maillage (Mise à l'échelle) » pour faire du « Centre » un enfant de l'emplacement « Maillage ».
+16. Cliquez sur « Position » et « Rotation ».
+17. Resélectionnez l'emplacement « Maillage (Mise à l'échelle) » et créez un Enfant
+18. Renommez l'élément en « Anneau ».
+19. Cliquez sur « Add Component ».
+20. Accédez à « Assets ».
+21. Cliquez sur « Procedural Meshes ».
+22. Cliquez sur « Legacy UI ».
+23. Cliquez sur « BevelRingMesh ».
+24. Modifiez la valeur de « Width » à « 0,05 ».
+25. Cliquez sur « Setup Renderer ».
+26. Modifiez la valeur de « Segments » à « 60 ».
+27. Modifiez la rotation de l'axe X à « 90 ».
+28. Cliquez sur « Add Component ».
+29. Cliquez sur « Physics ».
+30. Cliquez sur « Colliders ».
+31. Cliquez sur « Mesh Collider ».
+32. Cliquez sur l'éditeur de matériaux dans votre barre d'outils pour changer d'outil.
+33. Sélectionnez un matériau pour le « Centre » (celui de votre choix !).
+34. Cliquez sur le maillage du « Centre ».
+35. Oups ! Si vous appliquez accidentellement le matériau à un autre élément, ouvrez le menu contextuel et sélectionnez « Défaire ». 
+36. Changez de matériau et appliquez le matériau choisi sur l'« Anneau ».
