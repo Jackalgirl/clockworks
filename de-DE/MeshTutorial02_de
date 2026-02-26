@@ -14,24 +14,25 @@ Hinweis: Im Desktop-Modus ein Objekt mit dem Laser anvisieren und dann Strg+R f�
 12. In „Nabe“ umbenennen.
 13. Radius auf „0,05“ ändern.
 14. Zur Komponente „Grabbable“ scrollen und „Enabled“ deaktivieren.
-15. „Position“ und „Rotation“ anklicken.
-16. Den Slot „Netze (Skalieren)“ erneut auswählen und ein neues untergeordnetes Objekt erstellen.
-17. Benennen Sie das Element in „Ring“ um.
-18. Klicken Sie auf „Add Component“.
-19. „Assets“
-20: „Procedural Meshes“
-21: „Legacy UI“
-22: „BevelRingMesh“
-23: Ändern Sie den Wert für „Width“ auf „0,05“.
-24: Klicken Sie auf „Setup Renderer“.
-25: Ändern Sie den Wert für „Segments“ auf „60“.
-26: Ändern Sie die Drehung um die x-Achse auf „90“.
-27: Klicken Sie auf „Add Component“.
-28: „Physics“
-29: „Colliders“
-30: „Mesh Collider“
-31: Klicken Sie in Ihrer Werkzeugleiste auf das Material-Tool, um die Werkzeuge zu wechseln.
-32: Wählen Sie ein Material für den „Nabe“ (beliebig!).
-33: Klicken Sie auf das „Nabe“-Mesh.
-34: Ups! Falls Sie das Material versehentlich auf ein anderes Objekt angewendet haben, öffnen Sie das Kontextmenü und wählen Sie „Rückgängig“.
-35: Tauschen Sie die Materialien aus und bringen Sie das von Ihnen gewählte Material auf den "Ring" auf.
+15. Ziehen Sie den „Nabe“-Slot über den Titel „Netze (Skalieren)“, um den „Nabe“ zu einem untergeordneten Element des „Netze“-Slots zu machen.
+16. „Position“ und „Rotation“ anklicken.
+17. Den Slot „Netze (Skalieren)“ erneut auswählen und ein neues untergeordnetes Objekt erstellen.
+18. Benennen Sie das Element in „Ring“ um.
+19. Klicken Sie auf „Add Component“.
+20. „Assets“
+21: „Procedural Meshes“
+22: „Legacy UI“
+23: „BevelRingMesh“
+24: Ändern Sie den Wert für „Width“ auf „0,05“.
+25: Klicken Sie auf „Setup Renderer“.
+26: Ändern Sie den Wert für „Segments“ auf „60“.
+27: Ändern Sie die Drehung um die x-Achse auf „90“.
+28: Klicken Sie auf „Add Component“.
+29: „Physics“
+30: „Colliders“
+31: „Mesh Collider“
+32: Klicken Sie in Ihrer Werkzeugleiste auf das Material-Tool, um die Werkzeuge zu wechseln.
+33: Wählen Sie ein Material für den „Nabe“ (beliebig!).
+34: Klicken Sie auf das „Nabe“-Mesh.
+35: Ups! Falls Sie das Material versehentlich auf ein anderes Objekt angewendet haben, öffnen Sie das Kontextmenü und wählen Sie „Rückgängig“.
+36: Tauschen Sie die Materialien aus und bringen Sie das von Ihnen gewählte Material auf den "Ring" auf.
