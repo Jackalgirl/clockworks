@@ -2,8 +2,8 @@ Note: in Desktop mode, press "3" to equip the Protoflux tool
 1.  With the Protoflux tool equipped, grab a "Host User" node
 2.  Grab a "User Time" node and place it to the right of the "Host User" node  
 3.  Pull out a connector from the output of "Host User" and connect it to the "User" input on the "User Time" node
-4.  Grab an "Minute" node and place it to the right of the "User Time" node
-5.  Pull out a connector from the output of the "User Time" node and connect it to the "DateTime" input of the "Minute" node
+4.  Grab an "Hour" node and place it to the right of the "User Time" node
+5.  Pull out a connector from the output of the "User Time" node and connect it to the "DateTime" input of the "Hour" node
 Note: in Desktop mode, press SHIFT+R after pulling out a connector to create a "Display" node
 6.  If you pull out a "Display" node from the "Hour" node and it is after 12pm where you are, you will notice that the displayed number is greater than 12.
 7.  Grab a "Modulo (%)" node and place it to the right of the "Hour" node
