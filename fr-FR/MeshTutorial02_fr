@@ -1,6 +1,6 @@
 1. Ouvrez le menu contextuel et sélectionnez « Nouvelle création ».
 2. Sélectionnez « Objet vide ».
-3. Cliquez sur « Position ».
+3. Cliquez sur « Rotation ».
 4. Renommez l'objet en « Horloge ».
 5. Créez un objet enfant.
 6. Renommez l'objet enfant en « Maillage (Mise à l'échelle) ».
