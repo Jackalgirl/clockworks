@@ -2,7 +2,7 @@ Remarque : en mode Bureau, appuyez sur « 3 » pour équiper l’outil ProtoF
 1. Avec l’outil Protoflux équipé, sélectionnez un node « Host User ».
 2. Sélectionnez un node « User Time » et placez-le à droite du node « Utilisateur hôte ».
 3. Tirez un connecteur de la sortie du node « Utilisateur hôte » et connectez-le à l’entrée « Utilisateur » du node « User Time ».
-4. Sélectionnez un node « Hour » ​​et placez-le à droite du node « User Time ».
+4. Sélectionnez un node « Minute » ​​et placez-le à droite du node « User Time ».
 5. Tirez un connecteur de la sortie du node « User Time » et connectez-le à l’entrée « DateTime » ​​du node « Minute ».
 Remarque : en mode Bureau, appuyez sur SHIFT+R après avoir tiré un connecteur pour créer un node « Display ».
 6. Si vous tirez un node « Display » du node « Hour » ​​et qu’il est après midi (heure locale), vous constaterez que le nombre affiché est supérieur à 12.
