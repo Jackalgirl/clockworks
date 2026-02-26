@@ -2,12 +2,12 @@ Nota: no modo Desktop, pressione "3" para equipar a Protoflux Tool
 1. Com a Protoflux Tool equipada, pegue um nodo "Host User"
 2. Pegue um nodo "User Time" e coloque-o à direita do nodo "Host User"
 3. Conecte a saída do nodo "Host User" à entrada "User" do nodo "User Time"
-4. Pegue um nodo "Minute" e coloque-o à direita do nodo "User Time"
-5. Conecte a saída do nodo "User Time" à entrada "DateTime" do nodo "Minute"
+4. Pegue um nodo "Hour" e coloque-o à direita do nodo "User Time"
+5. Conecte a saída do nodo "User Time" à entrada "DateTime" do nodo "Hour"
 Nota: no modo Desktop, pressione SHIFT+R após pegar um conector para criar um nodo "Display"
 6. Se você pegar um nodo "Display" do nodo "Hour" e já forem mais de 12h no seu local, você notará que o número exibido é maior que 12.
 7. Pegue um nodo "Modulo (%)" e coloque-o à direita do nodo "Hour"
-8. Conecte a saída do nodo "Hora" à entrada superior do nodo "Modulo"
+8. Conecte a saída do nodo "Hour" à entrada superior do nodo "Modulo"
 9. Pegue a entrada inferior do nodo "Modulo" e pressione o botão secundário para criar um nodo "int Input"
 10. Coloque o valor 12 no campo
 11. Se você pegar o "Display" da saída do nodo "Modulo", verá que agora está convertendo a exibição de 24 horas para uma exibição de 12 horas
