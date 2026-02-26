@@ -7,7 +7,7 @@ Nota: Si ha cerrado el Inspector, haga clic secundario en el objeto (en modo Esc
 6. Seleccione "Add Component".
 7. "Transform".
 8. "Interactions".
-9. "Grabbable": ahora puede agarrar el reloj por el hub y llevarlo consigo.
+9. "Grabbable": ahora puede agarrar el reloj por el centro y llevarlo consigo.
 10. Agregue un elemento secundario a la ranura "Reloj".
 11. Cambie el nombre de la nueva ranura a "Protoflux".
 12. ¡Ya está listo para pasar al Tutorial de Programación!
