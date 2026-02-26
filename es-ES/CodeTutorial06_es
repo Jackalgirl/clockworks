@@ -2,8 +2,8 @@ Nota: en el modo Escritorio, pulsa "3" para equipar la Herramienta Proto-Flux.
 1. Con la Herramienta Proto-Flux equipada, selecciona un nodo "Host User".
 2. Selecciona un nodo "User Time" y colócalo a la derecha del nodo "Host User".
 3. Extrae un conector de la salida de "Host User" y conéctalo a la entrada "User" del nodo "User Time".
-4. Selecciona un nodo "Minute" y colócalo a la derecha del nodo "User Time".
-5. Extrae un conector de la salida del nodo "User Time" y conéctalo a la entrada "DateTime" del nodo "Minute".
+4. Selecciona un nodo "Hour" y colócalo a la derecha del nodo "User Time".
+5. Extrae un conector de la salida del nodo "User Time" y conéctalo a la entrada "DateTime" del nodo "Hour".
 Nota: en el modo Escritorio, pulsa SHIFT+R después de extraer un conector para crear un nodo "Display".
 6. Si extraes un nodo "Display" del nodo "Hour" y son más de las 12 p. m. donde te encuentras, notarás que el número mostrado es mayor que 12.
 7. Seleccione un nodo "Modulo (%)" y colóquelo a la derecha del nodo "Hour".
