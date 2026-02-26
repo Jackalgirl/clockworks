@@ -1,5 +1,5 @@
 Nota: se você fechou o Inspetor, pressione o botão secundário no objeto (no modo Desktop, mire no objeto e pressione CTRL+R), abra o Menu de Contexto (no modo Desktop: CTRL+T) e selecione "Abrir Inspetor"
-1. Selecione novamente o objeto "Malhas (Me Escalone)"
+1. Selecione novamente o objeto "Malhas (Me Redimensione)"
 2. Crie um objeto filho
 3. Renomeie o objeto filho para "Números"
 4. Clique no ícone "copiar" para duplicá-lo
@@ -11,8 +11,8 @@ Nota: se você fechou o Inspetor, pressione o botão secundário no objeto (no m
 10. Pressione o botão secundário no objeto, abra o Menu de Contexto e selecione "Abrir Inspetor"
 11. Altere o nome para "12"
 12. Faça scroll até o componente "Grabbable" e desmarque "Enabled"
-13. Arraste o slot 12 para o slot "Malhas (Me Escalone)"
-14. Selecione o slot 12 e clique em "Position" e "Rotation"
+13. Arraste o slot 12 para o slot "Malhas (Me Redimensione)"
+14. Selecione o slot 12 e clique em "Posição" e "Rotação"
 15. Coloque "0.6" em "Position" (y) para "0.6"
 16. Clique no ícone "copiar" para duplicar o slot 12
 17. Altere o valor de "Text" para "1"

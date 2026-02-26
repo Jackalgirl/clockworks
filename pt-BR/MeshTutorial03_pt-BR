@@ -1,5 +1,5 @@
 Nota: se você fechou o Inspetor, pressione o botão secundário no objeto (no modo Desktop, mire no objeto e pressione CTRL+R), abra o Menu de Contexto (no modo Desktop: CTRL+T) e selecione "Abrir Inspetor"
-1. Selecione novamente o objeto "Malhas (Me Escalone)"
+1. Selecione novamente o objeto "Malhas (Me Redimensione)"
 2. Crie um objeto filho
 3. Renomeie o objeto filho para "Pivô do Ponteiro das Horas"
 4. Abra o Menu de Contexto e selecione "Criar Novo"
@@ -12,7 +12,7 @@ Nota: se você fechou o Inspetor, pressione o botão secundário no objeto (no m
 11. Clique e arraste os valores de "Size" para "UVScale" para x, y e z para copiá-los
 12. Faça scroll até o componente "Grabbable" e desmarque "Enabled".
 13. Arraste o slot "Ponteiro das Horas" para o slot "Pivô do Ponteiro das Horas"
-14. No slot "Ponteiro das Horas", clique em "Position" e "Rotation"
+14. No slot "Ponteiro das Horas", clique em "Posição" e "Rotação"
 15. Coloque "0.25" em "Position" (y)
 16. Coloque "-0.015" em "Position" (z)
 17: Troque para a "Material Tool"

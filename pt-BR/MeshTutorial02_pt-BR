@@ -1,9 +1,9 @@
 1. Abra o Menu de Contexto e selecione "Criar Novo"
 2. Selecione "Objeto Vazio"
-3. Clique em "Position"
+3. Clique em "Posição"
 4. Renomeie para "Relógio"
 5. Crie um objeto filho
-6. Renomeie o filho para "Malhas (Me Escalone)"
+6. Renomeie o filho para "Malhas (Me Redimensione)"
 Nota: no modo Desktop, use CTRL+T para abrir o Menu de Contexto
 7. Abra o Menu de Contexto e selecione "Criar Novo"
 8. Selecione "Modelo 3D"
@@ -14,9 +14,9 @@ Nota: no modo Desktop, mire em um objeto com o laser e pressione CTRL+R para faz
 12. Altere o nome para "Centro" ("Hub")
 13. Altere o raio para "0.05"
 14. Faça scroll até o componente "Grabbable" e desmarque "Enabled"
-15. Arraste o slot "Centro" para cima do título "Malhas (Me Escalone)" para tornar o "Centro" um filho do slot "Meshes".
+15. Arraste o slot "Centro" para cima do título "Malhas (Me Redimensione)" para tornar o "Centro" um filho do slot "Meshes".
 16. Clique em "Posição" e "Rotação"
-17. Selecione "Malhas (Me Escalone)" slot e crie um filho
+17. Selecione "Malhas (Me Redimensione)" slot e crie um filho
 18. Renomeie o filho para "Anel"
 19. Clique em "Acoplar Componente"
 20. "Assets"
