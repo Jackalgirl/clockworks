@@ -2,7 +2,7 @@ Noto: en Skribotabla reĝimo, premu "3" por ekipi la Protoflux-ilon
 1. Kun la Protoflux-ilo ekipita, prenu nodon "Host Time"
 2. Prenu nodon "Uzanto-Tempo" kaj metu ĝin dekstre de la nodo "Host Time"
 3. Eltiru konektilon el la eligo de "Host Time" kaj konektu ĝin al la enigo "Uzanto" sur la nodo "Uzanto-Tempo"
-4. Prenu nodon "Hour" kaj metu ĝin dekstre de la nodo "Uzanto-Tempo"
+4. Prenu nodon "Minute" kaj metu ĝin dekstre de la nodo "Uzanto-Tempo"
 5. Eltiru konektilon el la eligo de la nodo "Uzanto-Tempo" kaj konektu ĝin al la enigo "DateTime" de la nodo "Minute"
 Noto: en Skribotabla reĝimo, premu SHIFT+R post eltiro de konektilo por krei nodon "Display"
 6. Se vi eltiras nodon "Display" el la nodo "Hour" kaj estas post la 12a horo kie vi estas, vi rimarkos, ke la montrata nombro estas pli granda ol 12.
