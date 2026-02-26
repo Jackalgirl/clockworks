@@ -14,24 +14,25 @@ Poznámka: v režimu plochy zaměřte laser na objekt a poté stiskněte CTRL+R 
 12. Změňte název na „Náboj“
 13. Změňte poloměr na „0,05“
 14. Přejděte na komponentu „Uchopitelné“ a zrušte zaškrtnutí políčka „Povoleno“
-15. Klikněte na „Pozice“ a „Otočení“
-16. Znovu vyberte slot „Sítě (Změnit měřítko)“ a vytvořte podřízený objekt
-17. Změňte název na "Kruh"
-18. Klikněte na "Add Component"
-19. "Assets"
-20: "Procedural Meshes"
-21: "Legacy UI"
-22: "BevelRingMesh"
-23: Změňte hodnotu "Radius" na "0,05"
-24: Klikněte na "Setup Renderer"
-25: Změňte hodnotu pro "Segments" na "60"
-26: Změňte rotaci osy x na "90"
-27: Klikněte na "Add Component"
-28: "Physics"
-29: "Colliders"
-30: "Mesh Collider"
-31: Klikněte na nástroj Materiál na polici s nástroji pro výměnu nástrojů
-32: Vyberte materiál pro náboj (cokoli chcete!)
-33: Klikněte na síť náboje
-34: Jejda! Pokud omylem použijete materiál na něco jiného, ​​otevřete kontextovou nabídku a vyberte "Zpět".
-35: Vyměňte materiály a aplikujte vybraný materiál na prstenec
+15. Přetáhněte slot „Hub“ nad název „Sítě (Změnit měřítko))“, čímž se „Náboj“ stane podřízeným objektem slotu „Sítě“.
+16. Klikněte na „Pozice“ a „Otočení“
+17. Znovu vyberte slot „Sítě (Změnit měřítko)“ a vytvořte podřízený objekt
+18. Změňte název na "Kruh"
+19. Klikněte na "Add Component"
+20. "Assets"
+21: "Procedural Meshes"
+22: "Legacy UI"
+23: "BevelRingMesh"
+24: Změňte hodnotu "Radius" na "0,05"
+25: Klikněte na "Setup Renderer"
+26: Změňte hodnotu pro "Segments" na "60"
+27: Změňte rotaci osy x na "90"
+28: Klikněte na "Add Component"
+29: "Physics"
+30: "Colliders"
+31: "Mesh Collider"
+32: Klikněte na nástroj Materiál na polici s nástroji pro výměnu nástrojů
+33: Vyberte materiál pro náboj (cokoli chcete!)
+34: Klikněte na síť náboje
+35: Jejda! Pokud omylem použijete materiál na něco jiného, ​​otevřete kontextovou nabídku a vyberte "Zpět".
+36: Vyměňte materiály a aplikujte vybraný materiál na prstenec
