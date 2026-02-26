@@ -1,14 +1,14 @@
-1. Com a Protoflux Tool equipada, selecione o slot "Segundos".
-2. Abra o Menu de Contexto e selecione "Descompactar".
-Nota: no Modo Desktop, pressione "2" para equipar a Development Tool e CTRL+T para abrir o Menu de Contexto.
-3. Para remover os gizmos, troque de ferramenta e selecione "Deselecionar Todos" no Menu de Contexto e, em seguida, volte à ferramenta original.
-4. Selecione um nó "Smooth Slerp" e posicione-o à direita do nó "Axis Angle".
-5. Desconecte um conector da entrada "Input" do nó "Smooth Slerp" e conecte-o à saída do nó "Axis Angle".
-Nota: no Modo Desktop, pressione SHIFT+R após desconectar um conector para criar um nó "float Input".
-6. Desconecte um conector da entrada "Speed" do nó "Smooth Slerp" e clique com o botão direito para criar um campo "float Input".
-7. Defina o valor do campo para "2".
-8. Conecte a entrada do nó "Smooth Slerp" à saída do nó "Axis Angle". Conecte o nó "Value Field Drive (FloatQ)" à saída do nó "Smooth Slerp"
-9. Agora você notará que o ponteiro dos segundos muda de posição de forma mais suave.
-Nota: no modo Desktop, selecione qualquer nó e pressione e segure CTRL+R para selecionar todos os nós.
-10. Clique e segure novamente em qualquer um dos nós para selecionar todos eles.
-11. Selecione o slot "Segundos", abra o Menu de Contexto e selecione "Compactar em".
+1. Com a Protoflux Tool equipada, pegue o slot "Segundos"
+2. Abra o Menu de Contexto e selecione "Descompactar"
+Nota: no Modo Desktop, pressione "2" para equipar a Development Tool, e CTRL+T para abrir o Menu de Contexto
+3. Para remover os gizmos, troque de ferramenta e selecione "Deselecionar Todos" no Menu de Contexto e, em seguida, volte à ferramenta original
+4. Pegue um nodo "Smooth Slerp" e posicione-o à direita do nodo "Axis Angle"
+5. Pegue a entrada "Input" do nodo "Smooth Slerp" e conecte-o à saída do nodo "Axis Angle"
+Nota: no Modo Desktop, pressione SHIFT+R após pegar um conector para criar um nodo "float Input"
+6. Pegue a entrada "Speed" do nodo "Smooth Slerp" e pressione o botão secundário para criar um campo "float Input".
+7. Coloque o valor "2" no campo
+8. Conecte a entrada do nodo "Value Field Drive (FloatQ)" à saída do nodo "Smooth Slerp"
+9. Agora você notará que o ponteiro dos segundos muda de posição de forma mais suave
+Nota: no modo Desktop, mire em qualquer nodo existente e segure CTRL+R para selecionar todos os nodos
+10. Segure o botão secundário em qualquer um dos nodos para selecionar todos eles
+11. Pegue o slot "Segundos", abra o Menu de Contexto e selecione "Compactar em"

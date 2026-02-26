@@ -1,13 +1,13 @@
-Nota: se você fechou o Inspetor, clique com o botão direito do mouse no objeto (no modo Desktop, mire no objeto com o laser e pressione CTRL+R), abra o Menu de Contexto (no modo Desktop: CTRL+T) e selecione "Abrir Inspetor".
-1. Clique duas vezes no objeto "Centro".
-2. Clique e arraste a barra de título do componente "SphereMesh Collider" com a mão principal.
-3. Com a outra mão, clique duas vezes no slot principal "Relógio".
-4. Solte as informações do título que você está segurando com a mão principal na área do componente do slot "Relógio".
-5. Selecione "Copiar Componente".
-6. Selecione "Add Component".
-7. "Transform".
-8. "Interactions".
-9. "Grabbable" - agora você pode pegar o relógio pelo hub e carregá-lo com você.
-10. Adicione um filho ao slot "Relógio".
-11. Renomeie o novo slot para "Protoflux".
+Nota: se você fechou o Inspetor, pressione o botão secundário no objeto (no modo Desktop, mire no objeto e pressione CTRL+R), abra o Menu de Contexto (no modo Desktop: CTRL+T) e selecione "Abrir Inspetor"
+1. Clique duas vezes no objeto "Centro"
+2. Clique e arraste a barra de título do componente "SphereMesh Collider" com sua mão principal.
+3. Com a outra mão, clique duas vezes no slot "Relógio" principal
+4. Solte o título que você está segurando com a mão principal na área do componente do slot "Relógio"
+5. Selecione "Copiar Componente"
+6. Selecione "Acoplar Componente"
+7. "Transform"
+8. "Interactions"
+9. "Grabbable" - agora você pode pegar o relógio pelo "Centro" e carregá-lo com você
+10. Adicione um filho ao slot "Relógio"
+11. Renomeie o novo slot para "Protoflux"
 12. Agora você está pronto para prosseguir para a área do Tutorial de Programação!

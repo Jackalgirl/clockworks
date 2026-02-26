@@ -1,51 +1,43 @@
-Nota: no modo Desktop, pressione "3" para equipar a Protoflux Tool.
-1. Com a Protoflux Tool equipada, selecione um nó "Host User".
-2. Selecione um nó "User Time" e coloque-o à direita do nó "Host User".
-3. Conecte um conector da saída do nó "Host User" à entrada "User" do nó "User Time".
-4. Selecione um nó "Hour" e coloque-o à direita do nó "User Time".
-5. Conecte um conector da saída do nó "User Time" à entrada "DateTime" do nó "Minute".
-Nota: no modo Desktop, pressione SHIFT+R após conectar um conector para criar um nó "Display".
-6. Se você conectar um nó "Display" do nó "Hour" e já forem mais de 12h no seu local, você notará que o número exibido é maior que 12.
-7. Selecione um nó "Modulo (%)" e coloque-o à direita do nó "Host User". à direita do nó "Hora"
-8. Conecte a saída do nó "Hora" à entrada superior do nó "Modulo"
-9. Extraia a entrada inferior do nó "Modulo" e clique com o botão direito para criar um nó "Entrada Inteira"
-10. Defina o valor do nó para 12
-11. Se você extrair a saída do nó "Modulo", verá que agora está convertendo a exibição de 24 horas para uma exibição de 12 horas
-12. Pegue um nó "Divide (÷)" e coloque-o abaixo do nó "Modulo"
-13. Extraia a entrada superior do nó "Divide" e clique com o botão direito para criar um nó "float Input"
-14. Defina o valor para "360"
-15. Extraia a entrada inferior do nó "Divide" e clique com o botão direito para criar outro nó "float Input"
-16. Defina o valor para "12"
-17. Pegue um nó "Multiply (x)" e coloque-o à direita de o nó "Modulo"
-18: Conecte a saída do nó "Divide" à entrada inferior do nó "Multiply" PRIMEIRO.
-Nota: É MUITO IMPORTANTE conectar desta forma primeiro, para que a saída do nó "Multiply" seja um número de ponto flutuante (um número que pode ter casas decimais), em vez de um inteiro (um número inteiro).
-19. Pegue um nó "Axis Angle (floatQ)" e coloque-o à direita do nó "Multiply".
-20. Conecte a saída do nó "Multiply" à entrada "Angle" do nó "Axis Angle".
-21. Extraia a entrada "Axis" do nó "Axis Angle" e clique com o botão direito do mouse para criar um nó "float3 Input".
-22. Defina o valor inferior (z) como "-1".
-23. Pegue um nó "Smooth Slerp (floatQ)" e coloque-o à direita do nó "Axis Angle".
-24. Conecte a entrada do nó "Smooth Slerp" à saída do nó "Axis Angle".
-25. Extraia a entrada "Speed" do nó "Axis Angle" e clique com o botão direito do mouse para criar um nó "float3 Input".
-26. Defina o valor inferior (z) como "-1".
-27. Pegue um nó "Smooth Slerp (floatQ)" e coloque-o à direita do nó "Axis Angle".
-28. Conecte a entrada do nó "Smooth Slerp" à saída do nó "Axis Angle".
-29. Extraia a entrada "Velocidade" do nó "Axis Angle" e clique com o botão direito do mouse para criar um nó "float3 Input".
-20. Defina o valor inferior (z) como "-1".
-20. Pegue um nó "Smooth Slerp (floatQ)" e coloque-o à direita do nó "Axis Angle".
-20. Conecte a entrada do nó "Smooth Slerp" à saída do nó "Axis Angle".
-21. Conecte a entrada "Velocidade" do nó "Axis Angle" à entrada No nó "Smooth Slerp" e clique com o botão direito para criar um nó "float Input"
-26. Defina o valor para "2"
-Nota: no modo Desktop, pressione "2" para equipar a ferramenta de Desenvolvimento
-27. Se você não tiver um Inspector aberto, troque de ferramenta para equipar a ferramenta de Desenvolvimento
-Nota: no modo Desktop, mire no relógio com o laser, clique com o botão direito nele com CTRL+R e pressione CTRL+T para abrir o Menu de Contexto
-27a. Clique com o botão direito no relógio, abra o Menu de Contexto e selecione "Abrir Inspetor"
+Nota: no modo Desktop, pressione "3" para equipar a Protoflux Tool
+1. Com a Protoflux Tool equipada, pegue um nodo "Host User"
+2. Pegue um nodo "User Time" e coloque-o à direita do nodo "Host User"
+3. Conecte a saída do nodo "Host User" à entrada "User" do nodo "User Time"
+4. Pegue um nodo "Hour" e coloque-o à direita do nodo "User Time"
+5. Conecte a saída do nodo "User Time" à entrada "DateTime" do nodo "Minute"
+Nota: no modo Desktop, pressione SHIFT+R após pegar um conector para criar um nodo "Display"
+6. Se você pegar um nodo "Display" do nodo "Hour" e já forem mais de 12h no seu local, você notará que o número exibido é maior que 12.
+7. Pegue um nodo "Modulo (%)" e coloque-o à direita do nodo "Hour"
+8. Conecte a saída do nodo "Hora" à entrada superior do nodo "Modulo"
+9. Pegue a entrada inferior do nodo "Modulo" e pressione o botão secundário para criar um nodo "int Input"
+10. Coloque o valor 12 no campo
+11. Se você pegar o "Display" da saída do nodo "Modulo", verá que agora está convertendo a exibição de 24 horas para uma exibição de 12 horas
+12. Pegue um nodo "Divide (÷)" e coloque-o abaixo do nodo "Modulo"
+13. Pegue a entrada superior do nodo "Divide" e pressione o botão secundário para criar um nodo "float Input"
+14. Coloque o valor 360 no campo
+15. Pegue a entrada inferior do nodo "Divide" e pressione o botão secundário para criar outro nodo "float Input"
+16. Coloque o valor 12 no campo
+17. Pegue um nodo "Multiply (x)" e coloque-o à direita de o nodo "Modulo"
+18: Conecte a saída do nodo "Divide" à entrada inferior do nodo "Multiply" PRIMEIRO.
+Nota: É MUITO IMPORTANTE conectar desta forma primeiro, para que a saída do nodo "Multiply" seja um número de ponto flutuante (um número que pode ter casas decimais), em vez de um inteiro (um número inteiro)
+19. Pegue um nodo "Axis Angle (floatQ)" e coloque-o à direita do nodo "Multiply"
+20. Conecte a saída do nodo "Multiply" à entrada "Angle" do nodo "Axis Angle"
+21. Pegue a entrada "Axis" do nodo "Axis Angle" e pressione o botão secundário para criar um nodo "float3 Input"
+22. Coloque o valor "-1" no campo inferior (z)
+23. Pegue um nodo "Smooth Slerp (floatQ)" e coloque-o à direita do nodo "Axis Angle".
+24. Conecte a entrada do nodo "Smooth Slerp" à saída do nodo "Axis Angle".
+25. Pegue a entrada "Speed" do nodo "Axis Angle" e pressione o botão secundário para criar um nodo "float Input".
+26. Coloque o valor 2 no campo
+Nota: no modo Desktop, pressione "2" para equipar a Development tool
+27. Se você não tiver um Inspetor aberto, troque de ferramenta para equipar a Development tool
+Nota: no modo Desktop, mire no relógio com o laser, faça a ação secundária com CTRL+R e pressione CTRL+T para abrir o Menu de Contexto
+27a. Pressione o botão secundário no relógio, abra o Menu de Contexto e selecione "Abrir Inspetor"
 27b. Troque as ferramentas para equipar a Protoflux Tool
-28. No inspetor, selecione "Ponteiro das Horas Pivô"
-29. Copie o título "Rotation" da entrada "Rotation" do "Ponteiro das Horas Pivô"
-30. Abra o Menu de Contexto e selecione "Drive" para criar um nó "Value Drive Field (floatQ)"
-31. Conecte a saída do nó "Smooth Slerp" à entrada do nó "Value Drive Field" (floatQ). Agora você notará que o ponteiro das horas do seu relógio se reposicionou em um ângulo que representa a hora atual.
-32. No Inspector, clique no nó "Protoflux" e crie um slot filho.
-33. Renomeie o slot filho para "Horas".
-Observação: no modo Desktop, selecione qualquer nó e pressione e segure CTRL+R para selecionar todos os nós.
-34. Selecione e segure novamente qualquer um dos nós para selecionar todos eles.
-35. Selecione o slot "Horas", abra o Menu de Contexto e selecione "Compactar em".
+28. No inspetor, selecione o "Pivô do Ponteiro das Horas"
+29. Pegue o título da entrada "Rotation" do "Pivô do Ponteiro das Horas"
+30. Abra o Menu de Contexto e selecione "Drive" para criar um nodo "Value Field Drive (floatQ)"
+31. Conecte a saída do nodo "Smooth Slerp" à entrada do nodo "Value Field Drive (floatQ)". Agora você notará que o ponteiro das horas do seu relógio se reposicionou em um ângulo que representa a hora atual
+32. No Inspetor, clique no slot "Protoflux" e crie um slot filho
+33. Renomeie o slot filho para "Horas"
+Nota: no modo Desktop, mire em qualquer nodo existente e segure CTRL+R para selecionar todos os nodos
+34. Segure o botão secundário em qualquer um dos nodos para selecionar todos eles
+35. Pegue o slot "Horas", abra o Menu de Contexto e selecione "Compactar em"

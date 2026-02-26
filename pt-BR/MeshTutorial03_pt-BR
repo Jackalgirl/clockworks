@@ -1,34 +1,34 @@
-Nota: se você fechou o Inspector, clique com o botão direito do mouse no objeto (no modo Desktop, selecione o objeto e pressione CTRL+R), abra o Menu de Contexto (no modo Desktop: CTRL+T) e selecione "Abrir Inspector".
-1. Selecione novamente o objeto "Malhas (Escalar)".
-2. Crie um objeto filho.
-3. Renomeie o objeto filho para "Pivô do Ponteiro das Horas".
-4. Abra o Menu de Contexto e selecione "Criar Novo".
-5. Selecione "Modelo 3D".
-6. Selecione "Caixa".
-7. Clique com o botão direito do mouse na caixa.
-8. Abra o Menu de Contexto e selecione "Abrir Inspetor".
-9. Altere o nome para "Ponteiro das Horas".
-10. Altere o "Size" para ".08" (x), "0.5" (y) e "0.005" (z).
-11. Clique e arraste os valores de "Size" para "UVScale" para x, y e z para copiá-los.
-12. Role até o componente "Grabbable". e desmarque “Enabled”.
-13. Arraste o encaixe "Ponteiro das Horas" para o encaixe "Pivô do Ponteiro das Horas"
-14. No encaixe "Ponteiro das Horas", clique em "Position" e "Rotationo"
-15. Defina "Position" (y) para "0,25"
-16. Defina "Position" (z) para "-0,015"
-17: Alterne para a Material Tool
+Nota: se você fechou o Inspetor, pressione o botão secundário no objeto (no modo Desktop, mire no objeto e pressione CTRL+R), abra o Menu de Contexto (no modo Desktop: CTRL+T) e selecione "Abrir Inspetor"
+1. Selecione novamente o objeto "Malhas (Me Escalone)"
+2. Crie um objeto filho
+3. Renomeie o objeto filho para "Pivô do Ponteiro das Horas"
+4. Abra o Menu de Contexto e selecione "Criar Novo"
+5. Selecione "Modelo 3D"
+6. Selecione "Caixa"
+7. Pressione o botão secundário na caixa
+8. Abra o Menu de Contexto e selecione "Abrir Inspetor"
+9. Altere o nome para "Ponteiro das Horas"
+10. Altere o "Size" para ".08" (x), "0.5" (y) e "0.005" (z)
+11. Clique e arraste os valores de "Size" para "UVScale" para x, y e z para copiá-los
+12. Faça scroll até o componente "Grabbable" e desmarque "Enabled".
+13. Arraste o slot "Ponteiro das Horas" para o slot "Pivô do Ponteiro das Horas"
+14. No slot "Ponteiro das Horas", clique em "Position" e "Rotation"
+15. Coloque "0.25" em "Position" (y)
+16. Coloque "-0.015" em "Position" (z)
+17: Troque para a "Material Tool"
 18: Selecione qualquer material que desejar e clique na malha do "Ponteiro das Horas" para aplicá-lo
-19: Volte para a Development Tool
-20: Clique no encaixe "Pivô do Ponteiro das Horas" e no ícone "copiar" para duplicá-lo
-21: Clique duas vezes no novo encaixe "Pivô do Ponteiro das Horas" e renomeie-o para "Pivô do Ponteiro dos Minutos"
-22: Abra o encaixe e altere o nome do novo encaixe "Ponteiro das Horas" para "Ponteiro dos Minutos"
-23: Altere o "Size" em x para "0,05"
-24: Copie o valor de x em "Size" para o valor de x em "Scale UV"
-25: Altere o valor de z em "Position" para "-0,02"
+19: Volte para a "Development Tool"
+20: Clique no slot "Pivô do Ponteiro das Horas" e no ícone "copiar" para duplicá-lo
+21: Clique duas vezes no novo slot "Pivô do Ponteiro das Horas" e renomeie-o para "Pivô do Ponteiro dos Minutos"
+22: Abra o slot e altere o nome do novo slot "Ponteiro das Horas" para "Ponteiro dos Minutos"
+23: Altere o "Size" em x para "0.05"
+24: Copie o valor de x em "Size" para o valor de x em "UVScale"
+25: Altere o valor de z em "Position" para "-0.02"
 26: Troque de ferramenta e aplique o material de sua escolha à malha do "Ponteiro dos Minutos"
 27: Selecione o slot "Pivô do Ponteiro dos Minutos" e clique no ícone "copiar" para duplicá-lo
 28: Clique duas vezes no novo slot "Pivô do Ponteiro dos Minutos" e renomeie-o para "Pivô do Ponteiro dos Segundos"
 29: Abra o slot e altere o nome do novo slot "Ponteiro dos Minutos" para "Ponteiro dos Segundos"
-30: Altere o tamanho em x para "0,03"
-31: Copie o valor de x em "Size" para o valor de x em "Scale UV"
-32: Altere o valor de z em "Position" para "-0,025" (para que você não precise alterá-lo (mais tarde)
-33: Troque as ferramentas e aplique o material de sua escolha à malha "Ponteiro dos Segundos".
+30: Altere o tamanho em x para "0.03"
+31: Copie o valor de x em "Size" para o valor de x em "UVScale"
+32: Altere o valor de z em "Position" para "-0.025" (para que você não precise alterá-lo mais tarde)
+33: Troque as ferramentas e aplique o material de sua escolha à malha "Ponteiro dos Segundos"

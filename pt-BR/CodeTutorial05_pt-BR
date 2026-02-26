@@ -1,36 +1,36 @@
 Nota: no modo Desktop, pressione "3" para equipar a Protoflux Tool
-1. Com a Protoflux Tool equipada, selecione um nó "Host User"
-2. Selecione um nó "User Time" e coloque-o à direita do nó "Host User"
-3. Conecte um conector da saída do nó "Host User" à entrada "User" do nó "User Time"
-4. Selecione um nó "Minute" e coloque-o à direita do nó "User Time"
-5. Conecte um conector da saída do nó "User Time" à entrada "DateTime" do nó "Minute"
-6. Selecione um nó "Divide (÷)" e coloque-o abaixo dos nós de tempo
-7. Conecte a entrada superior e clique com o botão direito do mouse para criar um nó "float Input"
+1. Com a Protoflux Tool equipada, selecione um nodo "Host User"
+2. Pegue um nodo "User Time" e coloque-o à direita do nodo "Host User"
+3. Conecte a saída do nodo "Host User" à entrada "User" do nodo "User Time"
+4. Pegue um nodo "Minute" e coloque-o à direita do nodo "User Time"
+5. Conecte a saída do nodo "User Time" à entrada "DateTime" do nodo "Minute"
+6. Pegue um nodo "Divide (÷)" e coloque-o abaixo dos nodos de tempo
+7. Pegue a entrada superior e pressione o botão secundário para criar um nodo "float Input"
 8. Repita o processo para a entrada inferior
-9. Defina o valor da entrada superior para "360" e o valor da entrada inferior para "60"
-10. Selecione um nó "Multiply (x)" e coloque-o à direita do nó "Divide"
-11. Conecte a saída do nó "Divide" à entrada inferior do nó "Multiply" PRIMEIRO.
-Nota: É MUITO IMPORTANTE conectar desta forma primeiro, para que a saída do nó "Multiply" seja um número de ponto flutuante (um número que pode ter casas decimais), em vez de um inteiro (um número inteiro).
-12. Pegue um nó "Axis Angle (floatQ)" e coloque-o à direita do nó "Multiply".
-13. Conecte a saída do nó "Multiply" à entrada "Ângulo" do nó "Axis Angle".
-Nota: no modo Desktop, pressione SHIFT+R após desconectar um conector para criar um nó "float3 Input".
-14. Desconecte a entrada "Axis" do nó "Axis Angle" e clique com o botão direito para criar um nó "float3 Input".
-15. Defina o valor inferior (z) como "-1".
-16. Pegue um nó "Smooth Slerp (floatQ)" e coloque-o à direita do nó "Axis Angle".
-17. Conecte a entrada do nó "Smooth Slerp" à saída do nó "Axis Angle"
-19. Desconecte a entrada "Speed" do nó "Smooth Slerp" e clique com o botão direito para criar um nó "float Input"
-20. Defina o valor para "2"
+9. Coloque o valor "360" na entrada superior e o valor "60" na entrada inferior
+10. Pegue um nodo "Multiply (x)" e coloque-o à direita do nodo "Divide"
+11. Conecte a saída do nodo "Divide" à entrada inferior do nodo "Multiply" PRIMEIRO.
+Nota: É MUITO IMPORTANTE conectar desta forma primeiro, para que a saída do nodo "Multiply" seja um número de ponto flutuante (um número que pode ter casas decimais), em vez de um inteiro (um número inteiro)
+12. Pegue um nodo "Axis Angle (floatQ)" e coloque-o à direita do nodo "Multiply"
+13. Conecte a saída do nodo "Multiply" à entrada "Angle" do nodo "Axis Angle"
+Nota: no modo Desktop, pressione SHIFT+R após pegar um conector para criar um nodo "float3 Input"
+14. Pegue a entrada "Axis" do nodo "Axis Angle" e pressione o botão secundário para criar um nodo "float3 Input"
+15. Coloque o valor "-1" no campo inferior (z)
+16. Pegue um nodo "Smooth Slerp (floatQ)" e coloque-o à direita do nodo "Axis Angle"
+17. Conecte a entrada do nodo "Smooth Slerp" à saída do nodo "Axis Angle"
+18. Pegue a entrada "Speed" do nodo "Smooth Slerp" e pressione o botão secundário para criar um nodo "float Input"
+19. Coloque o valor "2" no campo
 Nota: no modo Desktop, pressione "2" para equipar a Development Tool
-21. Se você não tiver um Inspector aberto, troque de ferramenta para equipar a Development Tool
-Nota: no modo Desktop, mire no ponteiro dos minutos com o laser, clique com o botão direito nele com CTRL+R e pressione CTRL+T para abrir o Menu de Contexto
-22a. Selecione o relógio com o botão direito, abra o Menu de Contexto e selecione "Abrir Inspetor"
-23b. Troque as ferramentas para equipar a Protoflux Tool
-21. No inspetor, selecione "Ponteiro dos Minutos Pivô"
-22. Copie o título "Rotation" da entrada "Rotation" do "Ponteiro dos Minutos Pivô"
-23. Abra o Menu de Contexto e selecione "Drive" para criar um nó "Value Drive Field (floatQ)"
-24. Conecte a saída do nó "Smooth Slerp" à entrada do nó "Value Drive Field" (floatQ). Agora você notará que o ponteiro dos minutos do seu relógio se reposicionou em um ângulo que representa o minuto atual.
-Nota: no modo Desktop, selecione qualquer nó e pressione e segure CTRL+R para selecionar todos os nós.
-25. Clique e segure novamente em qualquer um dos nós para selecionar todos eles.
-26. No Inspector, clique no nó "Protoflux" e crie um slot filho.
-27. Renomeie o slot filho para "Minutos".
-28. Selecione o slot "Minutos", abra o Menu de Contexto e selecione "Compactar em".
+20. Se você não tiver um Inspetor aberto, troque de ferramenta para equipar a Development Tool
+Nota: no modo Desktop, mire no ponteiro dos minutos com o laser, faça a ação secundária nele com CTRL+R e pressione CTRL+T para abrir o Menu de Contexto
+20a. Selecione o relógio com o botão secundário, abra o Menu de Contexto e selecione "Abrir Inspetor"
+20b. Troque as ferramentas para equipar a Protoflux Tool
+21. No inspetor, selecione o "Pivô do Ponteiro dos Minutos"
+22. Pegue o título da entrada "Rotation" do "Pivô do Ponteiro dos Minutos"
+23. Abra o Menu de Contexto e selecione "Drive" para criar um nodo "Value Drive Field (floatQ)"
+24. Conecte a saída do nodo "Smooth Slerp" à entrada do nodo "Value Drive Field" (floatQ). Agora você notará que o ponteiro dos minutos do seu relógio se reposicionou em um ângulo que representa o minuto atual
+Nota: no modo Desktop, mire em qualquer nodo existente e segure CTRL+R para selecionar todos os nodos
+25. Segure o botão secundário em qualquer um dos nodos para selecionar todos eles
+26. No Inspetor, selecione o nodo "Protoflux" e crie um slot filho
+27. Renomeie o slot filho para "Minutos"
+28. Pegue o slot "Minutos", abra o Menu de Contexto e selecione "Compactar em"

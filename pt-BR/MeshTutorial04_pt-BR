@@ -1,36 +1,36 @@
-Nota: se você fechou o Inspector, clique com o botão direito do mouse no objeto (no modo Desktop, mire no objeto com o laser e pressione CTRL+R), abra o Menu de Contexto (no modo Desktop: CTRL+T) e selecione "Abrir Inspector".
-1. Selecione novamente o objeto "Malhas (Escalar)".
-2. Crie um objeto filho.
-3. Renomeie o objeto filho para "Números".
-4. Clique no ícone "copiar" para duplicá-lo.
-5. Selecione o novo slot "Números" e renomeie-o para "Números Pivô".
-6. Abra o Menu de Contexto e selecione "Criar Novo".
-7. Selecione "Texto".
-8. Selecione "Contornado".
-9. Clique no ícone de lápis e altere o "Text" para "12".
-10. Clique com o botão direito do mouse no objeto, abra o Menu de Contexto e selecione "Abrir Inspector".
-11. Altere o nome para "12".
-12. Role até o componente "Grabbable" e desmarque-o "Enabled"
-13. Arraste o slot 12 para o slot "Malhas (Escalar)"
+Nota: se você fechou o Inspetor, pressione o botão secundário no objeto (no modo Desktop, mire no objeto e pressione CTRL+R), abra o Menu de Contexto (no modo Desktop: CTRL+T) e selecione "Abrir Inspetor"
+1. Selecione novamente o objeto "Malhas (Me Escalone)"
+2. Crie um objeto filho
+3. Renomeie o objeto filho para "Números"
+4. Clique no ícone "copiar" para duplicá-lo
+5. Selecione o novo slot "Números" e renomeie-o para "Pivô dos Números"
+6. Abra o Menu de Contexto e selecione "Criar Novo"
+7. Selecione "Texto"
+8. Selecione "Contornado"
+9. Clique no ícone de lápis e altere o texto para "12"
+10. Pressione o botão secundário no objeto, abra o Menu de Contexto e selecione "Abrir Inspetor"
+11. Altere o nome para "12"
+12. Faça scroll até o componente "Grabbable" e desmarque "Enabled"
+13. Arraste o slot 12 para o slot "Malhas (Me Escalone)"
 14. Selecione o slot 12 e clique em "Position" e "Rotation"
-15. Defina a "Position" (y) para "0,6"
+15. Coloque "0.6" em "Position" (y) para "0.6"
 16. Clique no ícone "copiar" para duplicar o slot 12
 17. Altere o valor de "Text" para "1"
 18. Altere o nome do slot para "1"
 19. Arraste o slot 1 para o slot "Pivô dos Números"
-20. Selecione o slot "Pivô dos Números" e altere sua rotação em z para "-30". Não confunda o campo de posição com o campo de rotação (mas se o fizer, poderá desfazer a alteração).
-21: Abra o slot "Números Pivô" e arraste o slot 1 para o slot "Números".
-22: Redefina a rotação no slot "Números Pivô".
-23: Repita os passos 15 a 21 para criar e rotacionar "2".
-24: Faça o mesmo para "3", mas antes de movê-lo para fora do "Números Pivô", selecione "3" e altere sua rotação em Z para "90".
-25: Em seguida, mova "3" para o slot "Números" e redefina a rotação do slot "Números Pivô".
-26: Siga o mesmo processo para criar e rotacionar "4" e "5", mas em vez de rotacioná-los em Z para "90" como fez para "3", rotacione-os em 180.
-27: Não se esqueça de mover seus "Números" finalizados para o slot "Números" e redefinir a rotação do slot. Slot "Números Pivô"
+20. Selecione o slot "Pivô dos Números" e altere sua rotação em z para "-30". Não confunda o campo de posição com o campo de rotação (mas se o fizer, poderá desfazer a alteração)
+21: Abra o slot "Pivô dos Números" e arraste o slot 1 para o slot "Números"
+22: Redefina a rotação no slot "Pivô dos Números"
+23: Repita os passos 15 a 21 para criar e rodar "2"
+24: Faça o mesmo para "3", mas antes de movê-lo para fora do "Pivô dos Números", selecione "3" e altere sua rotação em Z para "90"
+25: Em seguida, mova "3" para o slot "Números" e redefina a rotação do slot "Pivô dos Números"
+26: Siga o mesmo processo para criar e rodar "4" e "5", mas em vez de rodá-los em Z para "90" como fez para "3", rode-os em 180
+27: Não se esqueça de mover seus "Números" finalizados para o slot "Números" e redefinir a rotação do slot "Pivô dos Números"
 28: Arraste "12" para o slot "Números"
 29: Clique duas vezes no slot "Números" e clique no ícone "copiar" para duplicá-lo
-30: Arraste o novo slot "Números" para o slot "Números Pivô"
-31: Defina a rotação em z do slot "Números Pivô" para 180
-32: Abra os slots "Números Pivô" e "Números" para selecionar o novo slot "12"
+30: Arraste o novo slot "Números" para o slot "Pivô dos Números"
+31: Coloque 180 na rotação em z do slot "Pivô dos Números"
+32: Abra os slots "Pivô dos Números" e "Números" para selecionar o novo slot "12"
 33: Altere a rotação em z do slot "12" para 180
 34: Altere o nome do slot para "6" e altere seu texto para "6" também
 35: Arraste o slot "6" finalizado para o slot "Números"
@@ -40,4 +40,4 @@ Nota: se você fechou o Inspector, clique com o botão direito do mouse no objet
 - 9: "0"
 - 10: "240"
 - 11: "210"
-37: Depois de arrastar "11" para o espaço "Números", use o ícone "recipiente" para excluir o espaço "Pivô dos Números".
+37: Depois de arrastar "11" para o espaço "Números", use o ícone "reciclar" para excluir o slot "Pivô dos Números"
