@@ -14,24 +14,25 @@ Nota: no modo Desktop, mire em um objeto com o laser e pressione CTRL+R para faz
 12. Altere o nome para "Centro" ("Hub")
 13. Altere o raio para "0.05"
 14. Faça scroll até o componente "Grabbable" e desmarque "Enabled"
-15. Clique em "Posição" e "Rotação"
-16. Selecione "Malhas (Me Escalone)" slot e crie um filho
-17. Renomeie o filho para "Anel"
-18. Clique em "Acoplar Componente"
-19. "Assets"
-20: "Procedural Meshes"
-21: "Legacy UI"
-22: "BevelRingMesh"
-23: Altere o valor de "Width" para "0.05"
-24: Clique em "Configurar Renderizador"
-25: Altere o valor de "Segments" para "60"
-26: Altere a rotação do eixo x para "90"
-27: Clique em "Acoplar Componente"
-28: "Physics"
-29: "Colliders"
-30: "Mesh Collider"
-31: Clique na Material Tool na sua barra de ferramentas para trocar de ferramenta
-32: Selecione um material para o Centro (qualquer um que você goste!)
-33: Clique na malha do Centro
-34: Ooops! Se você acidentalmente aplicar o material a outra coisa, abra seu contexto menu e selecione "Desfazer".
-35: Troque o material e aplique o material escolhido ao anel.
+15. Arraste o slot "Centro" para cima do título "Malhas (Me Escalone)" para tornar o "Centro" um filho do slot "Meshes".
+16. Clique em "Posição" e "Rotação"
+17. Selecione "Malhas (Me Escalone)" slot e crie um filho
+18. Renomeie o filho para "Anel"
+19. Clique em "Acoplar Componente"
+20. "Assets"
+21: "Procedural Meshes"
+22: "Legacy UI"
+23: "BevelRingMesh"
+24: Altere o valor de "Width" para "0.05"
+25: Clique em "Configurar Renderizador"
+26: Altere o valor de "Segments" para "60"
+27: Altere a rotação do eixo x para "90"
+28: Clique em "Acoplar Componente"
+29: "Physics"
+30: "Colliders"
+31: "Mesh Collider"
+32: Clique na Material Tool na sua barra de ferramentas para trocar de ferramenta
+33: Selecione um material para o Centro (qualquer um que você goste!)
+34: Clique na malha do Centro
+35: Ooops! Se você acidentalmente aplicar o material a outra coisa, abra seu contexto menu e selecione "Desfazer".
+36: Troque o material e aplique o material escolhido ao anel.
