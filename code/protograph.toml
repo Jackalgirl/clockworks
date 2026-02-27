@@ -1,7 +1,7 @@
 name = "Clockworks"
 # version = "0.0.0"               # use semantic versions
 authors = ["Papaltine"]
-license = "Unlicense"
+license = "AGPLv3"
 description = "Code assests used for the Clockworks MMC26 project"
 repository = "https://github.com/Jackalgirl/clockworks/"
 # homepage = "https://project-name.com/"
