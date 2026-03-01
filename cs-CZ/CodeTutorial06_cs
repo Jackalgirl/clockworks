@@ -1,43 +1,43 @@
-Poznámka: v režimu Desktop stiskněte klávesu "3" pro aktivaci nástroje Protoflux
+Poznámka: v režimu plochy stiskněte klávesu "3" pro aktivaci nástroje Protoflux
 1. S aktivovaným nástrojem Protoflux uchopte uzel Host User
 2. Uchopte uzel User Time a umístěte jej napravo od uzlu Host User
 3. Vytáhněte konektor z výstupu uzlu Host User a připojte jej ke vstupu "User" v uzlu User Time
 4. Uchopte uzel Hour a umístěte jej napravo od uzlu User Time
-5. Vytáhněte konektor z výstupu uzlu User Time a připojte jej ke vstupu "DateTime" v poznámkě Hour
-Poznámka: v režimu Desktop stiskněte po vytažení konektoru klávesy SHIFT+R pro vytvoření uzlu Display
-6. Pokud vytáhnete uzel Display z uzlu Hour a je po 12:00, všimnete si, že zobrazené číslo je větší než 12.
+5. Vytáhněte konektor z výstupu uzlu User Time a připojte jej ke vstupu "DateTime" v uzlu Hour
+Poznámka: v režimu Desktop stiskněte po vytažení konektoru klávesovou zkratku SHIFT+R pro vytvoření uzlu Display
+6. Pokud vytáhnete uzel Display z uzlu Hour a je po 12:00 (po poledni), všimnete si, že zobrazené číslo je větší než 12.
 7. Uchopte uzel Modulo (%) a umístěte jej napravo od uzlu Hour
 8. Připojte výstup uzlu Hour k hornímu vstupu uzlu Modulo
 9. Vytáhněte spodní vstup uzlu Modulo a sekundárním kliknutím vytvořte uzel „int Input“
 10. Nastavte hodnotu uzlu na 12
-11. Pokud vytáhnete výstup uzlu Modulo, uvidíte, že nyní převádíte 24hodinový displej na 12hodinový displej
+11. Pokud vytáhnete výstup uzlu Modulo, uvidíte, že nyní převádíte 24hodinové zobrazení na 12hodinové zobrazení
 12. Uchopte uzel Divide (÷) a umístěte jej pod uzel Modulo
 13. Vytáhněte horní vstup uzlu Divide a sekundárním kliknutím vytvořte uzel „float Input“
 14. Nastavte hodnotu na „360“
 15. Vytáhněte spodní vstup uzlu Divide a sekundárním kliknutím vytvořte další uzel „float Input“
 16. Nastavte hodnotu na „12“
 17. Uchopte uzel Multiply (x) a umístěte jej napravo od uzlu Modulo
-18: NEJPRVE připojte výstup uzlu Divideí ke spodnímu vstupu uzlu Multiply.
-Poznámka: je VELMI DŮLEŽITÉ nejprve propojit tímto způsobem, aby výstup uzlu Multiply byl číslo s desetinnou čárkou (float) namísto celého čísla (integer).
+18: NEJPRVE připojte výstup uzlu Divide ke spodnímu vstupu uzlu Multiply.
+Poznámka: je VELMI DŮLEŽITÉ vstupy propojit v tomto pořadí, aby výstup uzlu Multiply byl číslo s desetinnou čárkou (float) namísto celého čísla (integer).
 19. Uzel Axis Angle (floatQ) umístěte napravo od uzlu Multiply.
 20. Propojte výstup uzlu Multiply se vstupem „Angle“ uzlu Axis Angle.
 21. Vytáhněte vstup Axis uzlu Axis Angle a sekundárním kliknutím vytvořte uzel „float3 Input“.
 22. Nastavte spodní hodnotu (z) na „-1“.
 23. Uzel „Smooth Slerp“ (floatQ) umístěte napravo od uzlu Axis Angle.
 24. Propojte vstup uzlu Smooth Slerp s výstupem uzlu Axis Angle.
-25. Vytáhněte vstup Speed ​​uzlu Smooth Slerp a sekundárním kliknutím vytvořte uzel „float Input“.
-26. Nastavte hodnotu na „2“.
-Poznámka: v režimu plochy stiskněte „2“ pro aktivaci nástroje Vývoj.
-27. Pokud nemáte spuštěného Inspektora, vyměňte nástroje a vybavte ho nástrojem Vývoj
-Poznámka: v režimu plochy zaměřte laser na hodiny, klikněte na ně pomocí kláves CTRL+R a stiskněte CTRL+T pro otevření kontextové nabídky
-27a. Klikněte na hodiny, otevřete kontextovou nabídku a vyberte „Otevřít Inspektor“
-27b. Vyměňte nástroje a vybavte se nástrojem Protoflux
-28. V inspektoru vyberte „Otočení hodinové ručičky“
-29. Z položky „Otočení“ v bodě Otočení hodinové ručičky vyberte název „Otočení“
+25. Vytáhněte vstup Speed uzlu Smooth Slerp a sekundárním kliknutím vytvořte uzel „float Input“.
+26. Nastavte hodnotu vstupu na „2“.
+Poznámka: v režimu plochy stiskněte „2“ pro nasazení nástroje pro vývoj (Dev Tool).
+27. Pokud nemáte otevřený inspektor scény, vyměňte nasazený nástroj za nástroj pro vývoj (Dev Tool)
+Poznámka: v režimu plochy namiřte laser na hodiny, klikněte na ně pomocí CTRL+R a stiskněte CTRL+T pro otevření kontextové nabídky
+27a. Sekundárním tlačítkem vyberte hodiny, otevřete kontextovou nabídku a vyberte „Otevřít Inspektor“
+27b. Vyměňte nástroj za nástroj Protoflux
+28. V inspektoru vyberte „Pivot hodinové ručičky“
+29. Uchopte název položky „Rotation“ v pivotu minutové ručičky
 30. Otevřete kontextovou nabídku a vyberte „Drive“ pro vytvoření uzlu Value Field Drive (floatQ)
-31. Připojte výstup uzlu Smooth Slerp ke vstupu uzlu Value Field Drive (floatQ). Nyní si všimnete, že hodinová ručička vašich hodin se přemístila do úhlu představujícího aktuální hodinu.
+31. Připojte výstup uzlu Smooth Slerp ke vstupu uzlu Value Field Drive (floatQ). Nyní si všimnete, že hodinová ručička vašich hodin se otočila do úhlu představujícího aktuální hodinu.
 32. V Inspektoru klikněte na uzel „Protoflux“ a poté vytvořte podřízený slot.
 33. Přejmenujte podřízený slot na „Hodiny“.
-Poznámka: v režimu plochy vyberte libovolný uzel a stiskněte a podržte klávesy CTRL+R pro výběr všech uzlů.
-34. Sekundárním výběrem a podržením libovolného uzlu vyberte všechny uzly.
+Poznámka: v režimu plochy vyberte libovolný uzel a podržte klávesovou zkratku CTRL+R pro výběr všech uzlů.
+34. Podržením sekundárního tlačítka na libovolném z uzlů vyberte všechny uzly.
 35. Uchopte slot Hodiny, otevřete kontextovou nabídku a vyberte „Zabalit do“.

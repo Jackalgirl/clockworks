@@ -1,25 +1,25 @@
-a. (Není předvedeno) Klikněte na poličku s nástroji a uložte si nástroj Protoflux
-1. Pokud jste si na stanici Mesh Tutorial nevytvořili vlastní hodiny, můžete si vzít jedny z ukázkových hodin k použití
-Poznámka: v režimu plochy stiskněte „2“ pro vybavení nástrojem pro vývoj
+a. (Není předvedeno) Klikněte na poličku s nástroji a vezměte si nástroj Protoflux
+1. Pokud jste si na předchozím stanovišti nevytvořili vlastní hodiny, můžete si vzít jedny z ukázkových hodin k použití
+Poznámka: v režimu plochy stiskněte „2“ pro nasazení nástroje pro vývoj (Dev Tool)
 2. Otevřete Dashboard a vyberte „Inventář“
 3. Vyberte „Resonite Essentials“ a poté „Tools“
-4. Dvojitým kliknutím na nástroj pro vývoj spustíte nástroj
-5. Klikněte na nástroj a vyberte „Vybavit Development tool“ pro jeho vybavení
+4. Dvojitým kliknutím na nástroj pro vývoj (Dev Tool) získáte nástroj
+5. Klikněte na nástroj a vyberte „Nasadit Development tool“ pro jeho nasazení
 6. Zavřete Dashboard
-Poznámka: v režimu plochy stiskněte CTRL+R pro sekundární kliknutí
-7. Zaměřte vteřinovou ručičku na hodiny a sekundárně klikněte
+Poznámka: v režimu plochy stiskněte CTRL+R pro stisknutí sekundárního tlačítka
+7. Namiřte na vteřinovou ručičku vašich hodin a stiskněte sekundární tlačítko
 Poznámka: v režimu plochy stiskněte CTRL+T pro otevření kontextové nabídky
 8. Otevřete kontextovou nabídku a vyberte „Otevřít inspektor“
 9. Klikněte na ikonu „kořen objektu“
-10. Vyměňte nástroje, abyste si mohli vybavit nástroj Protoflux.
-11. Dvojitým kliknutím na slot pro otočení vteřinové ručičky
-12. Z položky „Rotation“ v nástroji pro otočení vteřinové ručičky vyberte název „Rotation“
+10. Vyměňte nástroj za nástroj Protoflux (Protoflux Tool).
+11. Dvakrát klikněte na slot pivotu vteřinové ručičky
+12. Uchopte název položky "Rotation" v pivotu vteřinové ručičky
 13. Otevřete kontextovou nabídku a vyberte „Drive“ pro vytvoření uzlu Value Field Drive (floatQ)
 14. Umístěte tento uzel napravo od uzlu Axis Angle
 15. Připojte výstup uzlu Axis Angle ke vstupu „Rotation“ uzlu Value Field Drive
 16. Nyní uvidíte, že rotace vaší vteřinové ručičky se mění každou sekundu.
-17. Vyberte slot Protoflux a vytvořte potomka
-18. Přejmenujte potomka na „Seconds“
+17. Vyberte slot Protoflux a vytvořte jeho potomka
+18. Přejmenujte potomka uzlu na „Seconds“
 Poznámka: v režimu plochy vyberte libovolný uzel a stiskněte a podržte CTRL+R pro výběr všech uzlů
-19. Druhotným kliknutím a podržením vyberte všechny uzly Protoflux
-20. Zadejte název slotu Seconds, otevřete kontextovou nabídku a vyberte „Zabalit do“
+19. Podržením sekundárního tlačítka vyberte všechny Protoflux uzly najednou
+20. Uchopte název slotu Seconds, otevřete kontextovou nabídku a vyberte „Zabalit do“
