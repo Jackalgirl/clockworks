@@ -4,7 +4,7 @@
 4.  Grab a "Second" node and position it to the right of the "User Time" node
 5.  Pull out a connector from the output of the "User Time" node and drop it into the "DateTime" input of the "Second" node. If the node is at an angle, click once to align it to the nearest axis (which should be the y axis, or straight up and down)
 Note: in Desktop mode, press SHIFT+R after pulling out a connector to create a "Display" node
-6.  Pull out a connect from the output of the "Second" node and secondary click to create a "Display" node, which shows the current second as an integer (int)
+6.  Pull out a connector from the output of the "Second" node and secondary click to create a "Display" node, which shows the current second as an integer (int)
 7.  Grab a "Divide (÷)" node and position it below the time-related nodes
 8.  Pull out a connector from the top input and click to create a "float Input" field
 9.  Set the value of this field to 360
