@@ -1,11 +1,11 @@
-Poznámka: v režimu plochy stiskněte klávesu „2“ pro aktivaci nástroje pro vývoj.
-1. Otevřete ovládací panel a vyberte „Inventář“
+Poznámka: V režimu plochy stiskněte klávesu „2“ pro nasazení nástroje pro vývoj (Dev Tool).
+1. Otevřete ovládací panel (Dashboard) a vyberte „Inventář“
 2. „Resonite Essentials“
 3. „Tools“
-4. Dvojitým kliknutím na nástroj pro vývoj spustí nástroj
-5. Vyberte nástroj a vyberte „Vybavit Development Tool“
-6. Vyberte poličku s nástroji, na kterou chcete nástroj uložit
-Poznámka: v režimu plochy stiskněte klávesu „4“ pro aktivaci nástroje pro materiál
-7. Dvojitým kliknutím na nástroj pro materiál spustí nástroj
-8. Vyberte nástroj a vyberte „Vybavit Material Tool“
-9. Klikněte na nástroj pro vývoj na poličce s nástroji pro výměnu nástrojů
+4. Dvojitým kliknutím na nástroj pro vývoj (Dev Tool) jej získáte
+5. Vyberte nástroj a stiskněte „Nasadit Development Tool“
+6. Kliknutím na poličku na nástroje (Tool Shelf) odložíte nástroj
+Poznámka: v režimu plochy stiskněte klávesu „4“ pro nasazení nástroje pro materiál (Material Tool)
+7. Dvojitým kliknutím na nástroj pro materiál (Material Tool) jej získáte
+8. Vyberte nástroj a vyberte „Nasadit Material Tool“
+9. Pro prohození nástrojů klikněte na nástroj pro vývoj (Dev Tool) na poličce na nástroje (Tool Shelf)

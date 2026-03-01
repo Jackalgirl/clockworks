@@ -1,13 +1,13 @@
-Poznámka: Pokud jste zavřeli Inspektor, klikněte sekundárně na objekt (v režimu plochy zaměřte objekt laserem a stiskněte CTRL+R), otevřete kontextovou nabídku (v režimu plochy: CTRL+T) a vyberte „Otevřít inspektor“.
-1. Dvakrát klikněte na objekt Hub.
-2. Klikněte a přetáhněte záhlaví komponenty SphereMesh Collider primární rukou.
-3. Levou rukou dvakrát klikněte na hlavní slot Hodiny.
-4. Vložte informace o názvu, které držíte primární rukou, do oblasti komponenty slotu Hodiny.
+Poznámka: Pokud jste zavřeli Inspektor, klikněte znovu sekundárním tlačítkem na objekt (v režimu plochy stiskněte CTRL+R), otevřete kontextovou nabídku (v režimu plochy: CTRL+T) a vyberte „Otevřít Inspektor“.
+1. Dvakrát klikněte na objekt Střed.
+2. Klikněte a přetáhněte záhlaví komponenty SphereMesh Collider vaší primární rukou.
+3. Druhou rukou dvakrát klikněte na hlavní slot „Hodiny“.
+4. Vložte komponentu, kterou držíte primární rukou, do oblasti pro komponenty slotu Hodiny.
 5. Vyberte „Kopírovat komponentu“.
-6. Vyberte „Add Component“.
+6. Vyberte „Přidat Komponentu“.
 7. „Transform“.
 8. „Interactions“.
-9. „Grabbable“ – nyní můžete hodiny uchopit za náboj a nosit je s sebou.
-10. Přidejte podřízený objekt do slotu Hodiny.
+9. „Grabbable“ – nyní můžete hodiny uchopit za „Střed“ a nosit je s sebou.
+10. Přidejte nový podřízený objekt do slotu Hodiny.
 11. Přejmenujte nový slot na „Protoflux“.
-12. Nyní jste připraveni pokračovat do oblasti Tutoriál kódování!
+12. Nyní jste připraveni pokračovat do oblasti tutoriálu programování!

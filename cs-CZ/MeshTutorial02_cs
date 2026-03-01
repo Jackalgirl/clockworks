@@ -1,38 +1,38 @@
 1. Otevřete kontextovou nabídku a vyberte „Vytvořit nový“
 2. Vyberte „Prázdný objekt“
-3. Klikněte na „Rotation“
-4. Přejmenujte na „Hodin“
+3. Klikněte na Reset: „Rotace“
+4. Přejmenujte na „Hodiny“
 5. Vytvořte podřízený objekt
-6. Přejmenujte podřízený objekt na „Sítě (Změnit měřítko)“
+6. Přejmenujte podřízený objekt na „Modely (Změň moji velikost)“
 Poznámka: v režimu plochy použijte CTRL+T k otevření kontextové nabídky
 7. Otevřete kontextovou nabídku a vyberte „Vytvořit nový“
 8. Vyberte „3D model“
 9. Vyberte „Koule“
-Poznámka: v režimu plochy zaměřte laser na objekt a poté stiskněte CTRL+R pro sekundární kliknutí
-10. Druhotné kliknutí na kouli
+Poznámka: v režimu plochy namiřte laser na objekt a poté stiskněte CTRL+R pro sekundární kliknutí
+10. Klikněte na kouli sekundárním tlačítkem
 11. Otevřete kontextovou nabídku a vyberte „Otevřít inspektor“
-12. Změňte název na „Náboj“
+12. Změňte název na „Střed“
 13. Změňte poloměr na „0,05“
-14. Přejděte na komponentu „Uchopitelné“ a zrušte zaškrtnutí políčka „Povoleno“
-15. Přetáhněte slot „Hub“ nad název „Sítě (Změnit měřítko))“, čímž se „Náboj“ stane podřízeným objektem slotu „Sítě“.
-16. Klikněte na „Pozice“ a „Otočení“
-17. Znovu vyberte slot „Sítě (Změnit měřítko)“ a vytvořte podřízený objekt
+14. Přejděte na komponentu „Grabbable“ a zrušte zaškrtnutí políčka „Enabled“ (Povoleno)
+15. Přetáhněte slot „Střed“ na název slotu „Modely (Změň moji velikost)“, čímž se slot „Střed“ stane podřízeným objektem slotu „Modely“.
+16. Klikněte na Reset: „Pozice“ a „Rotace“
+17. Znovu vyberte slot „Modely (Změň moji velikost)“ a vytvořte podřízený objekt
 18. Změňte název na "Kruh"
-19. Klikněte na "Add Component"
+19. Klikněte na "Přidat komponentu"
 20. "Assets"
 21: "Procedural Meshes"
 22: "Legacy UI"
 23: "BevelRingMesh"
 24: Změňte hodnotu "Radius" na "0,05"
-25: Klikněte na "Setup Renderer"
+25: Klikněte na "Nastavit Renderer"
 26: Změňte hodnotu pro "Segments" na "60"
 27: Změňte rotaci osy x na "90"
-28: Klikněte na "Add Component"
+28: Klikněte na "Přidat komponentu"
 29: "Physics"
 30: "Colliders"
 31: "Mesh Collider"
-32: Klikněte na nástroj Materiál na polici s nástroji pro výměnu nástrojů
-33: Vyberte materiál pro náboj (cokoli chcete!)
-34: Klikněte na síť náboje
-35: Jejda! Pokud omylem použijete materiál na něco jiného, ​​otevřete kontextovou nabídku a vyberte "Zpět".
+32: Klikněte na nástroj pro materiál (Material Tool) na poličce a vyměňte nástroje
+33: Vyberte materiál pro střed hodin (cokoli chcete!)
+34: Klikněte na objekt středu hodin
+35: Jejda! Pokud omylem aplikujete materiál na něco jiného, otevřete kontextovou nabídku a vyberte "Zpět".
 36: Vyměňte materiály a aplikujte vybraný materiál na prstenec
